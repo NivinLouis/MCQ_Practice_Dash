@@ -1,0 +1,1205 @@
+{
+    "quizTitle": "CCW-Database Management Systems MCQ - Mahaguru Institute of Technology",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "An Entity - relationship diagram is a tool to represent :",
+            "options": [
+                "Data model",
+                "Process model",
+                "Event model",
+                "Customer model"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Conceptual level, Internal level and external level are three components of the three level RDBMS architecture Which of the following is not a part of the conceptual level?",
+            "options": [
+                "Storage dependent details",
+                "Entities,attributes and relationships",
+                "Constraints",
+                "Semantic information"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Consider the relation Emp_Dept with SSn as key. Following operations are performed: a. Insert a record of department with no employee b. Delete the last employee of the department c. Update the department name for department #5. Which of the following will lead to complete loss of information about a depart- ment?",
+            "options": [
+                "Only b",
+                "Only c",
+                "a and b",
+                "b and c"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Real life constraints on the relational schema can be specified by",
+            "options": [
+                "Functional dependency",
+                "Domain Integrity rules",
+                "Referential Integrity rules",
+                "Entity Integrity rules"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "DBMS provides the facility of accessing data from a database through",
+            "options": [
+                "DDL",
+                "DML",
+                "DBA",
+                "Schema"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Consider the following Relationship Entity Diagram(ERD). Which of the following possible relations will not hold if the above ERD is mapped into a relation model?",
+            "options": [
+                "Person (NID, Name)",
+                "Qualification (NID, ExamID, QualifiedDate)",
+                "Exam (ExamID, NID, ExamName)",
+                "Exam (ExamID, ExamName)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "E-R model uses this symbol to represent weak entity set?",
+            "options": [
+                "Dotted rectangle",
+                "Diamond",
+                "Doubly outlined rectangle",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Which of the following database language is used to create a table",
+            "options": [
+                "DML",
+                "DDL",
+                "DCL",
+                "OQL"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "The overall logical structure of a database can be expressed graphically by:",
+            "options": [
+                "Entity relationship model",
+                "Relation model",
+                "Object based model",
+                "Semi structured model"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which symbol denote derived attributes in the ER Model?",
+            "options": [
+                "Double ellipse",
+                "Dashed ellipse",
+                "Squared ellipse",
+                "An ellipse with attribute name underlined"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "An ER Model includes: I. An ER diagram portraying entity types II. Attributes for each entity type III. Relationships among entity types. IV. Semantic integrity constraints that reflects the business rules about data not captured in the ER diagram.",
+            "options": [
+                "I, II, III & IV",
+                "I & IV",
+                "I, II & IV",
+                "I & III"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which is always a primary key",
+            "options": [
+                "Which is always the secondary key",
+                "Which has weak relationship",
+                "Which does not have any key attribute its own",
+                "A weak entity is one"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "The condition for total participation of entity in a relationship is",
+            "options": [
+                "Maximum cardinality should be one",
+                "Minimum cardinality should be one",
+                "Minimum cardinality should be zero",
+                "none of the options"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "ER modeling technique is a",
+            "options": [
+                "top-down approach",
+                "bottom-up approach",
+                "left-right approach",
+                "none of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Let x, y, z, a, b, c be the attributes of an entity set E. If {x}, {x,y}, {a,b}, {a,b,c}, {x,y,z} are super keys then which of the following are the candidate keys?",
+            "options": [
+                "{x,y} and {a,b}",
+                "{x} and {a,b}",
+                "{x,y,z} and {a,b,c}",
+                "{z} and {c}"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "An entity set that does not have sufficient attribute to form a key is termed as:",
+            "options": [
+                "Primary entity set",
+                "Strong entity set",
+                "Weak entity set",
+                "Simple entity set"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Which of the following is NOT a characteristic of a Database Management System (DBMS)?",
+            "options": [
+                "Data redundancy and inconsistency",
+                "Data integrity and security",
+                "Concurrent access by multiple users",
+                "Support for programming languages"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which type of data does NOT follow a predefined schema and lacks a fixed format?",
+            "options": [
+                "Structured data",
+                "Semi-structured data",
+                "Unstructured data",
+                "Normalized data."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "In the Three-Schema Architecture, which level provides the highest level of data abstraction?",
+            "options": [
+                "Internal schema",
+                "Conceptual schema",
+                "External schema",
+                "Logical schema"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "In an Entity-Relationship (ER) model, which type of relationship involves three entities?",
+            "options": [
+                "Unary relationship",
+                "Binary relationship",
+                "Ternary relationship",
+                "Weak relationship"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Which of the following is NOT an integrity constraint?",
+            "options": [
+                "Primary key",
+                "Foreign key",
+                "Composite key",
+                "Check"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "What type of constraint ensures that a value in a foreign key column exists in the referenced table?",
+            "options": [
+                "Unique constraint",
+                "Check constraint",
+                "Referential integrity",
+                "Not Null constraint"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "What happens when an ON DELETE CASCADE rule is applied?",
+            "options": [
+                "Parent row deletion is blocked",
+                "Deletes child rows when parent row is deleted",
+                "Sets child rows to NULL when parent is deleted",
+                "Throws an error when a parent row is deleted"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Which of the following relationships can have a weak entity?",
+            "options": [
+                "1:1",
+                "1:M",
+                "M:N",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "If a relationship has a total participation constraint, it means:",
+            "options": [
+                "Some entities may not participate in the relationship",
+                "All entities in the entity set must participate in the relationship",
+                "Only primary key attributes participate",
+                "Relationship does not require attributes"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Which of the following is NOT a fundamental relational algebra operation?",
+            "options": [
+                "Select (σ)",
+                "Project (π)",
+                "Cartesian Product (×)",
+                "Group By"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "What does the relational algebra expression σ age > 30 (Employee) do?",
+            "options": [
+                "Selects employees where age is greater than 30",
+                "Projects only the age column",
+                "Joins the Employee table with age",
+                "Deletes employees with age ≤ 30"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "The result of π Name (σ Dept = ‘CS’ (Employee)) is:",
+            "options": [
+                "A table containing only the Name column for employees in CS department",
+                "A table containing all attributes for CS employees",
+                "A Cartesian product of Employee and Department",
+                "A join operation on Employee and Department"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "In relational algebra, what is the output of R ⋈ S when no common attributes exist?",
+            "options": [
+                "Natural join",
+                "Cartesian product",
+                "Outer join",
+                "Self-join"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "Which join type returns only matching rows?",
+            "options": [
+                "Cartesian product",
+                "Outer join",
+                "Equi-join",
+                "Natural join"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Which SQL command is used to define a table?",
+            "options": [
+                "CREATE",
+                "INSERT",
+                "UPDATE",
+                "ALTER"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "What does the following SQL statement do? ALTER TABLE Employees ADD salary INT;",
+            "options": [
+                "Deletes salary column",
+                "Modifies data in the salary column",
+                "Adds a new column named salary",
+                "Creates a new table"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "What is the purpose of DROP TABLE Employees CASCADE CONSTRAINTS?",
+            "options": [
+                "Deletes all rows but keeps structure",
+                "Drops the table and its constraints",
+                "Drops only constraints",
+                "Deletes table temporarily"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Which SQL command removes all rows but keeps the structure?",
+            "options": [
+                "DELETE",
+                "DROP",
+                "TRUNCATE",
+                "ALTER"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Given: DELETE FROM Employees WHERE dept_id = 2; What happens if no WHERE clause is used?",
+            "options": [
+                "Only dept_id = 2 rows are deleted",
+                "All rows are deleted",
+                "Throws an error",
+                "Deletes table structure"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "Given table: Employees (id, name, salary), which query returns the top 3 highest salaries?",
+            "options": [
+                "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 3;",
+                "SELECT TOP 3 salary FROM Employees ORDER BY salary DESC;",
+                "SELECT salary FROM Employees WHERE ROWNUM <= 3 ORDER BY salary DESC;",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Consider two tables, Students(ID, Name) and Courses(ID, Course). How do you find students enrolled in at least one course?",
+            "options": [
+                "SELECT Name FROM Students;",
+                "SELECT Name FROM Students INNER JOIN Courses ON Students.ID = Courses.ID;",
+                "SELECT Name FROM Students WHERE ID IN (SELECT ID FROM Courses);",
+                "Both B and C"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "How many rows are returned by SELECT * FROM A, B if A has 5 rows and B has 4 rows?",
+            "options": [
+                "4",
+                "5",
+                "20",
+                "Cannot be determined"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "How many tuples will be in the result of R ⨝ S if R has 10 rows, S has 5 rows, and they match on a key in every case?",
+            "options": [
+                "10",
+                "5",
+                "15",
+                "50"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "Given: SELECT COUNT(*) FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees); This query returns:",
+            "options": [
+                "Total employees",
+                "Employees earning more than the average",
+                "Highest salary",
+                "Number of salary updates."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Which SQL clause is used for filtering groups after aggregation?",
+            "options": [
+                "WHERE",
+                "GROUP BY",
+                "HAVING",
+                "ORDER BY"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Which of the following is true about correlated subqueries?",
+            "options": [
+                "They execute only once",
+                "They reference columns from the outer query",
+                "They do not use joins",
+                "They always return a single value"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "What is the purpose of a trigger in SQL?",
+            "options": [
+                "Automatically enforce constraints",
+                "Execute automatically on INSERT, UPDATE, DELETE",
+                "Improve query performance",
+                "Store temporary table data"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Which SQL query returns employees who earn more than the average salary in their department?",
+            "options": [
+                "SELECT emp_name FROM Employees WHERE salary > AVG(salary);",
+                "SELECT emp_name FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees);",
+                "SELECT emp_name FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees GROUP BY dept_id);",
+                "SELECT emp_name FROM Employees E WHERE salary > (SELECT AVG(salary) FROM Employees WHERE dept_id = E.dept_id);"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "What does the following SQL statement do? CREATE VIEW high_salaries AS SELECT emp_name, salary FROM Employees WHERE salary > 50000;",
+            "options": [
+                "Creates a table",
+                "Creates a temporary table",
+                "Creates a virtual table",
+                "Deletes employees earning above 50,000"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "What will happen if you execute the following SQL query? DELETE FROM Employees;",
+            "options": [
+                "All employee records will be deleted, but table structure remains",
+                "The table will be completely dropped from the database",
+                "Only NULL values will be deleted",
+                "The query will fail if no WHERE condition is provided"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "What is the output of the following SQL query? SELECT COUNT(DISTINCT department) FROM Employees;",
+            "options": [
+                "Total number of employees",
+                "Total number of unique departments",
+                "Total number of departments including duplicates",
+                "The query will result in an error"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which of the following is true about INNER JOIN?",
+            "options": [
+                "Returns only matching rows from both tables",
+                "Returns all rows from both tables",
+                "Returns matching rows plus unmatched rows from the left table",
+                "Returns all unmatched rows from the right table"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "Given a table Orders(order_id, customer_id, order_date), which SQL query retrieves the most recent order for each customer?",
+            "options": [
+                "SELECT customer_id, MAX(order_date) FROM Orders;",
+                "SELECT customer_id, order_date FROM Orders GROUP BY customer_id;",
+                "SELECT customer_id, order_date FROM Orders WHERE order_date = (SELECT MAX(order_date) FROM Orders WHERE Orders.customer_id = O.customer_id);",
+                "SELECT customer_id, MAX(order_date) FROM Orders GROUP BY customer_id;"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "What is the primary function of the ALTER TABLE SQL command?",
+            "options": [
+                "Modify table structure",
+                "Delete a table",
+                "Insert new records",
+                "Grant user permissions"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 51,
+            "questionText": "Which index type is best for a large dataset with frequent range queries?",
+            "options": [
+                "Hash index",
+                "B-Tree",
+                "Bitmap index",
+                "Full-text index"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 52,
+            "questionText": "What is the primary difference between B-Trees and B+-Trees?",
+            "options": [
+                "B-Trees store all values in leaf nodes",
+                "B+-Trees store values in both internal and leaf nodes",
+                "B+-Trees store all values in leaf nodes",
+                "B-Trees support range queries"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 53,
+            "questionText": "What is the blocking factor in file storage?",
+            "options": [
+                "Number of records per disk block",
+                "Number of blocks per file",
+                "Number of disk accesses",
+                "Number of index levels"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 54,
+            "questionText": "In extendible hashing, when does a directory expand?",
+            "options": [
+                "When all records are deleted",
+                "When a bucket overflows and cannot be split",
+                "When searching for a key",
+                "When all keys are in one bucket"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 55,
+            "questionText": "In a grid file, indexing is done using:",
+            "options": [
+                "Hash values",
+                "Grid coordinates",
+                "AVL trees",
+                "Sequential access"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 56,
+            "questionText": "Consider a relation Students(ID, Name, Marks) with 100,000 records. If a clustered index is created on ID, how does it affect query performance?",
+            "options": [
+                "Improves sequential scans but not random lookups",
+                "Improves both sequential scans and lookups",
+                "Slows down updates but improves lookups",
+                "No impact on performance"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 57,
+            "questionText": "Given the B-Tree below ([10, 30] as root, [5, 8] and [20, 25, 40] as children), which node is accessed first when searching for key 23?",
+            "options": [
+                "[10, 30]",
+                "[5, 8]",
+                "[20, 25, 40]",
+                "None of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 58,
+            "questionText": "Suppose a file has 1,000,000 records and each block stores 100 records. How many disk accesses are needed for a binary search?",
+            "options": [
+                "10",
+                "20",
+                "14",
+                "25"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 59,
+            "questionText": "How many levels does a B+-Tree need to store 1,000,000 keys if each node holds 100 keys?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 60,
+            "questionText": "Given a hash index with 10 buckets and 1,000 records, what is the expected number of records per bucket?",
+            "options": [
+                "10",
+                "100",
+                "50",
+                "200"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 61,
+            "questionText": "Which of the following is NOT a type of anomaly in database design?",
+            "options": [
+                "Insertion anomaly",
+                "Deletion anomaly",
+                "Update anomaly",
+                "Redundancy anomaly"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 62,
+            "questionText": "Which normal form eliminates partial dependencies but still allows transitive dependencies?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 63,
+            "questionText": "Consider the relation R(A, B, C, D) with the functional dependencies: {A → B, C → D}. What is the closure of {A}?",
+            "options": [
+                "{A, B}",
+                "{A, D}",
+                "{A, B, C}",
+                "{A, B, D}"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 64,
+            "questionText": "Which of the following is NOT a property of functional dependencies according to Armstrong’s Axioms?",
+            "options": [
+                "Reflexivity",
+                "Augmentation",
+                "Symmetry",
+                "Transitivity"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 65,
+            "questionText": "What is the minimal cover of the set {A → BC, B → C, A → B}?",
+            "options": [
+                "{A → B, B → C}",
+                "{A → BC}",
+                "{A → C, A → B}",
+                "{A → B, A → C}"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 66,
+            "questionText": "Which of the following normal forms ensures both lossless join decomposition and dependency preservation?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 67,
+            "questionText": "A table is in BCNF if:",
+            "options": [
+                "It is in 1NF and 2NF.",
+                "It is in 3NF and every determinant is a superkey.",
+                "It is in 3NF and has no multi-valued dependencies.",
+                "It has no transitive dependencies."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 68,
+            "questionText": "A relation R(A, B, C) has a primary key {A, B}. Which of the following violates 2NF?",
+            "options": [
+                "A → C",
+                "B → C",
+                "A → B",
+                "A, B → C"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 69,
+            "questionText": "A relation R(A, B, C, D) is decomposed into R1(A, B, C) and R2(A, D). The decomposition is lossless if:",
+            "options": [
+                "A is a candidate key.",
+                "A is a foreign key.",
+                "A → D holds in R.",
+                "A, B → D holds in R."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 70,
+            "questionText": "If R(A, B, C, D) has a functional dependency A → B, which of the following decompositions is dependency - preserving?",
+            "options": [
+                "R1(A, B), R2(B, C, D)",
+                "R1(A, B), R2(A, C, D)",
+                "R1(A, C), R2(A, B, D)",
+                "R1(A, D), R2(A, B, C)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 71,
+            "questionText": "If a relation is in BCNF, it is always in:",
+            "options": [
+                "2NF",
+                "3NF",
+                "1NF",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 72,
+            "questionText": "Which algorithm is used to check for lossless decomposition?",
+            "options": [
+                "Chase Algorithm",
+                "Augmentation Algorithm",
+                "Functional Dependency Expansion Algorithm",
+                "Closure Computation Algorithm"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 73,
+            "questionText": "What is the closure of {A, B} if we have the functional dependencies: A → C, C → D, B → E?",
+            "options": [
+                "{A, B, C, D, E}",
+                "{A, B, C, D}",
+                "{A, B, C, E}",
+                "{A, B, C}"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 74,
+            "questionText": "If a relation has multi-valued dependencies, which normal form should be applied?",
+            "options": [
+                "2NF",
+                "3NF",
+                "BCNF",
+                "4NF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 75,
+            "questionText": "What is the main problem with a decomposition that is dependency-preserving but not lossless?",
+            "options": [
+                "It allows anomalies.",
+                "It may not allow full recovery of original data.",
+                "It increases redundancy.",
+                "It violates functional dependencies."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 76,
+            "questionText": "Which functional dependency violates BCNF? Given R(A, B, C) with candidate key: A and functional dependencies: A → B, B → C, which one violates BCNF?",
+            "options": [
+                "A → B",
+                "B → C",
+                "A → C",
+                "No functional dependency violates BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 77,
+            "questionText": "Find a minimal cover for {A → BC, B → C, A → C}.",
+            "options": [
+                "{A → BC, B → C}",
+                "{A → B, B → C}",
+                "{A → B, A → C}",
+                "{A → BC}"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 78,
+            "questionText": "Which dependency causes redundancy in 3NF?",
+            "options": [
+                "Partial dependency",
+                "Multi-valued dependency",
+                "Transitive dependency",
+                "Functional dependency"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 79,
+            "questionText": "What normal form should be applied if transitive dependencies exist?",
+            "options": [
+                "2NF",
+                "3NF",
+                "BCNF",
+                "4NF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 80,
+            "questionText": "Given R (A, B, C) with A → B, B → C, what is the highest normal form?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 81,
+            "questionText": "Which of the following is NOT a desirable property of a transaction?",
+            "options": [
+                "Atomicity",
+                "Consistency",
+                "Durability",
+                "Deadlock-free execution"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 82,
+            "questionText": "In a transaction model, which state occurs when a transaction has been completed successfully?",
+            "options": [
+                "Active",
+                "Partially committed",
+                "Committed",
+                "Aborted"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 83,
+            "questionText": "Which of the following ensures that concurrent transactions do not interfere with each other?",
+            "options": [
+                "Concurrency Control",
+                "System Log",
+                "Deferred Database Modification",
+                "Checkpointing"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 84,
+            "questionText": "A schedule in which the result of executing transactions is the same as that of some serial execution of the same transactions is called:",
+            "options": [
+                "Serializable schedule",
+                "Serial schedule",
+                "Non-recoverable schedule",
+                "Deadlock-free schedule"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 85,
+            "questionText": "Two schedules are conflict-equivalent if they have the same:",
+            "options": [
+                "Order of execution",
+                "Conflicting operations in the same order",
+                "Number of transactions",
+                "Execution time"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 86,
+            "questionText": "Which of the following schedules ensures that once a transaction reads a committed value, it is never undone?",
+            "options": [
+                "Recoverable Schedule",
+                "Cascade-less Schedule",
+                "Strict Schedule",
+                "Conflict Serializable Schedule"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 87,
+            "questionText": "The two-phase locking protocol consists of:",
+            "options": [
+                "Read phase and Write phase",
+                "Growing phase and Shrinking phase",
+                "Lock phase and Unlock phase",
+                "Shared phase and Exclusive phase"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 88,
+            "questionText": "Which of the following variations of two-phase locking prevents cascading rollbacks?",
+            "options": [
+                "Strict Two-Phase Locking",
+                "Rigorous Two-Phase Locking",
+                "Conservative Two-Phase Locking",
+                "Optimistic Concurrency Control"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 89,
+            "questionText": "In log-based recovery, which operation is recorded in the system log?",
+            "options": [
+                "Only committed transactions",
+                "All transactions before commit",
+                "Only rollback operations",
+                "Both committed and uncommitted transactions"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 90,
+            "questionText": "What is the purpose of checkpointing in database recovery?",
+            "options": [
+                "To reduce the amount of log that needs to be processed during recovery",
+                "To ensure transactions run faster",
+                "To prevent deadlocks",
+                "To enforce serializability"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 91,
+            "questionText": "What is the primary characteristic of a Key-Value database?",
+            "options": [
+                "Stores data in a structured tabular format",
+                "Uses flexible schema and JSON-like documents",
+                "Uses key-value pairs for fast lookups",
+                "Organizes data in columns instead of rows"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 92,
+            "questionText": "Which of the following is an example of a Key-Value store?",
+            "options": [
+                "Redis",
+                "MongoDB",
+                "Cassandra",
+                "ArangoDB"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 93,
+            "questionText": "Which of the following best describes a Document Database?",
+            "options": [
+                "Stores semi-structured data in JSON or BSON format",
+                "Uses fixed schema-based tables",
+                "Uses relational algebra for data retrieval",
+                "Cannot handle unstructured data"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 94,
+            "questionText": "Which NoSQL database is a popular example of a Document database?",
+            "options": [
+                "Redis",
+                "Neo4j",
+                "MongoDB",
+                "Cassandra"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 95,
+            "questionText": "What is the primary feature of Column-Family databases?",
+            "options": [
+                "Data is stored as key-value pairs",
+                "Data is stored in JSON documents",
+                "Data is stored in rows and grouped into column families",
+                "Data is stored as interconnected nodes and edges"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 96,
+            "questionText": "Which of the following is an example of a Column-Family database?",
+            "options": [
+                "Redis",
+                "MongoDB",
+                "Cassandra",
+                "ArangoDB"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 97,
+            "questionText": "What is the key characteristic of a Graph Database?",
+            "options": [
+                "Stores data in relational tables",
+                "Uses rows and columns for storage",
+                "Represents data as nodes and edges to model relationships",
+                "Uses primary and foreign keys for connections"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 98,
+            "questionText": "Which of the following is an example of a Graph Database?",
+            "options": [
+                "Redis",
+                "MongoDB",
+                "Cassandra",
+                "Neo4j"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 99,
+            "questionText": "Which of the following concurrency control techniques does NOT use locks?",
+            "options": [
+                "Two-phase locking",
+                "Timestamp ordering",
+                "Strict Two-phase locking",
+                "Rigorous Two-phase locking"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 100,
+            "questionText": "In deferred database modification, when are changes written to the database?",
+            "options": [
+                "After partial commit",
+                "Upon transaction commit",
+                "During the active state",
+                "Only after check-pointing"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        }
+    ]
+}

@@ -1,0 +1,605 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University - Sixth Semester B.Tech Comprehensive Examination, May 2019 (CS352)",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "The radius of convergence of the series sum_{k=1 to infinity} (x-5)^k / k^2 is",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Solution of y''' - y' = 0 is",
+            "options": [
+                "c1 + (c2 + c3x)e^x",
+                "c1e^x + c2e^-x",
+                "c1 + c2e^x + c3e^-x",
+                "c1 + (c2 + c3x)e^-x"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "A mass m is attached to two identical springs having spring constant k. Natural frequency of the single degree of freedom system is",
+            "options": [
+                "sqrt(2k/m)",
+                "sqrt(3k/m)",
+                "sqrt(4k/m)",
+                "sqrt(k/m)"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "A ball of weight 100N is tied to a smooth wall by a cord making an angle of 30 degree to the wall. Tension in the cord is",
+            "options": [
+                "86.6",
+                "50",
+                "75.5",
+                "0"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "Answer key indicates an error in the question or options."
+        },
+        {
+            "id": 5,
+            "questionText": "The desired features or characteristics of the design that determine its ultimate effectiveness or suitability for a given task",
+            "options": [
+                "Design Function",
+                "Design Constraints",
+                "Design analysis",
+                "Design Functions"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "In ‘House of Quality’ the roof represents:",
+            "options": [
+                "Relationship between customer and manufacturer",
+                "Inter–relationship between technical requirements",
+                "Relation between customer and technical requirements",
+                "Customer requirements"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "Lowest atmospheric temperature is observed in ------------",
+            "options": [
+                "Troposphere",
+                "Stratosphere",
+                "Thermosphere",
+                "Mesosphere"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Industrial Symbiosis aims at",
+            "options": [
+                "zero waste generation",
+                "energy efficiency",
+                "high employment generation",
+                "industrial mechanisation"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "A 5 cm long line is parallel to VP and inclined at 30° to HP. What is its length in the front view?",
+            "options": [
+                "4.33 cm",
+                "2.5 cm",
+                "5 cm",
+                "2.88 cm"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "A cylinder is placed on H.P on its base and section plane is inclined to V.P and perpendicular to H.P cutting the solid the section gives",
+            "options": [
+                "parabola",
+                "circle",
+                "rectangle",
+                "ellipse"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Which of the following are tautologies?\n1. p ∨ ~p \n2. p ∧ ~p \n3. p ∨ (q ∨ ~q) \n4. p ∨(q ∧ ~q)",
+            "options": [
+                "1 and 3",
+                "3 and 4",
+                "2 and 4",
+                "1 and 2"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "G={0,1,2,3,4,5} is a group under multiplication modulo 6. Which are the cyclic generators here?",
+            "options": [
+                "1, 3, and 5",
+                "1 and 5",
+                "1, 2, and 3",
+                "1, 2, 3, 4. and 5"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "Answer key indicates an error in the question or options."
+        },
+        {
+            "id": 13,
+            "questionText": "If A={α,µ} and B={1,2,3},what is n(AXB)?",
+            "options": [
+                "4",
+                "6",
+                "5",
+                "3"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "If every team has to play 19 games in a round robin league, totally how many matches are to be played?",
+            "options": [
+                "250",
+                "300",
+                "200",
+                "190"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Find the complement of 2 in the lattice (S60, D) where D is Divisor",
+            "options": [
+                "2",
+                "15",
+                "6",
+                "None of these"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "Converse of P→ Q is",
+            "options": [
+                "˥P → ˥Q",
+                "Q→ P",
+                "˥Q → ˥P",
+                "P → Q"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Every chain is a _______ lattice",
+            "options": [
+                "distributive",
+                "complemented",
+                "complete",
+                "bounded"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which of the following is not efficiently supported by a singly linked list?",
+            "options": [
+                "Accessing an element in the current position",
+                "Insertion after current position",
+                "Insertion before current position",
+                "Traversing to the position immediately after the current position"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "The inorder and preorder traversals of a binary tree are [b e f a c d g] and [a e b f d c g] respectively. What is the corresponding postorder traversal? (Note: Original paper incorrectly asks for preorder again)",
+            "options": [
+                "b f e c g d a",
+                "e d b g f c a",
+                "e d b f g c a",
+                "d e f g b c a"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "Answer key indicates an error in the question or options."
+        },
+        {
+            "id": 20,
+            "questionText": "Consider the following loop:\nfor i = 1 to n\n  for j = i + 1 to n\n    print “Hi”\nThe asymptotic time complexity of above loop is",
+            "options": [
+                "O(n^3)",
+                "O(n log n)",
+                "O(n^2)",
+                "O(n)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Time complexity of inserting a new node at the middle of a single linked list is",
+            "options": [
+                "O(log n)",
+                "O(1)",
+                "O(n log n)",
+                "O(n)"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "With only enqueue and dequeue operations, how many queues will you need to implement a stack using queue?",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "A hash function f defined as f(key)= key mod 7, with linear probing used to resolve collisions. Insert the keys 37,38,72,48,98 and 11 into the table indexed from 0 to 6. What will be the location of 11?",
+            "options": [
+                "3",
+                "5",
+                "4",
+                "6"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "The following sequence of operations are performed on a stack: PUSH(10), PUSH(20), POP, PUSH(10), PUSH(20), POP, POP, POP, PUSH(20), POP. The sequence of values popped out is:",
+            "options": [
+                "20,10,20,10,20",
+                "20,20,10,10,20",
+                "10,20,20,10,20",
+                "20,20,10,20,10"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Consider the given grammar: S→ AB, A→ BB/a, B→ AB/b. Choose incorrect statement.",
+            "options": [
+                "aaab can be derived from above grammar.",
+                "bbab can be derived from above grammar.",
+                "abba can be derived from above grammar.",
+                "abbab can be derived from above grammar."
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Let N be an NFA and w be a string. We say that N accepts w. if",
+            "options": [
+                "All computation paths of N on w reach an accept state.",
+                "Exactly one computation path of N on w reaches an accept state.",
+                "No computation paths of N on w reach an accept state.",
+                "At least computation paths of N on w reach an accept state."
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "Consider the following language, L= {w ∈ {0, 1} ∣ w is a palindrome }. Which of the following grammar generates the above language?",
+            "options": [
+                "S → 0S0 ∣ 1S1 ∣ ε",
+                "S → 0S0S ∣ 1S1S ∣ ε",
+                "S → 0S0 ∣ 1S1 ∣ 0 ∣ 1",
+                "S → 0S0 ∣ 1S1 ∣ 0 ∣ 1 ∣ ε"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "A Turing machine that is able to simulate other Turing machines",
+            "options": [
+                "Nested Turing machines",
+                "Universal Turing machine",
+                "Counter machine",
+                "Multi-tape Turing Machine"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "While applying pumping lemma over a regular language, we consider a string w that belongs to L and fragment it into _________ parts.",
+            "options": [
+                "2",
+                "5",
+                "3",
+                "6"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "How many states will be there for the minimum state DFA that accepts strings which ends with ‘aa’ over the alphabet set{a,b}?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Which of the following operators is not present in any regular expression?",
+            "options": [
+                "union",
+                "concatenation",
+                "Kleene closure",
+                "division"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "The page table contains",
+            "options": [
+                "base address of each page in physical memory",
+                "page offset",
+                "page size",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Which of the following statements are true?\nI. Shortest remaining time first scheduling may cause starvation\nII. Preemptive scheduling may cause starvation\nIII. Round robin is better than FCFS in terms of response time",
+            "options": [
+                "I only",
+                "I and III only",
+                "II and III only",
+                "I, II and III"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "If the disk head is located initially at 32, find the number of disk moves required with FCFS if the disk queue of I/O blocks requests are 98, 37, 14, 124, 65, 72",
+            "options": [
+                "319",
+                "326",
+                "338",
+                "360"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "A counting semaphore is initialized to 4. Then 8 P(wait) and 3 V (signal) operations are performed on the semaphore. The final value of the semaphore is",
+            "options": [
+                "1",
+                "-1",
+                "2",
+                "-2"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "Simplest way of deadlock recovery is",
+            "options": [
+                "Roll back",
+                "Pre-empt resource",
+                "Lock one of the process",
+                "Kill the one of the process"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the :",
+            "options": [
+                "Running state",
+                "Ready state",
+                "Suspended state",
+                "Terminated state"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "In fixed size partition, the degree of multiprogramming is bounded by ___________",
+            "options": [
+                "the number of partitions",
+                "the CPU utilization",
+                "the memory size",
+                "all of the mentioned"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Which of the following register automatically increments its contents during the instruction execution?",
+            "options": [
+                "Instruction Register(IR)",
+                "Program Counter(PC)",
+                "General Purpose register",
+                "Link Register"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "What is the range of actual exponent in the IEEE single precision standard for floating point numbers?",
+            "options": [
+                "-126 to 127",
+                "-127 to 127",
+                "-128 to 128",
+                "-126 to 126"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "The method for updating the main memory as soon as a word is removed from the Cache is called",
+            "options": [
+                "write-through",
+                "write-back",
+                "protected write",
+                "cache-write"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Instruction decoder of a CPU",
+            "options": [
+                "Decodes the instruction and carries out the arithmetic and logical operations",
+                "Decodes the instruction and generates the corresponding control signals",
+                "Decodes and stores the instruction currently being decoded",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "The number -112 can be represented in sign and magnitude method (8 bit number) as",
+            "options": [
+                "00001111",
+                "11110000",
+                "00010000",
+                "01110000"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "A computer uses 32-bit byte addressing. The computer uses a 2-way associative cache with a capacity of 32KB. Each cache block contains 16 bytes. Calculate the number of bits in the TAG, SET, and OFFSET fields of a main memory address.",
+            "options": [
+                "TAG=18, SET=10, OFFSET=4",
+                "TAG=16, SET=12, OFFSET=4",
+                "TAG=20, SET=10, OFFSET=2",
+                "TAG=16, SET=8, OFFSET=8"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are",
+            "options": [
+                "m + n and 0",
+                "mn and 0",
+                "m + n and |m – n|",
+                "mn and m + n"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Consider the relation scheme R = (E, F, G, H, I, J, K, L, M, N) and the set of functional dependencies {{E,F} → {G}, {F} → {I,J}, {E,H} → {K,L}, {K} → {M}, {L} → {N}} on R. What is the key for R?",
+            "options": [
+                "{E,F}",
+                "{E,F,H}",
+                "{E,F,H,K,L}",
+                "{E}"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "If every non-prime attribute is fully functionally dependent on the primary key, then the relation will be in",
+            "options": [
+                "BCNF",
+                "2NF",
+                "1NF",
+                "3NF"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Suppose that we have an ordered file with r = 30,000 records stored on a disk with block size B = 1024 bytes. File records are of fixed size and are unspanned, with record length R = 100 bytes. The blocking factor and the number of blocks needed for the file are",
+            "options": [
+                "10 and 3000",
+                "3000 and 10",
+                "10 and 300",
+                "8 and 3000"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "What does the following query do? UPDATE student SET marks = marks*1.10;",
+            "options": [
+                "It increases the marks of all the students by 10%",
+                "It decreases the marks of all the students by 90%",
+                "It increases the marks of all the students by 110%",
+                "It is syntactically wrong"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Amongst the ACID properties of a transaction, the 'Durability' property requires. that the changes made to the database by a successful transaction persist",
+            "options": [
+                "Except in case of an operating system crash",
+                "Except in case of a disk crash",
+                "Except in case of a power failure",
+                "Always, even if there is a failure of any kind"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        }
+    ]
+}

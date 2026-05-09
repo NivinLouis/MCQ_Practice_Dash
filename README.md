@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz Practice
 
-## Getting Started
+A client-side MCQ practice app built with **Next.js (App Router)**, **Tailwind CSS**, and **shadcn/ui**. All data stays in your browser via `localStorage` — no backend required.
 
-First, run the development server:
+---
+
+## Features
+
+- **Dashboard** — View stats, pick a question bank, or upload a custom `.json` file
+- **Quiz Interface** — One question at a time with instant green/red feedback, "Copy for AI Explanation" on wrong answers, and Next/Previous navigation
+- **Results Page** — Score summary with a full question-by-question review
+- **Local Question Banks** — Drop `.json` files into `banks/` and they appear automatically (file names are formatted for display)
+- **Upload Support** — Upload additional `.json` files via the header icon (hover to see the expected schema)
+
+---
+
+## Quick Start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Data Schema
 
-## Learn More
+Uploaded or local `.json` files must match this structure:
 
-To learn more about Next.js, take a look at the following resources:
+```json
+{
+  "quizTitle": "Operating Systems 2021",
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Which scheduling algorithm allocates the CPU first?",
+      "options": ["FCFS", "SJF", "Priority Scheduling", "Round Robin"],
+      "correctAnswerIndex": 0,
+      "explanation": "FCFS is the simplest scheduling algorithm."
+    }
+  ]
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `correctAnswerIndex` must be `0–3`, or `null` if no answer key is available (questions without an answer key won't be graded — use the Copy button to look them up)
+- `explanation` is optional
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## AI Workflow (PDF → JSON)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Paste this prompt into an AI chatbot (Gemini, ChatGPT, Claude) along with your question paper to generate the required JSON:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> You are a precise data extraction assistant. Extract all questions and multiple-choice options, format them strictly into this JSON schema:
+>
+> ```json
+> {
+>   "quizTitle": "Logical title",
+>   "questions": [
+>     {
+>       "id": 1,
+>       "questionText": "Exact question text",
+>       "options": ["Opt 1", "Opt 2", "Opt 3", "Opt 4"],
+>       "correctAnswerIndex": 0,
+>       "explanation": "Any reasoning provided, or empty string"
+>     }
+>   ]
+> }
+> ```
+>
+> **Rules:**
+> 1. Check for an answer key. If present, set `correctAnswerIndex` (0–3). If missing, set to `null`. Do not guess.
+> 2. Always exactly 4 options.
+> 3. Strip question numbers (Q1) and option letters (A, B).
+> 4. Output raw JSON only.
+
+Generated files go into `banks/` — the app picks them up automatically on the next page load.
+
+---
+
+## Tech Stack
+
+| Layer              | Tool                        |
+| ------------------ | --------------------------- |
+| Framework          | Next.js (App Router)        |
+| Styling            | Tailwind CSS                |
+| Components         | shadcn/ui                   |
+| Icons              | Lucide React                |
+| State Management   | React Hooks + localStorage  |
+
+---
+
+## Local Question Banks
+
+Place `.json` files inside the `banks/` directory at the project root. The app reads them on load and displays each one as a selectable card. File names are cleaned up for display — no need to follow a strict naming convention.

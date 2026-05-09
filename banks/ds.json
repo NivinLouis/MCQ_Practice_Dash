@@ -1,0 +1,1205 @@
+{
+    "quizTitle": "CST 201-Data Structures - Mahaguru Institute of Technology",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "What does the Big Ω notation represent?",
+            "options": [
+                "The upper bound of an algorithm's running time",
+                "The lower bound of an algorithm's running time",
+                "The average-case running time of an algorithm",
+                "The worst-case running time of an algorithm"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "What is a data structure?",
+            "options": [
+                "A programming language",
+                "A collection of algorithms",
+                "A way to store and organize data",
+                "A type of computer hardware"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "The prerequisite of the binary search algorithm is",
+            "options": [
+                "Array should be sorted in descending order",
+                "Array should be randomly arranged",
+                "Array should be sorted in ascending order",
+                "None of these"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "State True or False: i) Binary search is used for searching in a sorted array, ii) The time complexity of binary search is O(log n)",
+            "options": [
+                "True, True",
+                "False, True",
+                "True, false",
+                "False, False"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "What is the purpose of asymptotic notation in algorithm analysis?",
+            "options": [
+                "To measure the exact running time of an algorithm",
+                "To compare the running times of different algorithms",
+                "To describe the growth rate of an algorithm's running time",
+                "To determine the space complexity of an algorithm"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Which of the following statements is true about Big Θ notation?",
+            "options": [
+                "It represents the upper bound of an algorithm's running time",
+                "It represents the lower bound of an algorithm's running time",
+                "It represents both the upper and lower bounds of an algorithm's running time",
+                "It represents the average-case running time of an algorithm"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "What is the difference between Big O and Big Ω notation?",
+            "options": [
+                "Big O represents the upper bound, while Big Ω represents the lower bound",
+                "Big O represents the lower bound, while Big Ω represents the upper bound",
+                "Big O represents the average-case running time, while Big Ω represents the worst-case running time",
+                "Big O represents the worst-case running time, while Big Ω represents the average-case running time"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Which of the following functions has a time complexity of O(n log n)?",
+            "options": [
+                "Binary search",
+                "Merge sort",
+                "Quick sort",
+                "Bubble sort"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "What is the time complexity of the following algorithm: for (i = 1 to n) { for (j = 1 to n) { ... } }",
+            "options": [
+                "O(n)",
+                "O(n log n)",
+                "O(n^2)",
+                "O(n^3)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which of the following statements is true about the time complexity of an algorithm?",
+            "options": [
+                "The time complexity of an algorithm is always a constant",
+                "The time complexity of an algorithm is always a linear function of the input size",
+                "The time complexity of an algorithm can be expressed as a function of the input size",
+                "The time complexity of an algorithm is always a quadratic function of the input size"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "What is the purpose of using asymptotic notation to analyze the time complexity of an algorithm?",
+            "options": [
+                "To determine the exact running time of an algorithm",
+                "To compare the running times of different algorithms",
+                "To describe the growth rate of an algorithm's running time",
+                "To determine the space complexity of an algorithm"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which of the following is an example of a function with a time complexity of O(1)?",
+            "options": [
+                "A function that performs a constant number of operations",
+                "A function that performs a linear number of operations",
+                "A function that performs a quadratic number of operations",
+                "A function that performs an exponential number of operations"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Which phase of the System Life Cycle involves the actual construction of the system?",
+            "options": [
+                "Analysis Phase",
+                "Design Phase",
+                "Implementation Phase",
+                "Maintenance Phase"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "What is the purpose of the Analysis Phase in the System Life Cycle?",
+            "options": [
+                "To identify the system requirements and define the problem",
+                "To design the system architecture and components",
+                "To develop the system components and test the system",
+                "To maintain the system and fix errors"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Which phase of the System Life Cycle involves the ongoing maintenance and support of the system?",
+            "options": [
+                "Planning Phase",
+                "Analysis Phase",
+                "Design Phase",
+                "Maintenance Phase"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "What is the primary output of the Design Phase in the System Life Cycle?",
+            "options": [
+                "System requirements document",
+                "System design document",
+                "System implementation plan",
+                "System testing plan"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "What is the time complexity of the following algorithm? for (i = 1; i <= n; i++) { // some constant time operation if (i % 2 == 0) { // some constant time operation } }",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n log n)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which of the asymptotic notation is used to provide the lower bound constraint?",
+            "options": [
+                "x",
+                "Ω",
+                "Θ",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Using asymptotic analysis, we can very well conclude the __________ scenario of an algorithm.",
+            "options": [
+                "best case",
+                "average case",
+                "worst case",
+                "best case, average case, and worst case"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "Which case indicate the minimum time required for program execution?",
+            "options": [
+                "best case",
+                "average case",
+                "worst case",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "In a circular queue implemented with an array, how do you determine if the queue is full?",
+            "options": [
+                "(rear == front)",
+                "(rear+1)%size==front",
+                "(rear-front)==size",
+                "(front+size)%rear==1"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "What can be said about the array representation of a circular queue when it contains only one element?",
+            "options": [
+                "Front=rear",
+                "front=rear+1",
+                "front=rear-1",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "The prefix expression + A * - B C D is given. If A = 5, B = 4, C = 2, and D = 3, what is the result of the expression?",
+            "options": [
+                "13",
+                "7",
+                "11",
+                "15"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "The data structure that is used to implement recursion is",
+            "options": [
+                "Stack",
+                "Queue",
+                "Binary Tree",
+                "All the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Convert the following infix expression into its equivalent postfix expression (A+B*C)+(E^F)",
+            "options": [
+                "ABC*EF^++",
+                "ABC+*EF^+",
+                "AB+C*EF^",
+                "ABC*+EF^+"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Queues serve major role in__________",
+            "options": [
+                "Simulation of recursion",
+                "Simulation of arbitrary linked list",
+                "simulation of limited resource allocation",
+                "Simulation of heap sort"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "What are the disadvantages of arrays?",
+            "options": [
+                "Index value of an array can be negative",
+                "Elements are sequentially accessed",
+                "Data structure like queue or stack cannot be implemented",
+                "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Which data structure is used for implementing recursion?",
+            "options": [
+                "Stack",
+                "Queue",
+                "List",
+                "Array"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "Which of the following is not the application of stack?",
+            "options": [
+                "Data Transfer between two asynchronous process",
+                "Compiler Syntax Analyzer",
+                "Tracking of local variables at run time",
+                "A parentheses balancing program"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "Which data structure is needed to convert infix notation to postfix notation?",
+            "options": [
+                "Tree",
+                "Branch",
+                "Stack",
+                "Queue"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "What is the value of the postfix expression 6 3 2 4 + – *?",
+            "options": [
+                "74",
+                "-18",
+                "22",
+                "40"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?",
+            "options": [
+                "Stack",
+                "Linked List",
+                "Tree",
+                "Queue"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Which of the following statement(s) about stack data structure is/are NOT correct?",
+            "options": [
+                "Top of the Stack always contain the new node",
+                "Stack is the FIFO data structure",
+                "Null link is present in the last node at the bottom of the stack",
+                "Linked List are used for implementing Stacks"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "The data structure required for Breadth First Traversal on a graph is?",
+            "options": [
+                "Array",
+                "Stack",
+                "Tree",
+                "Queue"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "The prefix form of A-B/ (C * D ^ E) is?",
+            "options": [
+                "-A/B*C^DE",
+                "-A/BC*^DE",
+                "-ABCD*^DE",
+                "-/*^ACBDE"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "Which data structure is based on the Last In First Out (LIFO) principle?",
+            "options": [
+                "Tree",
+                "Linked List",
+                "Stack",
+                "Queue"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Which of the following application makes use of a circular linked list?",
+            "options": [
+                "Recursive function calls",
+                "Undo operation in a text editor",
+                "Implement Hash Tables",
+                "Allocating CPU to resources"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "Which of the following is not the type of queue?",
+            "options": [
+                "Priority queue",
+                "Circular queue",
+                "Single ended queue",
+                "Ordinary queue"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Which of the following data structures can be used for parentheses matching?",
+            "options": [
+                "n-ary tree",
+                "queue",
+                "priority queue",
+                "stack"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "Which algorithm is used in the top tree data structure?",
+            "options": [
+                "Backtracking",
+                "Divide and Conquer",
+                "Branch",
+                "Greedy"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "If we want to find the last node of a linked list, then the correct coding is",
+            "options": [
+                "if(temp->link!=NULL) temp=temp->link",
+                "if(temp->data==num) temp=temp->link",
+                "while(temp->link!=NULL) temp=temp->link",
+                "while(temp->link!=data) temp=temp->link"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+            "options": [
+                "Linked list",
+                "Node list",
+                "Primitive list",
+                "Unordered list"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "In linked list each node contains a minimum of two fields. One field is data field to store the data second field is?",
+            "options": [
+                "Pointer to character",
+                "Pointer to integer",
+                "Pointer to node",
+                "Node"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "The concatenation of two lists can be performed in O(1) time. Which of the following variation of the linked list can be used?",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular doubly linked list",
+                "Array implementation of list"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Consider the following definition in c programming language. struct node { int data; struct node * next; } typedef struct node NODE; NODE *ptr; Which of the following c code is used to create new node?",
+            "options": [
+                "ptr = (NODE*)malloc(sizeof(NODE));",
+                "ptr = (NODE*)malloc(NODE);",
+                "ptr = (NODE*)malloc(sizeof(NODE*));",
+                "ptr = (NODE)malloc(sizeof(NODE));"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "What kind of linked list is best to answer questions like “What is the item at position n?”",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular linked list",
+                "Array implementation of linked list"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Linked lists are not suitable for the implementation of ___________",
+            "options": [
+                "Insertion sort",
+                "Radix sort",
+                "Polynomial manipulation",
+                "Binary search"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Linked list is considered as an example of ___________ type of memory allocation.",
+            "options": [
+                "Dynamic",
+                "Static",
+                "Compile time",
+                "Heap"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "Linked list data structure offers considerable saving in _____________",
+            "options": [
+                "Computational Time",
+                "Space Utilization",
+                "Space Utilization and Computational Time",
+                "Speed Utilization"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Which of the following points is/are not true about Linked List data structure when it is compared with an array?",
+            "options": [
+                "Arrays have better cache locality that can make them better in terms of performance",
+                "It is easy to insert and delete elements in Linked List",
+                "Random access is not allowed in a typical implementation of Linked Lists",
+                "Access of elements in linked list takes less time than compared to arrays"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 51,
+            "questionText": "What does the following function do for a given Linked List with first node as head? void fun1(struct node* head) { if(head == NULL) return; fun1(head->next); printf(\"%d \", head->data); }",
+            "options": [
+                "Prints all nodes of linked lists",
+                "Prints all nodes of linked list in reverse order",
+                "Prints alternate nodes of Linked List",
+                "Prints alternate nodes in reverse order"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 52,
+            "questionText": "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
+            "options": [
+                "Insertion Sort",
+                "Quick Sort",
+                "Heap Sort",
+                "Merge Sort"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 53,
+            "questionText": "What differentiates a circular linked list from a normal linked list?",
+            "options": [
+                "You cannot have the ‘next’ pointer point to null in a circular linked list",
+                "It is faster to traverse the circular linked list",
+                "In a circular linked list, each node points to the previous node instead of the next node",
+                "Head node is known in circular linked list"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 54,
+            "questionText": "What is the time complexity of searching for an element in a circular linked list?",
+            "options": [
+                "O(n)",
+                "O(nlogn)",
+                "O(1)",
+                "O(n^2)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 55,
+            "questionText": "Which of the following application makes use of a circular linked list?",
+            "options": [
+                "Undo operation in a text editor",
+                "Recursive function calls",
+                "Allocating CPU to resources",
+                "Implement Hash Tables"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 56,
+            "questionText": "Which of the following is false about a circular linked list?",
+            "options": [
+                "Every node has a successor",
+                "Time complexity of inserting a new node at the head of the list is O(1)",
+                "Time complexity for deleting the last node is O(n)",
+                "We can traverse the whole circular linked list by starting from any point"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 57,
+            "questionText": "You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?",
+            "options": [
+                "Delete the first element",
+                "Insert a new element as a first element",
+                "Delete the last element of the list",
+                "Add a new element at the end of the list"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 58,
+            "questionText": "In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is?",
+            "options": [
+                "log2 n",
+                "n/2",
+                "log2 n – 1",
+                "n"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 59,
+            "questionText": "The optimal data structure used to solve Tower of Hanoi is _________",
+            "options": [
+                "Tree",
+                "Heap",
+                "Priority queue",
+                "Stack"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 60,
+            "questionText": "In simple chaining, what data structure is appropriate?",
+            "options": [
+                "Doubly linked list",
+                "Circular linked list",
+                "Singly linked list",
+                "Binary trees"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 61,
+            "questionText": "In a binary heap, what is the time complexity of deleting the maximum element?",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n log n)"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 62,
+            "questionText": "How many edges does a complete graph with n vertices have?",
+            "options": [
+                "n(n-1)",
+                "n(n-1)/2",
+                "n^2",
+                "n^2-n"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 63,
+            "questionText": "The data structure used in breadth first search algorithm is",
+            "options": [
+                "Queue",
+                "Stack",
+                "Heap",
+                "Hash Table"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 64,
+            "questionText": "In a max-heap with n elements, where are the leaf nodes stored?",
+            "options": [
+                "Levels 0 to log n -1",
+                "Last level only",
+                "Levels log n to n",
+                "Randomly"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 65,
+            "questionText": "Which of the following traversal algorithms ensures elements are visited in sorted order for a binary search tree?",
+            "options": [
+                "Pre-order",
+                "Post-order",
+                "In-order",
+                "Level-order"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 66,
+            "questionText": "What is the maximum number of nodes in a binary tree of height h?",
+            "options": [
+                "2^h - 1",
+                "2^(h-1) - 1",
+                "2^(h+1) – 1",
+                "2^h"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 67,
+            "questionText": "The post-order traversal of a binary tree is 8, 9, 6, 7, 4, 5, 2, 3, 1. The in-order traversal of the same tree is 8, 6, 9, 4, 7, 2, 5, 1, 3. The height of a tree is defined as the length of the longest path from the root to any leaf node. What is the height of this binary tree?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 68,
+            "questionText": "The result of preorder traversal is same as:",
+            "options": [
+                "Depth-first order",
+                "Breadth-First order",
+                "Topological order",
+                "Linear order"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 69,
+            "questionText": "Which of the following is not an advantage of trees?",
+            "options": [
+                "Hierarchical structure",
+                "Faster search",
+                "Router algorithms",
+                "Undo/Redo operations in a notepad"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 70,
+            "questionText": "In a full binary tree if number of internal nodes is I, then number of leaves L are?",
+            "options": [
+                "L = 2*I",
+                "L = I + 1",
+                "L = I – 1",
+                "L = 2*I – 1"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 71,
+            "questionText": "Which of the following is incorrect with respect to binary trees?",
+            "options": [
+                "Let T be a binary tree. For every k ≥ 0, there are no more than 2k nodes in level k",
+                "Let T be a binary tree with λ levels. Then T has no more than 2^λ – 1 nodes",
+                "Let T be a binary tree with N nodes. Then the number of levels is at least ceil(log (N + 1))",
+                "Let T be a binary tree with N nodes. Then the number of levels is at least floor(log (N + 1))"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 72,
+            "questionText": "Construct a binary tree by using postorder and inorder sequences given below. Inorder: N, M, P, O, Q Postorder: N, P, Q, O, M",
+            "options": [
+                "Tree with M as root, N as left child, O as right child, and O having children Q, P",
+                "Tree with N as root, M as left child, O as right child, and O having children Q, P",
+                "Tree with M as root, N as left child, O as right child, and O having children P, Q",
+                "None of these"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 73,
+            "questionText": "For the tree below, write the in-order traversal. [Tree shown in diagram]",
+            "options": [
+                "6, 2, 5, 7, 11, 2, 5, 9, 4",
+                "6, 5, 2, 11, 7, 4, 9, 5, 2",
+                "2, 7, 2, 6, 5, 11, 5, 9, 4",
+                "2, 7, 6, 5, 11, 2, 9, 5, 4"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 74,
+            "questionText": "Which of the following graph traversals closely imitates level order traversal of a binary tree?",
+            "options": [
+                "Depth First Search",
+                "Breadth First Search",
+                "Depth & Breadth First Search",
+                "Binary Search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 75,
+            "questionText": "What is the time complexity of level order traversal?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(logn)",
+                "O(nlogn)"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 76,
+            "questionText": "Which of the following statements for a simple graph is correct?",
+            "options": [
+                "Every path is a trail",
+                "Every trail is a path",
+                "Every trail is a path as well as every path is a trail",
+                "Path and trail have no relation"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 77,
+            "questionText": "In the given graph identify the cut vertices. [Graph with nodes A, B, C, D, E]",
+            "options": [
+                "B and E",
+                "C and D",
+                "A and E",
+                "C and B"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 78,
+            "questionText": "The given Graph is regular. [Graph shown in diagram]",
+            "options": [
+                "True",
+                "False",
+                "Maybe",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 79,
+            "questionText": "A connected planar graph having 6 vertices, 7 edges contains _____________ regions.",
+            "options": [
+                "15",
+                "3",
+                "1",
+                "11"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 80,
+            "questionText": "Which of the following properties does a simple graph not hold?",
+            "options": [
+                "Must be connected",
+                "Must be unweighted",
+                "Must have no loops or multiple edges",
+                "Must have no multiple edges"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 81,
+            "questionText": "A hash table is",
+            "options": [
+                "A structure used to implement stack and queue",
+                "A structure used for storage",
+                "A structure that maps values to keys",
+                "A structure that maps keys to values"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 82,
+            "questionText": "A hashing function which stores colliding items together in linked lists is",
+            "options": [
+                "Separate chaining",
+                "Linear hashing with collision detection",
+                "Universal hashing",
+                "Linear hashing"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 83,
+            "questionText": "For merging two sorted lists of size m and n into a sorted list of size m+n we required comparisons of",
+            "options": [
+                "O(m)",
+                "O(n)",
+                "O(m+n)",
+                "O(log m+log n)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 84,
+            "questionText": "If several elements are competing for the same bucket in the hash table, what is it called?",
+            "options": [
+                "Diffusion",
+                "Replication",
+                "Collision",
+                "Duplication"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 85,
+            "questionText": "Which of the following is not an in-place sorting algorithm?",
+            "options": [
+                "Selection sort",
+                "Heap sort",
+                "Quick sort",
+                "Merge sort"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 86,
+            "questionText": "The time complexity of heap sort in worst case is:",
+            "options": [
+                "O(log n)",
+                "O(n)",
+                "O(nlog n)",
+                "O(n^2)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 87,
+            "questionText": "What is direct addressing?",
+            "options": [
+                "Distinct array position for every possible key",
+                "Fewer array positions than keys",
+                "Fewer keys than array positions",
+                "Same array position for all keys"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 88,
+            "questionText": "What is a hash function?",
+            "options": [
+                "A function has allocated memory to keys",
+                "A function that computes the location of the key in the array",
+                "A function that creates an array",
+                "A function that computes the location of the values in the array"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 89,
+            "questionText": "What is the load factor?",
+            "options": [
+                "Average array size",
+                "Average key size",
+                "Average chain length",
+                "Average hash table length"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 90,
+            "questionText": "In simple chaining, what data structure is appropriate?",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular linked list",
+                "Binary trees"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 91,
+            "questionText": "Which of the following is the most widely used external memory data structure?",
+            "options": [
+                "AVL tree",
+                "B-tree",
+                "Red-black tree",
+                "Both AVL tree and Red-black tree"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 92,
+            "questionText": "Which of the following sorting algorithms is the fastest for sorting small arrays?",
+            "options": [
+                "Quick sort",
+                "Shell sort",
+                "Insertion sort",
+                "Heap sort"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 93,
+            "questionText": "What is the advantage of selection sort over other sorting techniques?",
+            "options": [
+                "It is faster than any other sorting technique",
+                "It is scalable",
+                "It works best for inputs which are already sorted",
+                "It requires no additional storage space"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 94,
+            "questionText": "Which of the following method is used for sorting in merge sort?",
+            "options": [
+                "partitioning",
+                "merging",
+                "exchanging",
+                "selection"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 95,
+            "questionText": "Which of the following sorting algorithm does not use recursion?",
+            "options": [
+                "bottom up merge sort",
+                "merge sort",
+                "heap sort",
+                "quick sort"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 96,
+            "questionText": "Merge sort uses which of the following method to implement sorting?",
+            "options": [
+                "selection",
+                "exchanging",
+                "merging",
+                "partitioning"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 97,
+            "questionText": "Which of the following sorting algorithms is the fastest?",
+            "options": [
+                "Merge sort",
+                "Shell sort",
+                "Insertion sort",
+                "Quick sort"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 98,
+            "questionText": "Shell sort algorithm is an example of?",
+            "options": [
+                "Bottom-up sorting",
+                "In-place sorting",
+                "Internal sorting",
+                "External sorting"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 99,
+            "questionText": "In heap sort, after deleting the last minimum element, the array will contain elements in?",
+            "options": [
+                "increasing sorting order",
+                "tree preorder",
+                "tree inorder",
+                "decreasing sorting order"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 100,
+            "questionText": "Which of the following pair of sorting algorithms are stable?",
+            "options": [
+                "gnome sort and merge sort",
+                "heap sort and merge sort",
+                "gnome sort and quick sort",
+                "merge sort and selection sort"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        }
+    ]
+}

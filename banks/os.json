@@ -1,0 +1,1205 @@
+{
+    "quizTitle": "Operating Systems MCQs - Mahaguru Institute of Technology",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Which of the following is NOT a service provided by an operating system?",
+            "options": [
+                "File management",
+                "Memory allocation",
+                "Network routing",
+                "Process scheduling"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Which system call is used to terminate a process?",
+            "options": [
+                "exec()",
+                "exit()",
+                "fork()",
+                "wait()"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Which of the following describes a microkernel-based operating system?",
+            "options": [
+                "All services are executed in user space.",
+                "Only essential services run in kernel mode.",
+                "All services run in kernel mode for efficiency.",
+                "It uses a large number of device drivers."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which structure in operating systems is characterized by minimal functionality, with other features implemented as user-level programs?",
+            "options": [
+                "Microkernel",
+                "Monolithic kernel",
+                "Layered approach",
+                "Modular structure"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "Which of the following is a key advantage of the layered approach to operating system design?",
+            "options": [
+                "Flexibility in hardware management",
+                "Easy to understand and maintain",
+                "Simplicity in implementation",
+                "High execution speed"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "In the layered approach to operating systems, what is the role of the topmost layer?",
+            "options": [
+                "Hardware abstraction",
+                "System resources management",
+                "User interface management",
+                "Process scheduling"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "What is the role of the system call in operating systems?",
+            "options": [
+                "To allow user applications to interact with the hardware",
+                "To allow user applications to request kernel-level services",
+                "To manage system resources directly",
+                "To manage user permissions"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Which of the following describes the purpose of a system boot process?",
+            "options": [
+                "Initialization of the hardware",
+                "Loading the operating system into memory",
+                "Starting all user applications",
+                "Establishing network connections"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "In a simple structure operating system, how are the different components of the OS organized?",
+            "options": [
+                "Each component works independently without interaction.",
+                "Components are tightly coupled and interact directly.",
+                "The OS has separate modules for each component.",
+                "All components are arranged in layers."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which of the following is a disadvantage of the monolithic kernel structure?",
+            "options": [
+                "Complex and difficult to maintain",
+                "High overhead due to system calls",
+                "Lack of flexibility",
+                "High memory usage"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Which state does a process transition to when it is ready to be executed by the CPU?",
+            "options": [
+                "Running",
+                "Ready",
+                "Waiting",
+                "Terminated"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "What is stored in the process control block (PCB)?",
+            "options": [
+                "Program code and data",
+                "Process state and resources",
+                "Input and output buffers",
+                "Memory maps and virtual addresses"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "What is the main purpose of threads in a process?",
+            "options": [
+                "To run the entire program code",
+                "To manage resources independently",
+                "To divide a process into smaller, manageable tasks",
+                "To enhance user interface response times"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Which of the following is NOT a valid process state?",
+            "options": [
+                "New",
+                "Ready",
+                "Running",
+                "Suspended"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Which of the following describes the role of a process scheduler?",
+            "options": [
+                "Allocates memory to processes",
+                "Decides which process gets the CPU next",
+                "Handles process termination",
+                "Initiates system boot"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "What is the purpose of inter-process communication (IPC)?",
+            "options": [
+                "To synchronize processes to avoid conflicts",
+                "To allow processes to communicate with each other",
+                "To allocate memory for processes",
+                "To manage CPU scheduling"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Which of the following methods is used for inter-process communication where processes access a shared memory region?",
+            "options": [
+                "Message passing",
+                "Semaphore synchronization",
+                "Shared memory",
+                "Socket communication"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which IPC mechanism involves passing messages between processes?",
+            "options": [
+                "Shared memory",
+                "Message passing",
+                "Signal synchronization",
+                "File mapping"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Which of the following actions is performed by the `fork()` system call?",
+            "options": [
+                "Creates a new process",
+                "Terminates the current process",
+                "Waits for a child process to terminate",
+                "Allocates resources to a process"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "What does the `wait()` system call do in process management?",
+            "options": [
+                "Waits for a process to complete before continuing",
+                "Terminates a process after it finishes execution",
+                "Suspends a process",
+                "Allocates resources to a process"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Threads of a process share",
+            "options": [
+                "global variables but not heap.",
+                "heap but not global variables.",
+                "neither global variables nor heap.",
+                "both heap and global variables."
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Which of the following is/are shared by all the threads in a process? I. Program counter, II. Stack, III. Address space, IV. Registers",
+            "options": [
+                "I and II only",
+                "III only",
+                "IV only",
+                "III and IV only"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "Consider the set of processes with arrival time (in milliseconds), CPU burst time (in milliseconds), and priority (0 is the highest priority) shown below: P1(0, 11, 2), P2(5, 28, 0), P3(12, 2, 3), P4(2, 10, 1), P5(9, 16, 4). The average waiting time of all the processes using preemptive priority scheduling algorithm is",
+            "options": [
+                "29",
+                "30",
+                "31",
+                "32"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Consider the following processes with arrival time and CPU burst given in milliseconds: P1(0, 10), P2(3, 6), P3(7, 1), P4(8, 3). The scheduling algorithm used is preemptive shortest remaining-time first. The average turn around time of these processes is",
+            "options": [
+                "8.25",
+                "8.26",
+                "8.27",
+                "8.28"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "The maximum number of processes that can be in Ready state for a computer system with n CPUs is",
+            "options": [
+                "n",
+                "n^2",
+                "2^n",
+                "Independent of n"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "A scheduling algorithm assigns priority proportional to the waiting time of a process. Every process starts with priority zero (the lowest priority). The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule. Which one of the following is TRUE if the processes have no I/O operations and all arrive at time zero?",
+            "options": [
+                "This algorithm is equivalent to the first-come-first-serve algorithm.",
+                "This algorithm is equivalent to the round-robin algorithm.",
+                "This algorithm is equivalent to the shortest-job-first algorithm.",
+                "This algorithm is equivalent to the shortest-remaining-time-first algorithm."
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "A thread is usually defined as a 'light weight process' because an operating system (OS) maintains smaller data structures for a thread than for a process. In relation to this, which of the following is TRUE?",
+            "options": [
+                "On per-thread basis, the OS maintains only CPU register state",
+                "The OS does not maintain a separate stack for each thread",
+                "On per-thread basis, the OS does not maintain virtual memory state",
+                "On per thread basis, the OS maintains only scheduling and accounting information"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Consider the table of arrival time and burst time for three processes P0(0ms, 9ms), P1(1ms, 4ms), P2(2ms, 9ms). The pre-emptive shortest job first scheduling algorithm is used. What is the average waiting time?",
+            "options": [
+                "5.0 ms",
+                "4.33 ms",
+                "6.33 ms",
+                "7.33 ms"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "Which of the following statements are true? I. Shortest remaining time first scheduling may cause starvation, II. Preemptive scheduling may cause starvation, III. Round robin is better than FCFS in terms of response time",
+            "options": [
+                "I only",
+                "I and III only",
+                "II and III only",
+                "I, II and III"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "In the provided process state transition diagram for a uniprocessor system, consider statements: I. If a process makes a transition D, it would result in another process making transition A immediately. II. A process P2 in blocked state can make transition E while another process P1 is in running state. III. The OS uses preemptive scheduling. IV. The OS uses non-preemptive scheduling. Which are TRUE?",
+            "options": [
+                "I and II",
+                "I and III",
+                "II and III",
+                "II and IV"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Consider statements about user level threads and kernel level threads. Which one is FALSE?",
+            "options": [
+                "Context switch time is longer for kernel level threads than for user level threads.",
+                "User level threads do not need any hardware support.",
+                "Related kernel level threads can be scheduled on different processors in a multi-processor system.",
+                "Blocking one kernel level thread blocks all related threads"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Consider three CPU-intensive processes requiring 10, 20 and 30 time units and arrive at times 0, 2 and 6. How many context switches are needed if the OS implements shortest remaining time first? (Don't count switches at time zero and at the end)",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "With respect to user-level threads and kernel supported threads: (i) context switch is faster with kernel-supported threads, (ii) for user-level threads, a system call can block the entire process, (iii) Kernel supported threads can be scheduled independently, (iv) User level threads are transparent to the kernel. Which are true?",
+            "options": [
+                "(ii), (iii) and (iv) only",
+                "(ii) and (iii) only",
+                "(i) and (iii) only",
+                "(i) and (ii) only"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Which of the following scheduling algorithms is non-preemptive?",
+            "options": [
+                "Round Robin",
+                "First-In First-Out",
+                "Multilevel Queue Scheduling",
+                "Multilevel Queue Scheduling with Feedback"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "The process state transition diagram showing 'Running -> Ready', 'Running -> Blocked', 'Blocked -> Ready', 'Ready -> Running', 'Running -> Terminated' is representative of:",
+            "options": [
+                "a batch operating system",
+                "an operating system with a preemptive scheduler",
+                "an operating system with a non-preemptive scheduler",
+                "a uni-programmed operating system"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "Consider the following statements about process state transitions for a system using preemptive scheduling: I. A running process can move to ready state. II. A ready process can move to running state. III. A blocked process can move to running state. IV. A blocked process can move to ready state. Which are TRUE?",
+            "options": [
+                "II and III only",
+                "I, II and III only",
+                "I, II, III and IV",
+                "I, II and IV only"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "The term ‘aging’ refers to",
+            "options": [
+                "booting up the priority of the process in multi-level of queue without feedback",
+                "keeping track of the following a page has been in memory for the purpose of LRU replacement",
+                "letting job reside in memory for a certain amount of time so that the number of pages required can be estimated accurately",
+                "gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Note: In OS scheduling, aging usually refers to option (d), but based on the provided Answer Key, option (b) is marked."
+        },
+        {
+            "id": 38,
+            "questionText": "Round Robin schedule is essentially the preemptive version of",
+            "options": [
+                "FIFO",
+                "Shortest job first",
+                "Shortest remaining time",
+                "Longest remaining time"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "With Round-Robin CPU scheduling in a time shared system",
+            "options": [
+                "using very large time slices (quantas) degenerates into First Come First served (FCFS) algorithm.",
+                "using extremely small time slices improves performance",
+                "using very small time slices degenerates into Last-In First-Out (LIFO) algorithm.",
+                "using medium sized times slices leads to shortest Request time First (SRTF) algorithm"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "The performance of Round Robin algorithm depends heavily on",
+            "options": [
+                "size of the process",
+                "the I/O bursts of the process",
+                "the CPU bursts of the process",
+                "the size of the time quantum"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Consider the methods used by P1 (while (S1==S2); Critical Section; S1=S2;) and P2 (while (S1!=S2); Critical Section; S2=not(S1);). Which describes the properties achieved?",
+            "options": [
+                "Mutual exclusion but not progress",
+                "Progress but not mutual exclusion",
+                "Neither mutual exclusion nor progress",
+                "Both mutual exclusion and progress"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "A program consists of 3 concurrent processes and 3 binary semaphores S0=1, S1=0, S2=0. P0 executes: while(true) { wait(S0); print '0'; release(S1); release(S2); }. P1: wait(S1); release(S0); P2: wait(S2); release(S0); How many times will P0 print '0'?",
+            "options": [
+                "At least twice",
+                "Exactly twice",
+                "Exactly thrice",
+                "Exactly once"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "Which of the following is NOT true of deadlock prevention and deadlock avoidance schemes?",
+            "options": [
+                "In deadlock prevention, the request for resources is always granted if the resulting state is safe",
+                "In deadlock avoidance, the request for resources is always granted if the result state is safe",
+                "Deadlock avoidance is less restrictive than deadlock prevention",
+                "Deadlock avoidance requires knowledge of resource requirements a priori"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Which of the following is NOT a valid deadlock prevention scheme?",
+            "options": [
+                "Release all resources before requesting a new resource",
+                "Number the resources uniquely and never request a lower numbered resource than the last one requested",
+                "Never request a resource after releasing any resource",
+                "Request and all required resources be allocated before execution"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "A counting semaphore was initialized to 10. Then 6P (wait) operations and 4V (signal) operations were completed. The resulting value is",
+            "options": [
+                "0",
+                "8",
+                "10",
+                "12"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "A computer has six tape drives, with n processes competing for them. Each process may need two drives. What is the maximum value of n for the system to be deadlock free?",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "3"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Consider a system having m resources of the same type shared by 3 processes A, B and C with peak demands of 3, 4 and 6. For what value of m deadlock will not occur?",
+            "options": [
+                "7",
+                "9",
+                "13, 15",
+                "13"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "A critical section is a program segment",
+            "options": [
+                "which should run in a certain specified amount of time",
+                "which avoids deadlocks",
+                "where shared resources are accessed",
+                "which must be enclosed by a pair of semaphore operations, P and V"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "At a particular time the value of a counting semaphore is 7. Then 20 P operations and 15 V operations were completed. The resulting value is:",
+            "options": [
+                "42",
+                "2",
+                "7",
+                "12"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "A computer system has 6 tape drives, with n processes. Each process may need 3 tape drives. The maximum value of n for which the system is guaranteed to be deadlock free is:",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 51,
+            "questionText": "A critical region is",
+            "options": [
+                "One which is enclosed by a pair of P and V operations on semaphores.",
+                "A program segment that has not been proved bug-free.",
+                "A program segment that often causes unexpected system crashes.",
+                "A program segment where shared resources are accessed."
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 52,
+            "questionText": "An operating system implements a policy that requires a process to release all resources before making a request for another resource. Select the TRUE statement:",
+            "options": [
+                "Both starvation and deadlock can occur",
+                "Starvation can occur but deadlock cannot occur",
+                "Starvation cannot occur but deadlock can occur",
+                "Neither starvation nor deadlock can occur"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 53,
+            "questionText": "Consider a system having ‘m’ resources of the same type shared by 3 processes A, B, C with peak demands 3, 4, 6. The minimum value of ‘m’ that ensures that deadlock will never occur is",
+            "options": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 54,
+            "questionText": "Semaphores",
+            "options": [
+                "synchronize critical resources to prevent deadlock",
+                "synchronize critical resources to prevent contention",
+                "are used to do I/O",
+                "are used for memory management"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 55,
+            "questionText": "Mutual exclusion problem occurs",
+            "options": [
+                "Between two disjoint processes that do not interact",
+                "Among processes that share resources",
+                "Among processes that do not use the same resource",
+                "Between two processes that uses different resources of different machine"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 56,
+            "questionText": "In which necessary condition for deadlock do processes claim exclusive control of the resources they require?",
+            "options": [
+                "no preemption",
+                "mutual exclusion",
+                "circular wait",
+                "hold and wait"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 57,
+            "questionText": "The value of a counting semaphore is 10, it will become 7 after: (a) 3 V operations, (b) 3 P operations, (c) 5 V and 2 P, (d) 2 V and 5 P. Which option is correct?",
+            "options": [
+                "Only (b)",
+                "Only(d)",
+                "Both (b) and (d)",
+                "None of these"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 58,
+            "questionText": "With single resource, deadlock occurs",
+            "options": [
+                "If there are more than two processes competing for that resources",
+                "If there are only two processes competing for that resources",
+                "If there is a single process competing for that resources",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 59,
+            "questionText": "The value of a counting semaphore is 7. Then 20 P operations and xV operations were completed. If the new value is 5, x will be",
+            "options": [
+                "18",
+                "22",
+                "15",
+                "13"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 60,
+            "questionText": "Total of 9 units available. State: P1(Used 2, Max 7), P2(1, 6), P3(2, 5), P4(1, 4). Which is a safe state?",
+            "options": [
+                "(P4, P1, P3, P2)",
+                "(P4, P2, P1, P3)",
+                "(P4, P2, P3, P1)",
+                "(P3, P1, P2, P4)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 61,
+            "questionText": "Which of the following are the likely causes of thrashing?",
+            "options": [
+                "Page size was very small",
+                "There are too many programs running in the system",
+                "Least recently used policy is used for page replacement",
+                "First in First out policy is used for page replacement"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 62,
+            "questionText": "In a 64-bit machine, with 2 GB RAM, and 8 KB page size, how many entries will be there in the page table if it is inverted?",
+            "options": [
+                "2^18",
+                "2^20",
+                "2^33",
+                "2^51"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 63,
+            "questionText": "Consider page references: 9 6 2 3 4 4 4 4 3 4 4 2 5 8 6 8 5 5 3 2 3 3 9 6 2 7. What is the working set at the penultimate page reference if ∆ is 5?",
+            "options": [
+                "{ 8,5,3,2,9,6}",
+                "{ 4,3,6,2,5}",
+                "{ 3,9,6,2,7}",
+                "{ 3,9,6,2,1}"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 64,
+            "questionText": "Consider segment table: Seg0(Base 200, Limit 200), Seg1(500, 1210), Seg2(1527, 498), Seg3(2500, 50). What happens if logical address is Seg ID 2 and offset 1000?",
+            "options": [
+                "Fetches entry at physical address 2527 for segment Id2",
+                "A trap is generated",
+                "Deadlock",
+                "Fetches entry at offset 27 in Segment Id 3"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 65,
+            "questionText": "A computer has 16 virtual pages, 4 frames. Refs: 0, 2, 4, 5, 2, 4, 3, 11, 2, 10. How many page faults occur if LRU is used?",
+            "options": [
+                "3",
+                "5",
+                "7",
+                "8"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 66,
+            "questionText": "Dirty bit is used to indicate which of the following?",
+            "options": [
+                "A page fault has occurred",
+                "A page has corrupted data",
+                "A page has been modified after being loaded into cache",
+                "An illegal access of page"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 67,
+            "questionText": "Page hit ratio 0.40. Secondary access time 120 ns. Primary access 15 ns. Average time to access a page is",
+            "options": [
+                "105",
+                "68",
+                "75",
+                "78"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 68,
+            "questionText": "Which are true? 1. External Frag exists when there's enough space but not contiguous. 2. Frag can be internal or external. 3. Compaction solves external fragmentation.",
+            "options": [
+                "(a) and (b) only",
+                "(a) and (c) only",
+                "(b) and (c) only",
+                "(a), (b) and (c)"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 69,
+            "questionText": "Page information in memory is also called a Page Table. Essential contents in each entry is/are:",
+            "options": [
+                "Page Access information",
+                "Virtual Page number",
+                "Page Frame number",
+                "Both virtual page number and Page Frame Number"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 70,
+            "questionText": "Page refs: 1, 2, 3, 2, 4, 2, 5, 2, 3, 4. LRU used with 3 frames. Number of page faults is",
+            "options": [
+                "5",
+                "7",
+                "9",
+                "10"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 71,
+            "questionText": "32 bit virtual addresses, page size 4KB. TLB holds 128 entries and is 4-way set associative. Minimum size of TLB tag is",
+            "options": [
+                "11 bits",
+                "13 bits",
+                "15 bits",
+                "20 bits"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 72,
+            "questionText": "Dirty bit is used to show the",
+            "options": [
+                "Page with low frequency occurrence",
+                "Wrong page",
+                "Page with corrupted data",
+                "Page that is modified after being loaded into cache memory"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 73,
+            "questionText": "If there are 32 segments, each size 1K bytes, the logical address should have",
+            "options": [
+                "13 bits",
+                "14 bits",
+                "15 bits",
+                "16 bits"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 74,
+            "questionText": "Increasing RAM typically improves performance because:",
+            "options": [
+                "Virtual Memory increases",
+                "Larger RAMs are faster",
+                "Fewer page faults occur",
+                "Fewer segmentation faults occur"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 75,
+            "questionText": "How many page faults in LRU for: 7,0,1,2,0,3,4,2,3,0,3,2,1,2,0,1 with four frames?",
+            "options": [
+                "6",
+                "8",
+                "7",
+                "9"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 76,
+            "questionText": "TLB access 100ns. Otherwise 400ns. Assuming hit ratio 80%, access time is:",
+            "options": [
+                "120ns",
+                "160ns",
+                "200ns",
+                "500ns"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 77,
+            "questionText": "32 bit virtual address, 28 bit physical, 2 KB pages. How many bits for virtual and physical page number?",
+            "options": [
+                "17, 21",
+                "21, 17",
+                "6, 10",
+                "None"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 78,
+            "questionText": "Demand paging system, 100 records per page, 1 free frame. Refs: 0100, 0200, 0430, 0499, 0510, 0530, 0560, 0120, 0220, 0240, 0260, 0320, 0370. Number of faults?",
+            "options": [
+                "15,4",
+                "6,4",
+                "7,2",
+                "4,6"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 79,
+            "questionText": "Each process contained in single section of memory contiguous to section containing the next process is called",
+            "options": [
+                "Contiguous memory protection",
+                "Contiguous path name",
+                "Definite path name",
+                "Indefinite path name"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 80,
+            "questionText": "Copying a process from memory to disk to allow space for other processes is called:",
+            "options": [
+                "Demand paging",
+                "Deadlock",
+                "page fault",
+                "Swapping"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 81,
+            "questionText": "In which disk scheduling algorithm does the head move to one end, serve requests, then immediately return to beginning without serving requests on return?",
+            "options": [
+                "LOOK",
+                "SCAN",
+                "C-LOOK",
+                "C-SCAN"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 82,
+            "questionText": "Application programmer prefers APIs over system calls. Which is NOT the correct reason?",
+            "options": [
+                "APIs execute faster than system calls",
+                "APIs are easy to use",
+                "Use of APIs makes the program portable",
+                "APIs can potentially improve readability of the code"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 83,
+            "questionText": "Head at track 32. Requests: 98, 37, 14, 124, 65, 67. Find moves with FCFS.",
+            "options": [
+                "320",
+                "322",
+                "321",
+                "319"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 84,
+            "questionText": "Disk with 16384 bytes/track, rotation time 16 msec, seek time 40 msec. Time in msec to read a block of 1024 bytes?",
+            "options": [
+                "57 msec",
+                "49 msec",
+                "48 msec",
+                "17 msec"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 85,
+            "questionText": "Disk 100 cylinders (0-99). Refs: 12, 26, 24, 4, 42, 8, 50. Currently at 24. Seek time 6 msec per cylinder. Total time for SSTF?",
+            "options": [
+                "0.984 sec",
+                "0.396 sec",
+                "0.738 sec",
+                "0.42 sec"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 86,
+            "questionText": "Match: (a) Disk scheduling, (b) Batch processing, (c) Time sharing, (d) Interrupt processing with (1) Round robin, (2) Scan, (3) LIFO, (4) FIFO.",
+            "options": [
+                "a-3, b-4, c-2, d-1",
+                "a-4, b-3, c-2, d-1",
+                "a-2, b-4, c-1, d-3",
+                "a-3, b-4, c-1, d-2"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 87,
+            "questionText": "Disk pack: 32 surfaces, 64 tracks, 512 sectors per pack. 256 bytes per sector. Bits required to specify a particular sector?",
+            "options": [
+                "19",
+                "20",
+                "18",
+                "22"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 88,
+            "questionText": "Unix i-node: 12 direct, 1 indirect, 1 double indirect. Block size 256 bytes, address size 2 bytes. Maximum file size is:",
+            "options": [
+                "16 MB",
+                "16 KB",
+                "70 KB",
+                "71 KB"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 89,
+            "questionText": "Head at 32. Disk queue: 98, 37, 14, 124, 65, 67. Number of disk moves with FCFS?",
+            "options": [
+                "239",
+                "310",
+                "321",
+                "325"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 90,
+            "questionText": "How much space required for bitmap of 1.3 GB disk with 512 bytes block size?",
+            "options": [
+                "332.8 KB",
+                "83.6 KB",
+                "266.2 KB",
+                "256.6 KB"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 91,
+            "questionText": "Which is the primary purpose of disk structure management?",
+            "options": [
+                "To increase file access time",
+                "To reduce fragmentation",
+                "To allocate contiguous blocks",
+                "To manage multiple threads"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 92,
+            "questionText": "Which disk scheduling algorithm minimizes seek time by serving requests in one direction until the end?",
+            "options": [
+                "FCFS",
+                "SSTF",
+                "SCAN",
+                "Circular SCAN"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 93,
+            "questionText": "Which file system operation involves updating metadata like last modified time?",
+            "options": [
+                "Create",
+                "Write",
+                "Open",
+                "Seek"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 94,
+            "questionText": "Disk formatting prepares:",
+            "options": [
+                "A disk for storage use",
+                "Pages for swapping",
+                "Memory for paging",
+                "Directories for execution"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 95,
+            "questionText": "SSDs differ from magnetic disks by:",
+            "options": [
+                "Having moving parts",
+                "Using flash memory",
+                "Using rotational storage",
+                "Being slower"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 96,
+            "questionText": "File-system protection ensures:",
+            "options": [
+                "File confidentiality",
+                "File integrity",
+                "Access control",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 97,
+            "questionText": "Directory implementation involves:",
+            "options": [
+                "File name mapping",
+                "Memory segmentation",
+                "Deadlock prevention",
+                "Paging"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 98,
+            "questionText": "Which is NOT a file operation?",
+            "options": [
+                "Read",
+                "Write",
+                "Execute",
+                "Memory allocation"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 99,
+            "questionText": "Disk scheduling aims to:",
+            "options": [
+                "Minimize seek time",
+                "Format disks",
+                "Allocate memory",
+                "Defragment disks"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 100,
+            "questionText": "Head initially at track 180. Which request set causes head to change direction after every request using SSTF policy (no change on tie)?",
+            "options": [
+                "11, 139, 170, 178, 181, 184, 201, 265",
+                "10, 138, 170, 178, 181, 185, 201, 265",
+                "10, 139, 169, 178, 181, 184, 201, 265",
+                "10, 138, 170, 178, 181, 185, 200, 265"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        }
+    ]
+}

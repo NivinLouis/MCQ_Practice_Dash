@@ -1,0 +1,605 @@
+{
+    "quizTitle": "KTU Sixth Semester B.Tech Degree Examination April 2018 - Comprehensive Exam (CS)",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Let f(x,y) = x² – y². Which of the following is true?",
+            "options": [
+                "f has a maximum at (0,0)",
+                "f has a minimum at (0,0)",
+                "(0.0) is neither a maximum point nor a minimum point",
+                "None of these"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "The differential equation (d²y/dx²)³ + dy/dx = sin x is of",
+            "options": [
+                "Order 2, degree 3",
+                "Order 3, degree 2",
+                "Order 3, degree 3",
+                "Order 2, degree 2"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "For the equilibrium in three dimensional system of axis, which of the following is true?",
+            "options": [
+                "Fx= 0",
+                "Fy= 0",
+                "Fz= 0",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "The theorem of Pappus and Guldinus is used to find",
+            "options": [
+                "Surface area of the body of revolution",
+                "Surface area of the body of linear motion",
+                "Surface area of the body of rectangular motion",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "In isometric projection the angles between the projection of the axes is (in degrees)",
+            "options": [
+                "150",
+                "120",
+                "90",
+                "180"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "If a point P is below HP and behind VP then in which quadrant does P lie?",
+            "options": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "In which year, Water Act (Prevention and Control of pollution) was introduced in India?",
+            "options": [
+                "1975",
+                "1974",
+                "1998",
+                "1988"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Which among the following is a conventional source of energy?",
+            "options": [
+                "Tidal",
+                "Solar",
+                "Coal energy",
+                "Wind"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "The process of building a model of the system to be built is known as",
+            "options": [
+                "Planning",
+                "Design",
+                "Prototyping",
+                "Estimation"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "The technique wherein an object is inspected in detail to identify its components and their interrelationships with the aim of rebuilding or enhancing the object is known as",
+            "options": [
+                "Reverse Engineering",
+                "Software Engineering",
+                "Inspection",
+                "Object Analysis"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "If f(x) = 4x + 9 and g(x) = x³, then determine (f o g)x. Here ‘ o ‘ represents composition of functions.",
+            "options": [
+                "(4x+9)³",
+                "4x + 9",
+                "4x³ + 9",
+                "64x + 9"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Consider the two statements below:\nS1 : Every group of prime order is cyclic\nS2 : Every cyclic group is Abelian\nPick the correct option",
+            "options": [
+                "Both S1 and S2 are false",
+                "Both S1 and S2 are true",
+                "S1 is true but not S2",
+                "S2 is true but not S1"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Let ‘f’ be a function defined from set A to set B. If the cardinalities of domain and range of ‘f’ are ‘m’ and ‘n’ respectively, then which of the following is true?",
+            "options": [
+                "m = n",
+                "m > n",
+                "m < n",
+                "m <= n"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Answer Key marks both A and B as correct. Index 0 corresponds to A."
+        },
+        {
+            "id": 14,
+            "questionText": "A relation R is defined on integers by aRb if and only if |a - b| = 3. What can you say about R?",
+            "options": [
+                "R is irreflexive and antisymmetric",
+                "R is symmetric and transitive",
+                "R is antisymmetric and transitive",
+                "R is irreflexive and symmetric"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Which of the following is valid?",
+            "options": [
+                "p can be derived from the set of premises {(p → q), (q → r), (~q ^ r)}",
+                "~q can be derived from the set of premises {(p → q), ~p}",
+                "(p → (q ^ r)) can be derived from the set of premises {(p → q), (p → r)}",
+                "q can be derived from the set of premises {(p v q), p}"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "The solution to the recurrence an = an-1 + (n - 1) with a1 = 0 is",
+            "options": [
+                "n(n+1)/2",
+                "n(n-1)/2",
+                "(n+2)(n+1)/2",
+                "n(n+3)/2"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Let f(n) and g(n) be two functions such that f(n) ≤ g(n) for all values of n. Then",
+            "options": [
+                "f(n) = Θ(n)",
+                "f(n) = w(n)",
+                "f(n) = O(n)",
+                "f(n) = Ω(n)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which of the following suffers from the problem of infinite traversal?",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular linked list",
+                "Linked list with header node"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Assume you have a stack implemented with an array of size SIZE. If the array positions are numbered from 0, the stack underflow can be identified using what condition?",
+            "options": [
+                "TOP = SIZE",
+                "TOP = – 1",
+                "TOP = SIZE – 1",
+                "TOP = 0"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "A complete binary tree is represented using an array. For a node whose position is k, its right child can be found at which position? (The array index starts from 1)",
+            "options": [
+                "k+1",
+                "2k",
+                "2k-1",
+                "2k+1"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "A binary search tree is constructed out of the keys 5, -1, 12, 30, 15, 2, -87. The inorder traversal of this tree is",
+            "options": [
+                "5, -1, 2, 30, 15, 12, -87",
+                "5, 2, -1, 15, 30, 12, -87",
+                "-87, -1, 2, 5, 12, 15, 30",
+                "-1, 2, 5, 30, 12, 15, -87"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Depth first algorithm can be implemented using",
+            "options": [
+                "Heap",
+                "Stack",
+                "Queue",
+                "Deque"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "The sorting technique in which the smallest element from the unsorted sublist is swapped with the element at the beginning of the unsorted sublist is",
+            "options": [
+                "Selection sort",
+                "Insertion sort",
+                "Quick sort",
+                "Bubble sort"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "The instruction MOV A,#20 uses which addressing mode?",
+            "options": [
+                "Register mode",
+                "Absolute mode",
+                "Immediate mode",
+                "Relative mode"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Which of the following is not an assembler directive?",
+            "options": [
+                "EQU",
+                "ORIGIN",
+                "DATAWORD",
+                "ADD"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "SCSI stands for",
+            "options": [
+                "Simple computer serial interface",
+                "Small computer system interface",
+                "Serial controller for system interface",
+                "Simple computer serial interface"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "A static RAM cell contains",
+            "options": [
+                "Transistor",
+                "Capacitor",
+                "Inverter",
+                "Register"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Answer Key marks both A and C as correct. Index 0 corresponds to A."
+        },
+        {
+            "id": 28,
+            "questionText": "A block-set associative cache memory consists of 128 blocks divided into four block sets. The main memory consists of 16,384 blocks and each block contains 256 eight bit words. How many bits are required for addressing the main memory?",
+            "options": [
+                "22",
+                "20",
+                "32",
+                "36"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "PLA means",
+            "options": [
+                "Programmed Large Array",
+                "Programmable Logic Array",
+                "Programmed Long Array",
+                "Programmable List Array"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "Microprogram sequencer is used in",
+            "options": [
+                "Memory organization",
+                "Accumulator design",
+                "Control unit design",
+                "None of these"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Consider a system with ‘n’ processes and ‘m’ CPUs (n > m). What is the maximum number of processes that can be in running state?",
+            "options": [
+                "0",
+                "1",
+                "n",
+                "m"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Belady’s anomaly occurs in which algorithm?",
+            "options": [
+                "Optimal algorithm",
+                "FIFO algorithm",
+                "SSTF algorithm",
+                "Elevator algorithm"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Banker’s algorithm is used in",
+            "options": [
+                "Deadlock prevention",
+                "Deadlock avoidance",
+                "Deadlock detection",
+                "Deadlock recovery"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "A counting semaphore is initialized to 4. Then 8 P(wait) and 3 V (signal) operations are performed on the semaphore. The final value of the semaphore is",
+            "options": [
+                "-1",
+                "1",
+                "2",
+                "-2"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "A system supports a virtual address space of 4096 pages each with 512 bytes. If the main memory has 1024 frames, the number of bits in physical address is",
+            "options": [
+                "20",
+                "23",
+                "21",
+                "19"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "A computer with 32bit logical addresses uses two level paging. The logical address is divided into a 9 bit top level page table field and an 11 bit second level page table field and an offset field. What is the page size?",
+            "options": [
+                "4KB",
+                "2KB",
+                "16MB",
+                "16KB"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Which of the following is also known as elevator algorithm?",
+            "options": [
+                "SSTF",
+                "CSCAN",
+                "SCAN",
+                "LOOK"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "B-tree supports",
+            "options": [
+                "Direct access of data",
+                "Sequential access of data",
+                "Both (A) and (B)",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Durability property of transactions is enforced by",
+            "options": [
+                "User",
+                "Concurrency control subsystem",
+                "Recovery subsystem",
+                "DB administrator"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "‘n’ transactions can be scheduled in how many ways?",
+            "options": [
+                "N",
+                "n!",
+                "n-1",
+                "n+1"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "Answer key indicates marks may be given to any option marked by the student."
+        },
+        {
+            "id": 41,
+            "questionText": "Consider the two statements below:\nS1 : Every view serializable schedule is also conflict serializable\nS2 : Every conflict serializable schedule is also view serializable\nPick the correct option",
+            "options": [
+                "Both S1 and S2 are false",
+                "Both S1 and S2 are true",
+                "S1 is true but not S2",
+                "S2 is true but not S1"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "The collection of tuples stored in a database at a particular moment is called",
+            "options": [
+                "Schema",
+                "View",
+                "Instance",
+                "Relation"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "Which of the following is free from deadlocks?",
+            "options": [
+                "Strict 2PL (2 phase locking)",
+                "Conservative 2PL",
+                "Basic 2PL",
+                "None of these"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Consider a schedule R1(A), R2(B), W2(B), R3(A), W3(A), R1(B), R3(B), R2(A), W2(A). The schedule is",
+            "options": [
+                "Conflict serializable",
+                "View serializable",
+                "Both (A) and (B)",
+                "Not serializable"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Which of the following is not an application of CFGs?",
+            "options": [
+                "Well formed parentheses",
+                "Type checking",
+                "If-else matching",
+                "String matching"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Pick the true statement",
+            "options": [
+                "The language L = {aⁿ | n <= 1000} is regular",
+                "DFA is more powerful than NFA",
+                "Deterministic PDA is more powerful than non deterministic PDA",
+                "Non deterministic TM is powerful than deterministic TM"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "The number of states in the DFA to accept binary strings whose length is divisible by 5",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "3"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Context free languages are not closed under",
+            "options": [
+                "Intersection",
+                "Union",
+                "Reversal",
+                "Kleene closure"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "Which of the strings cannot be generated using the expression (a*b)*a* ?",
+            "options": [
+                "aaaaaa",
+                "abaaa",
+                "abab",
+                "aaaaaba"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "Answer key indicates marks may be given to any option marked by the student."
+        },
+        {
+            "id": 50,
+            "questionText": "A grammar whose productions are of the form A → BC is in what normal form?",
+            "options": [
+                "Chomsky normal form",
+                "Greibach normal form",
+                "Both (A) and (B)",
+                "Neither (A) nor (B)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        }
+    ]
+}

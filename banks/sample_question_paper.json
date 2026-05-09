@@ -1,0 +1,605 @@
+{
+    "quizTitle": "AMT 308 Comprehensive Course Work - Model Question Paper",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Consider the following sequence of operations on an empty stack. push(22); push(43); pop(); push(55); push(12); s=pop(); Consider the following sequence of operations on an empty queue. enqueue(32);enqueue(27); dequeue(); enqueue(38); enqueue(12); q=dequeue(); The value of s+q is ___________",
+            "options": [
+                "44",
+                "54",
+                "39",
+                "70"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "A B-tree of order (degree) 5 and of height 3 will have a minimum of ___ keys.",
+            "options": [
+                "624",
+                "249",
+                "124",
+                "250"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Construct a binary search tree by inserting 8, 6, 12, 3, 10, 9 one after another. To make the resulting tree as AVL tree which of the following is required?",
+            "options": [
+                "One right rotation only",
+                "One left rotation followed by two right rotations",
+                "One left rotation and one right rotation",
+                "The resulting tree itself is AVL"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "In a complete 4-ary tree, every internal node has exactly 4 children or no child. The number of leaves in such a tree with 6 internal nodes is:",
+            "options": [
+                "20",
+                "18",
+                "19",
+                "17"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "Select the postfix expression for the infix expression a+b-c+d*(e/f).",
+            "options": [
+                "ab+c-d+e*f/",
+                "ab+c-def/*+",
+                "abc-+def/*+",
+                "ab+c-def/*+"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Consider a hash table of size seven, with starting index zero, and a hash function (2x + 5)mod7. Assuming the hash table is initially empty, which of the following is the contents of the table when the sequence 1, 4, 9, 6 is inserted into the table using closed hashing? Note that ‘_’ denotes an empty location in the table.",
+            "options": [
+                "9, _, 1, 6, _, _, 4",
+                "1, _, 6, 9, _, _, 4",
+                "4, _, 9, 6, _, _, 1",
+                "1, _, 9, 6, _, _, 4"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "Compute the time complexity of the following function: void function(int n) { int count = 0; for (int i=n/2; i<=n; i++) for (int j=1; j<=n; j = j + 2) for (int k=1; k<=n; k = k * 2) count++; }",
+            "options": [
+                "O(n^2 logn)",
+                "O(n log^2 n)",
+                "O(n^3)",
+                "O(n logn^2)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "How many distinct binary search trees can be created out of 6 distinct keys?",
+            "options": [
+                "7",
+                "36",
+                "140",
+                "132"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "Which tree traversal performed on a binary search tree, results in ascending order listing of the keys?",
+            "options": [
+                "Pre-order",
+                "In-order",
+                "Post-order",
+                "Level-order"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?",
+            "options": [
+                "Delete the first element",
+                "Insert a new element as a first element",
+                "Add a new element at the end of the list",
+                "Delete the last element of the list"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Suppose a disk has 400 cylinders, numbered from 0 to 399. At some time the disk arm is at cylinder 58, and there is a queue of disk access requests for cylinder 66, 349, 201, 110, 38, 84, 226, 70, 86. If Shortest-Seek Time First (SSTF) is being used for scheduling the disk access, the request for cylinder 86 is serviced after servicing ____________ number of requests.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "If frame size is 4KB then a paging system with page table entry of 2 bytes can address _______ bytes of physical memory.",
+            "options": [
+                "2^12",
+                "2^16",
+                "2^18",
+                "2^28"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Calculate the internal fragmentation if page size is 4KB and process size is 103KB.",
+            "options": [
+                "3KB",
+                "4KB",
+                "1KB",
+                "2KB"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Which of the following scheduling policy is likely to improve interactiveness?",
+            "options": [
+                "FCFS",
+                "Round Robin",
+                "Shortest Process Next",
+                "Priority Based Scheduling"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Consider the following program: Semaphore X=1, Y=0; Void A ( ) { While (1) { P(X); Print’1’; V(Y); } } Void B ( ) { While (1) { P(Y); P(X); Print’0’; V(X); } } The possible output of the program:",
+            "options": [
+                "Any number of 0’s followed by any number of 1’s.",
+                "Any number of 1’s followed by any number of 0’s.",
+                "0 followed by deadlock",
+                "1 followed by deadlock"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "In a system using single processor, a new process arrives at the rate of 12 processes per minute and each such process requires 5 seconds of service time. What is the percentage of CPU utilization?",
+            "options": [
+                "41.66",
+                "100.00",
+                "240.00",
+                "60.00"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "A system has two processes and three identical resources. Each process needs two resources to proceed. Then",
+            "options": [
+                "Deadlock is possible",
+                "Deadlock is not possible",
+                "Starvation may be present",
+                "Thrashing"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "Which of the following is true with regard to Round Robin scheduling technique?",
+            "options": [
+                "Responds poorly to short process with small time quantum.",
+                "Works like SJF for larger time quantum",
+                "Does not use a prior knowledge of burst times of processes.",
+                "Ensure that the ready queue is always of the same size."
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Thrashing can be avoided if",
+            "options": [
+                "the pages, belonging to working set of programs, are in main memory",
+                "the speed of CPU is increased",
+                "the speed of I/O processor is increased",
+                "none of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "The circular wait condition can be prevented by",
+            "options": [
+                "using thread",
+                "defining a linear ordering of resource types",
+                "using pipes",
+                "all of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Application of machine learning methods to large databases is called",
+            "options": [
+                "Data Mining",
+                "Artificial Intelligence",
+                "Big Data Computing",
+                "Internet of Things"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "If machine learning model output involves target variable, then that model is called as",
+            "options": [
+                "Descriptive Model",
+                "Predictive Model",
+                "Reinforcement Learning",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "In what type of learning labelled training data is used",
+            "options": [
+                "Unsupervised Learning",
+                "Supervised Learning",
+                "Reinforcement Learning",
+                "Active Learning"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "In following type of feature selection method we start with empty feature set",
+            "options": [
+                "Forward Feature Selection",
+                "Backward Feature Selection",
+                "Both A and B",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Which of the following is the best machine learning method?",
+            "options": [
+                "Scalable",
+                "Accuracy",
+                "Fast",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Data used to build a data mining model.",
+            "options": [
+                "Training data",
+                "Validation data",
+                "Test data",
+                "Hidden data"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "You are given reviews of few netflix series marked as positive, negative and neutral. Classifying reviews of a new netflix series is an example of",
+            "options": [
+                "Supervised learning",
+                "Unsupervised learning",
+                "Semisupervised learning",
+                "Reinforcement learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Following are the types of supervised learning",
+            "options": [
+                "Classification",
+                "Regression",
+                "subgroup discovery",
+                "all of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "The output of training process in machine learning is",
+            "options": [
+                "machine learning model",
+                "machine learning algorithm",
+                "null",
+                "accuracy"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "PCA is",
+            "options": [
+                "forward feature selection",
+                "backward feature selection",
+                "feature extraction",
+                "all of the above"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Let E1, E2 and E3 be three entities in an E/R diagram with simple single-valued attributes. R1 and R2 are two relationships between E1 and E2, where R1 is one-to-many, R2 is many-to-many. R3 is another relationship between E2 and E3 which is many-to-many. R1, R2 and R3 do not have any attributes of their own. What is the minimum number of tables required to represent this situation in the relational model?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Identify the minimal key for relational scheme R(U, V, W, X, Y, Z) with functional dependencies F = {U → V, V → W, W → X, VX → Z}",
+            "options": [
+                "UV",
+                "UW",
+                "UX",
+                "UY"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "It is given that: “Every student need to register one course and each course registered by many students”, what is the cardinality of the relation say “Register” from the “Student” entity to the “Course” entity in the ER diagram to implement the given requirement.",
+            "options": [
+                "M:1 relationship",
+                "M:N relationship",
+                "1:1 relationship",
+                "option (B) or (C)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Consider the relation branch( branch_name, assets, branch_city). SELECT DISTINCT T.branch_name FROM branch T, branch S WHERE T.assets > S.assets AND S.branch_city = \"TVM\" . Finds the names of",
+            "options": [
+                "All branches that have greater assets than all branches located in TVM.",
+                "All branches that have greater assets than some branch located in TVM.",
+                "The branch that has the greatest asset in TVM.",
+                "Any branch that has greater asset than any branch located in TVM."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Consider the following relation instance, where “A” is primary Key.\nA1 A2 A3 A4\n1 1 1 Null\n5 2 5 1\n9 5 13 5\n13 13 9 15\nWhich one of the following can be a foreign key that refers to the same relation?",
+            "options": [
+                "A2",
+                "A3",
+                "A4",
+                "ALL"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "A relation R(ABC) is having the tuples(1,2,1),(1,2,2),(1,3,1) and (2,3,2). Which of the following functional dependencies holds well?",
+            "options": [
+                "A → BC",
+                "AC → B",
+                "AB → C",
+                "BC → A"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Consider a relation R with attributes A, B, C, D and E and functional dependencies A→BC, BC→E, E→DA. What is the highest normal form that the relation satisfies?",
+            "options": [
+                "BCNF",
+                "3 NF",
+                "2 NF",
+                "1 NF"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "For the given schedule S, find out the conflict equivalent schedule. S : r1(x); r2(Z) ; r3(X); r1(Z); r2(Y); r3(Y);W1(X); W2(Z); W3(Y); W2(Y)",
+            "options": [
+                "T1→T2→T3",
+                "T2->T1->T3",
+                "T3→T1→T2",
+                "Not conflict serializable"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Specialization is __________ process.",
+            "options": [
+                "top-down",
+                "bottom up",
+                "Both (A) and (B)",
+                "none of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "If D1, D2, .., Dn are domains in a relational model, then the relation is a table, which is a subset of",
+            "options": [
+                "D1+D2+ … +Dn",
+                "D1×D2× … ×Dn",
+                "D1∪D2∪ … ∪Dn",
+                "D1–D2– … –Dn"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Artificial Intelligence is about_____.",
+            "options": [
+                "Playing a game on Computer",
+                "Making a machine Intelligent",
+                "Programming on Machine with your Own Intelligence",
+                "Putting your intelligence in Machine"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Select the most appropriate situation for that a blind search can be used.",
+            "options": [
+                "Real-life situation",
+                "Small Search Space",
+                "Complex game",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "The application/applications of Artificial Intelligence is/are",
+            "options": [
+                "Expert Systems",
+                "Gaming",
+                "Vision Systems",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Among the given options, which search algorithm requires less memory?",
+            "options": [
+                "Optimal Search",
+                "Depth First Search",
+                "Breadth-First Search",
+                "Linear Search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "The component of an Expert system is_________.",
+            "options": [
+                "Knowledge Base",
+                "Inference Engine",
+                "User Interface",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Which algorithm is used in the Game tree to make decisions of Win/Lose?",
+            "options": [
+                "Heuristic Search Algorithm",
+                "DFS/BFS algorithm",
+                "Greedy Search Algorithm",
+                "Min/Max algorithm"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Among the given options, which is not the required property of Knowledge representation?",
+            "options": [
+                "Inferential Efficiency",
+                "Inferential Adequacy",
+                "Representational Verification",
+                "Representational Adequacy"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which of the given language is not commonly used for AI?",
+            "options": [
+                "LISP",
+                "PROLOG",
+                "Python",
+                "Perl"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "A technique that was developed to determine whether a machine could or could not demonstrate the artificial intelligence known as the___",
+            "options": [
+                "Boolean Algebra",
+                "Turing Test",
+                "Logarithm",
+                "Algorithm"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "The available ways to solve a problem of state-space-search.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        }
+    ]
+}

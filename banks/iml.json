@@ -1,0 +1,1205 @@
+{
+    "quizTitle": "AMT 305 Introduction to Machine Learning MCQs",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Which of the following is NOT a machine learning paradigm?",
+            "options": [
+                "Supervised learning",
+                "Reinforcement learning",
+                "Algorithmic learning",
+                "Unsupervised learning"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Which machine learning paradigm uses labeled data for training?",
+            "options": [
+                "Supervised learning",
+                "Semi-supervised learning",
+                "Unsupervised learning",
+                "Reinforcement learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "In which learning paradigm does the model learn from rewards and punishments?",
+            "options": [
+                "Supervised learning",
+                "Unsupervised learning",
+                "Reinforcement learning",
+                "Semi-supervised learning"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which of the following is an example of unsupervised learning?",
+            "options": [
+                "Image classification",
+                "Spam detection",
+                "Clustering",
+                "Sentiment analysis"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "Which learning method is a combination of supervised and unsupervised learning?",
+            "options": [
+                "Semi-supervised learning",
+                "Reinforcement learning",
+                "Deep learning",
+                "Active learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Which of the following best describes a hypothesis class in machine learning?",
+            "options": [
+                "A set of possible models that can be chosen for training",
+                "A collection of labeled data",
+                "A method for evaluating performance",
+                "A technique for feature engineering"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "What is the function of a version space in machine learning?",
+            "options": [
+                "It defines the error of a model",
+                "It represents the set of hypotheses consistent with the training data",
+                "It determines the best algorithm for learning",
+                "It optimizes the model’s accuracy"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "What does the VC Dimension measure?",
+            "options": [
+                "The complexity of a learning algorithm",
+                "The maximum number of samples that a classifier can perfectly classify",
+                "The number of hidden layers in a neural network",
+                "The bias in a learning model"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "In Probably Approximately Correct (PAC) learning, what does “approximately correct” mean?",
+            "options": [
+                "The model is always accurate",
+                "The model has a high probability of being within an acceptable error margin",
+                "The model is guaranteed to be error-free",
+                "The model is trained with 100% labeled data"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which of the following is a major challenge in supervised learning?",
+            "options": [
+                "Lack of labeled data",
+                "Lack of computational power",
+                "Too many hidden layers",
+                "Redundant outputs"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "What is the impact of noise in a training dataset?",
+            "options": [
+                "Improves model accuracy",
+                "Helps in better feature selection",
+                "Increases error rate and decreases performance",
+                "Has no effect on the model"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which of the following can help mitigate the impact of noise in supervised learning?",
+            "options": [
+                "Adding more noise",
+                "Feature selection and data preprocessing",
+                "Ignoring the noisy data completely",
+                "Removing all low-value features"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "What is the primary challenge in multi-class classification?",
+            "options": [
+                "Selecting the right optimizer",
+                "Handling multiple outputs and decision boundaries",
+                "Managing a single label for classification",
+                "Using linear regression instead of classification"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Which algorithm is commonly used for multi-class classification?",
+            "options": [
+                "Logistic Regression",
+                "k-Nearest Neighbors",
+                "Support Vector Machines",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "One-vs-All and One-vs-One are techniques used for:",
+            "options": [
+                "Dimensionality reduction",
+                "Handling missing values",
+                "Multi-class classification",
+                "Model evaluation"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "What is the main goal of model selection?",
+            "options": [
+                "Choosing the best dataset",
+                "Selecting the model that generalizes well to new data",
+                "Maximizing the training accuracy",
+                "Reducing the number of features"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "What problem occurs when a model performs well on training data but poorly on test data?",
+            "options": [
+                "Underfitting",
+                "Overfitting",
+                "Data leakage",
+                "Noise removal"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "What technique helps to reduce overfitting?",
+            "options": [
+                "Increasing the training data size",
+                "Adding more complex features",
+                "Using a model with a higher VC dimension",
+                "Removing regularization"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Which of the following is NOT a technique to improve generalization?",
+            "options": [
+                "Cross-validation",
+                "Regularization",
+                "Data augmentation",
+                "Increasing model complexity"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "What does cross-validation help with in model training?",
+            "options": [
+                "Increases training accuracy",
+                "Reduces bias and improves model generalization",
+                "Selects the most complex model",
+                "Ensures 100% accuracy"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Which of the following is a dimensionality reduction technique?",
+            "options": [
+                "Decision Trees",
+                "Principal Component Analysis (PCA)",
+                "Logistic Regression",
+                "Naïve Bayes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "What is the primary purpose of dimensionality reduction?",
+            "options": [
+                "Increase the number of features in a dataset",
+                "Improve model complexity",
+                "Reduce computational cost and avoid overfitting",
+                "Add more noise to the data"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "Which of the following is NOT a method for dimensionality reduction?",
+            "options": [
+                "Subset Selection",
+                "PCA",
+                "Random Forest",
+                "Feature Extraction"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "What does Principal Component Analysis (PCA) aim to do?",
+            "options": [
+                "Find the most important features in a dataset",
+                "Predict categorical values",
+                "Perform supervised learning",
+                "Reduce the number of dependent variables"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Which of the following is NOT true about PCA?",
+            "options": [
+                "It reduces the dimensions of the dataset",
+                "It maintains most of the variance in the data",
+                "It increases the number of variables in a dataset",
+                "It projects data onto new feature axes"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Which of the following is a type of regression?",
+            "options": [
+                "Linear Regression",
+                "k-Nearest Neighbors",
+                "Decision Tree",
+                "Naïve Bayes"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "Which of the following methods is used to find the optimal parameters in linear regression?",
+            "options": [
+                "Gradient Descent",
+                "Clustering",
+                "Decision Trees",
+                "Naïve Bayes"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Which method is commonly used to solve linear regression equations?",
+            "options": [
+                "k-Means Clustering",
+                "Matrix Method",
+                "Naïve Bayes",
+                "Principal Component Analysis"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "What is the main assumption of linear regression?",
+            "options": [
+                "The relationship between variables is non-linear",
+                "The relationship between independent and dependent variables is linear",
+                "The dataset has a large number of missing values",
+                "The data is categorical"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "Which of the following is an indication of overfitting in regression?",
+            "options": [
+                "High training accuracy but low test accuracy",
+                "High test accuracy but low training accuracy",
+                "High accuracy on both training and test data",
+                "Low variance in predictions"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "What is the objective of the gradient descent algorithm?",
+            "options": [
+                "Maximize the error function",
+                "Minimize the loss function",
+                "Reduce bias completely",
+                "Increase the number of features"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Which of the following is a type of gradient descent?",
+            "options": [
+                "Batch Gradient Descent",
+                "Feature Gradient Descent",
+                "Component Gradient Descent",
+                "PCA Gradient Descent"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "What is the major drawback of gradient descent?",
+            "options": [
+                "It does not work for linear regression",
+                "It may get stuck in local minima",
+                "It requires a large amount of labeled data",
+                "It is always computationally inexpensive"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Which of the following is NOT a linear classification method?",
+            "options": [
+                "Logistic Regression",
+                "Naïve Bayes",
+                "Decision Tree (ID3)",
+                "Support Vector Machine (SVM)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Which classification method is based on Bayes Theorem?",
+            "options": [
+                "Logistic Regression",
+                "Naïve Bayes",
+                "Decision Tree",
+                "k-Nearest Neighbors"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "What is the key assumption of Naïve Bayes classification?",
+            "options": [
+                "Features are independent of each other",
+                "Features are highly correlated",
+                "It only works for large datasets",
+                "It does not use probability for classification"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Which classification algorithm is commonly used for text classification problems?",
+            "options": [
+                "Naïve Bayes",
+                "Principal Component Analysis",
+                "k-Means Clustering",
+                "Decision Trees"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "What does logistic regression predict?",
+            "options": [
+                "Continuous values",
+                "Categorical outcomes",
+                "Clusters in data",
+                "Principal components"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Which of the following is a decision tree algorithm used for classification?",
+            "options": [
+                "ID3",
+                "k-Means",
+                "PCA",
+                "Gradient Descent"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "What does the ID3 algorithm use to split data at each node?",
+            "options": [
+                "Gradient Descent",
+                "Entropy and Information Gain",
+                "Principal Components",
+                "Naïve Bayes Assumptions"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Which metric measures the proportion of correctly classified positive samples?",
+            "options": [
+                "Precision",
+                "Recall",
+                "Accuracy",
+                "F1-Score"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "What does Recall measure in classification?",
+            "options": [
+                "Ratio of correctly predicted positive observations to all actual positives",
+                "Ratio of correctly predicted negative observations to all actual negatives",
+                "Ratio of true positives to true negatives",
+                "Ratio of false positives to true positives"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "What is the harmonic mean of Precision and Recall?",
+            "options": [
+                "Accuracy",
+                "ROC Curve",
+                "F1-Score",
+                "AUC"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "What does the Receiver Operating Characteristic (ROC) curve represent?",
+            "options": [
+                "The relationship between precision and recall",
+                "The trade-off between true positive rate and false positive rate",
+                "The difference between training and testing accuracy",
+                "The accuracy of a classification model"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "What does AUC (Area Under Curve) measure in an ROC curve?",
+            "options": [
+                "The number of false positives",
+                "The probability of a model distinguishing between classes",
+                "The difference between accuracy and recall",
+                "The overall number of misclassification"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Which metric is most useful when dealing with imbalanced datasets?",
+            "options": [
+                "Accuracy",
+                "F1-Score",
+                "ROC-AUC",
+                "Precision"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Which of the following is NOT a classification performance measure?",
+            "options": [
+                "Recall",
+                "Precision",
+                "Gradient Descent",
+                "Accuracy"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "What is Cross Validation used for in machine learning?",
+            "options": [
+                "Reducing the size of datasets",
+                "Evaluating model performance on different training and testing sets",
+                "Increasing the learning rate of a model",
+                "Finding the number of features in a dataset"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "What is the purpose of Bootstrapping in machine learning?",
+            "options": [
+                "Selecting the best activation function",
+                "Creating multiple training samples from existing data",
+                "Increasing the number of features",
+                "Reducing bias in neural networks"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "In a perfect classification model, what would the AUC value be?",
+            "options": [
+                "0.5",
+                "1",
+                "0.75",
+                "0.25"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 51,
+            "questionText": "What is the Perceptron primarily used for?",
+            "options": [
+                "Regression",
+                "Supervised learning for classification",
+                "Clustering",
+                "Dimensionality reduction"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 52,
+            "questionText": "Which type of neural network contains multiple hidden layers?",
+            "options": [
+                "Single-layer perceptron",
+                "Multilayer feedforward network",
+                "k-Nearest Neighbors",
+                "Decision Tree"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 53,
+            "questionText": "Which of the following is NOT an activation function?",
+            "options": [
+                "Sigmoid",
+                "ReLU",
+                "Tanh",
+                "Gradient Descent"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 54,
+            "questionText": "What is the range of the Sigmoid activation function?",
+            "options": [
+                "0 to 1",
+                "-1 to 1",
+                "-∞ to ∞",
+                "0 to ∞"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 55,
+            "questionText": "Which activation function is commonly used in deep learning due to its non-linearity and efficiency?",
+            "options": [
+                "Sigmoid",
+                "ReLU",
+                "Linear",
+                "Softmax"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 56,
+            "questionText": "Which activation function is best suited for binary classification?",
+            "options": [
+                "ReLU",
+                "Softmax",
+                "Sigmoid",
+                "Tanh"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 57,
+            "questionText": "Which of the following activation functions can output negative values?",
+            "options": [
+                "ReLU",
+                "Sigmoid",
+                "Tanh",
+                "Softmax"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 58,
+            "questionText": "Which algorithm is used for training a neural network?",
+            "options": [
+                "Decision Tree Algorithm",
+                "Backpropagation Algorithm",
+                "k-Means Algorithm",
+                "Random Forest Algorithm"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 59,
+            "questionText": "What is the purpose of the Backpropagation algorithm?",
+            "options": [
+                "To initialize weights randomly",
+                "To adjust weights using gradient descent based on errors",
+                "To increase the dataset size",
+                "To select the best features automatically"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 60,
+            "questionText": "Which of the following is NOT a component of a neural network?",
+            "options": [
+                "Weights",
+                "Biases",
+                "Hidden layers",
+                "Clustering centroid"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 61,
+            "questionText": "What does Maximum Likelihood Estimation (MLE) aim to maximize?",
+            "options": [
+                "Posterior probability",
+                "Likelihood function",
+                "Prior probability",
+                "Mean squared error"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 62,
+            "questionText": "Maximum a Posteriori (MAP) estimation incorporates which additional factor compared to MLE?",
+            "options": [
+                "Likelihood function",
+                "Prior probability",
+                "Bias term",
+                "Gradient descent"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 63,
+            "questionText": "What is the key difference between MLE and MAP?",
+            "options": [
+                "MLE considers prior probability; MAP does not",
+                "MAP considers prior probability; MLE does not",
+                "MAP maximizes likelihood; MLE minimizes error",
+                "MLE is Bayesian; MAP is frequentist"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 64,
+            "questionText": "Which decomposition explains the trade-off between bias and variance in model performance?",
+            "options": [
+                "Principal Component Analysis",
+                "Singular Value Decomposition",
+                "Bias-Variance Decomposition",
+                "Fourier Decomposition"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 65,
+            "questionText": "High bias in a model usually leads to:",
+            "options": [
+                "Underfitting",
+                "Overfitting",
+                "Optimal generalization",
+                "No change in performance"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 66,
+            "questionText": "Which statement best describes a model with high variance?",
+            "options": [
+                "It captures noise along with patterns in training data",
+                "It generalizes well on new data",
+                "It underfits the data",
+                "It has low complexity"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 67,
+            "questionText": "Which of the following techniques is used to reduce variance in models?",
+            "options": [
+                "Increasing dataset size",
+                "Using more complex models",
+                "Removing regularization",
+                "Decreasing training data"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 68,
+            "questionText": "If a model has high bias and low variance, it is likely to:",
+            "options": [
+                "Perform well on the test set",
+                "Overfit the training data",
+                "Underfit the training data",
+                "Have high complexity"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 69,
+            "questionText": "Which factor is NOT a cause of high bias in machine learning models?",
+            "options": [
+                "Simple models",
+                "Insufficient features",
+                "Overly complex models",
+                "Strong regularization"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 70,
+            "questionText": "Bias-variance decomposition applies mainly to which type of error?",
+            "options": [
+                "Training error",
+                "Test error",
+                "Model complexity error",
+                "Random error"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 71,
+            "questionText": "What is the main objective of a Support Vector Machine (SVM)?",
+            "options": [
+                "Minimize classification error",
+                "Maximize margin between data classes",
+                "Minimize bias in the model",
+                "Increase model complexity"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 72,
+            "questionText": "Which term is used to describe the boundary that separates classes in SVM?",
+            "options": [
+                "Decision boundary",
+                "Hyperplane",
+                "Kernel",
+                "Loss function"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 73,
+            "questionText": "What is the role of a soft margin in SVM?",
+            "options": [
+                "It forces perfect classification",
+                "It allows misclassification for better generalization",
+                "It reduces the need for kernel functions",
+                "It removes non-linearity"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 74,
+            "questionText": "Which technique is used in SVM to handle non-linearly separable data?",
+            "options": [
+                "Principal Component Analysis",
+                "Kernel Trick",
+                "Logistic Regression",
+                "Naive Bayes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 75,
+            "questionText": "Which of the following is NOT a commonly used kernel in SVM?",
+            "options": [
+                "Linear kernel",
+                "Polynomial kernel",
+                "Gaussian Mixture kernel",
+                "Radial Basis Function (RBF) kernel"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 76,
+            "questionText": "What does the Radial Basis Function (RBF) kernel do in SVM?",
+            "options": [
+                "Maps input data to a higher-dimensional space",
+                "Performs clustering",
+                "Works only for linear classification",
+                "Reduces computational complexity"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 77,
+            "questionText": "Which parameter in SVM controls the trade-off between maximizing the margin and minimizing classification error?",
+            "options": [
+                "Learning rate",
+                "C parameter",
+                "Number of hidden layers",
+                "Dropout rate"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 78,
+            "questionText": "Which mathematical concept is fundamental to the Maximum Margin Classification in SVM?",
+            "options": [
+                "Euclidean Distance",
+                "Lagrange Multipliers",
+                "Mean Squared Error",
+                "Cross-Entropy"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 79,
+            "questionText": "What happens when an SVM model is trained with a very high C value?",
+            "options": [
+                "It allows more misclassifications",
+                "It strictly minimizes classification errors but may overfit",
+                "It ignores the support vectors",
+                "It increases model bias"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 80,
+            "questionText": "Which of the following is NOT true about SVM?",
+            "options": [
+                "It can be used for both classification and regression",
+                "It performs well with high-dimensional data",
+                "It requires a large dataset to work efficiently",
+                "It is sensitive to the choice of kernel function"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 81,
+            "questionText": "Which of the following is NOT an ensemble learning method?",
+            "options": [
+                "Voting",
+                "Bagging",
+                "Boosting",
+                "Backpropagation"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 82,
+            "questionText": "What is the primary goal of ensemble learning?",
+            "options": [
+                "To increase model complexity",
+                "To reduce variance and bias",
+                "To use a single classifier",
+                "To minimize dataset size"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 83,
+            "questionText": "Which ensemble method creates multiple subsets of the training data and trains multiple models in parallel?",
+            "options": [
+                "Boosting",
+                "Bagging",
+                "Stacking",
+                "Voting"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 84,
+            "questionText": "Which of the following is an example of a bagging algorithm?",
+            "options": [
+                "AdaBoost",
+                "Gradient Boosting",
+                "Random Forest",
+                "XGBoost"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 85,
+            "questionText": "In Boosting, weak learners are trained in:",
+            "options": [
+                "Parallel",
+                "Sequential manner",
+                "Random order",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 86,
+            "questionText": "Which of the following is a popular boosting algorithm?",
+            "options": [
+                "Random Forest",
+                "AdaBoost",
+                "K-Means",
+                "KNN"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 87,
+            "questionText": "What is the main disadvantage of Boosting?",
+            "options": [
+                "It increases bias",
+                "It is prone to overfitting",
+                "It does not work with weak learners",
+                "It is less accurate than a single model"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 88,
+            "questionText": "Which method aggregates predictions from multiple models using majority voting?",
+            "options": [
+                "Bagging",
+                "Boosting",
+                "Stacking",
+                "Voting"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 89,
+            "questionText": "Which ensemble method is most effective when models are highly diverse?",
+            "options": [
+                "Bagging",
+                "Voting",
+                "Boosting",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 90,
+            "questionText": "Which of the following is true about Bagging?",
+            "options": [
+                "It increases variance",
+                "It reduces overfitting",
+                "It does not require multiple models",
+                "It is less accurate than a single model"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 91,
+            "questionText": "Which of the following is an unsupervised learning method?",
+            "options": [
+                "Decision Trees",
+                "K-Means Clustering",
+                "Support Vector Machine",
+                "Logistic Regression"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 92,
+            "questionText": "What is the main goal of clustering in machine learning?",
+            "options": [
+                "Predict future data points",
+                "Find patterns and structures in data",
+                "Classify labeled data",
+                "Optimize loss functions"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 93,
+            "questionText": "Which clustering algorithm divides data into ‘k’ groups based on similarity?",
+            "options": [
+                "Hierarchical Clustering",
+                "K-Means",
+                "DBSCAN",
+                "PCA"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 94,
+            "questionText": "In K-Means clustering, how are initial centroids selected?",
+            "options": [
+                "Randomly",
+                "Based on prior knowledge",
+                "Using gradient descent",
+                "Using decision trees"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 95,
+            "questionText": "Which clustering method is best for handling outliers?",
+            "options": [
+                "K-Means",
+                "Hierarchical Clustering",
+                "DBSCAN",
+                "Mean-Shift"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 96,
+            "questionText": "Expectation-Maximization (EM) is primarily used for which type of clustering?",
+            "options": [
+                "Hard Clustering",
+                "Soft Clustering",
+                "Hierarchical Clustering",
+                "Density-Based Clustering"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 97,
+            "questionText": "What does DBSCAN stand for?",
+            "options": [
+                "Density-Based Spatial Clustering of Applications with Noise",
+                "Distance-Based Statistical Clustering Algorithm for Networks",
+                "Data-Based Systematic Clustering with Adaptive Normalization",
+                "Density-Bound Systematic Clustering of Adaptive Neurons"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 98,
+            "questionText": "Which clustering method creates a dendrogram to represent data hierarchy?",
+            "options": [
+                "K-Means",
+                "Hierarchical Clustering",
+                "DBSCAN",
+                "Expectation-Maximization"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 99,
+            "questionText": "Which similarity measure is commonly used in clustering?",
+            "options": [
+                "Euclidean Distance",
+                "Manhattan Distance",
+                "Cosine Similarity",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 100,
+            "questionText": "Which clustering method allows clusters to have different shapes and sizes?",
+            "options": [
+                "K-Means",
+                "DBSCAN",
+                "Hierarchical Clustering",
+                "Expectation-Maximization"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        }
+    ]
+}

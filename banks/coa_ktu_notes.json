@@ -1,0 +1,605 @@
+{
+    "quizTitle": "Computer Organization and Architecture Comprehensive Course Work",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "SIMD represents an organization that",
+            "options": [
+                "refers to a computer system capable of processing several programs at the same time.",
+                "represents organization of single computer containing a control unit, processor unit and a memory unit.",
+                "includes many processing units under the supervision of a common control unit",
+                "none of the above."
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Floating point representation is used to store",
+            "options": [
+                "Boolean values",
+                "whole numbers",
+                "real integers",
+                "integers"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Suppose that a bus has 16 data lines and requires 4 cycles of 250 nsecs each to transfer data. The bandwidth of this bus would be 2 Megabytes/sec. If the cycle time of the bus was reduced to 125 nsecs and the number of cycles required for transfer stayed the same what would the bandwidth of the bus?",
+            "options": [
+                "1 Megabyte/sec",
+                "4 Megabytes/sec",
+                "8 Megabytes/sec",
+                "2 Megabytes/sec"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Assembly language",
+            "options": [
+                "uses alphabetic codes in place of binary numbers used in machine language",
+                "is the easiest language to write programs",
+                "need not be translated into machine language",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "In computers, subtraction is generally carried out by",
+            "options": [
+                "9’s complement",
+                "10’s complement",
+                "1’s complement",
+                "2’s complement"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "The amount of time required to read a block of data from a disk into memory is composed of seek time, rotational latency, and transfer time. Rotational latency refers to",
+            "options": [
+                "the time its takes for the platter to make a full rotation",
+                "the time it takes for the read-write head to move into position over the appropriate track",
+                "the time it takes for the platter to rotate the correct sector under the head",
+                "none of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "What characteristic of RAM memory makes it not suitable for permanent storage?",
+            "options": [
+                "too slow",
+                "unreliable",
+                "it is volatile",
+                "too bulky"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Computers use addressing mode techniques for",
+            "options": [
+                "giving programming versatility to the user by providing facilities as pointers to memory counters for loop control",
+                "to reduce no. of bits in the field of instruction",
+                "specifying rules for modifying or interpreting address field of the instruction",
+                "All the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "The circuit used to store one bit of data is known as",
+            "options": [
+                "Register",
+                "Encoder",
+                "Decoder",
+                "Flip Flop"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "(2FAOC) 16 is equivalent to",
+            "options": [
+                "(195 084) 10",
+                "(001011111010 0000 1100) 2",
+                "Both (A) and (B)",
+                "None of these"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "The average time required to reach a storage location in memory and obtain its contents is called the",
+            "options": [
+                "seek time",
+                "turnaround time",
+                "access time",
+                "transfer time"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which of the following is not a weighted code?",
+            "options": [
+                "Decimal Number system",
+                "Excess 3-cod",
+                "Binary number System",
+                "None of these"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "The idea of cache memory is based",
+            "options": [
+                "on the property of locality of reference",
+                "on the heuristic 90-10 rule",
+                "on the fact that references generally tend to cluster",
+                "all of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Which of the following is lowest in memory hierarchy?",
+            "options": [
+                "Cache memory",
+                "Secondary memory",
+                "Registers",
+                "RAM"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "The addressing mode used in an instruction of the form ADD X Y, is",
+            "options": [
+                "Absolute",
+                "indirect",
+                "index",
+                "none of these"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "If memory access takes 20 ns with cache and 110 ns with out it, then the ratio ( cache uses a 10 ns memory) is",
+            "options": [
+                "93%",
+                "90%",
+                "88%",
+                "87%"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "In a memory-mapped I/O system, which of the following will not be there?",
+            "options": [
+                "LDA",
+                "IN",
+                "ADD",
+                "OUT"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "In a vectored interrupt.",
+            "options": [
+                "the branch address is assigned to a fixed location in memory.",
+                "the interrupting source supplies the branch information to the processor through an interrupt vector.",
+                "the branch address is obtained from a register in the processor",
+                "none of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Von Neumann architecture is",
+            "options": [
+                "SISD",
+                "SIMD",
+                "MIMD",
+                "MISD"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "Cache memory acts between",
+            "options": [
+                "CPU and RAM",
+                "RAM and ROM",
+                "CPU and Hard Disk",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Write Through technique is used in which memory for updating the data",
+            "options": [
+                "Virtual memory",
+                "Main memory",
+                "Auxiliary memory",
+                "Cache memory"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Generally Dynamic RAM is used as main memory in a computer system as it",
+            "options": [
+                "Consumes less power",
+                "has higher speed",
+                "has lower cell density",
+                "needs refreshing circuitary"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "In signed-magnitude binary division, if the dividend is (11100) 2 and divisor is (10011) 2 then the result is",
+            "options": [
+                "(00100) 2",
+                "(10100) 2",
+                "(11001) 2",
+                "(01100) 2"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Virtual memory consists of",
+            "options": [
+                "Static RAM",
+                "Dynamic RAM",
+                "Magnetic memory",
+                "None of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "In a program using subroutine call instruction, it is necessary",
+            "options": [
+                "initialise program counter",
+                "Clear the accumulator",
+                "Reset the microprocessor",
+                "Clear the instruction register"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "A Stack-organised Computer uses instruction of",
+            "options": [
+                "Indirect addressing",
+                "Two-addressing",
+                "Zero addressing",
+                "Index addressing"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be",
+            "options": [
+                "11 bits",
+                "21 bits",
+                "16 bits",
+                "20 bits"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "A Flip Flop can be converted into T-Flip Flop by using additional logic circuit",
+            "options": [
+                "n TQD =•",
+                "T D =",
+                "D = T . Q n",
+                "n TQD =⊕"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "Logic X-OR operation of (4ACO) H & (B53F) H results",
+            "options": [
+                "AACB",
+                "0000",
+                "FFFF",
+                "ABCD"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "When CPU is executing a Program that is part of the Operating System, it is said to be in",
+            "options": [
+                "Interrupt mode",
+                "System mode",
+                "Half mode",
+                "Simplex mode"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "An n-bit microprocessor has",
+            "options": [
+                "n-bit program counter",
+                "n-bit address register",
+                "n-bit ALU",
+                "n-bit instruction register"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Cache memory works on the principle of",
+            "options": [
+                "Locality of data",
+                "Locality of memory",
+                "Locality of reference",
+                "Locality of reference & memory"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "The main memory in a Personal Computer (PC) is made of",
+            "options": [
+                "cache memory.",
+                "static RAM",
+                "Dynamic Ram",
+                "both (A) and (B)"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "In computers, subtraction is carried out generally by",
+            "options": [
+                "1's complement method",
+                "2's complement method",
+                "signed magnitude method",
+                "BCD subtraction method"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "PSW is saved in stack when there is a",
+            "options": [
+                "interrupt recognised",
+                "execution of RST instruction",
+                "Execution of CALL instruction",
+                "All of these"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "The multiplicand register & multiplier register of a hardware circuit implementing booth's algorithm have (11101) & (1100). The result shall be",
+            "options": [
+                "(812) 10",
+                "(-12) 10",
+                "(12) 10",
+                "(-812) 10"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "The circuit converting binary data in to decimal is",
+            "options": [
+                "Encoder",
+                "Multiplexer",
+                "Decoder",
+                "Code converter"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "A three input NOR gate gives logic high output only when",
+            "options": [
+                "one input is high",
+                "one input is low",
+                "two input are low",
+                "all input are high"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "n bits in operation code imply that there are possible distinct operators",
+            "options": [
+                "2n",
+                "2^n",
+                "n/2",
+                "n^2"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "register keeps tracks of the instructions stored in program stored in memory.",
+            "options": [
+                "AR (Address Register)",
+                "XR (Index Register)",
+                "PC (Program Counter)",
+                "AC (Accumulator)"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Memory unit accessed by content is called",
+            "options": [
+                "Read only memory",
+                "Programmable Memory",
+                "Virtual Memory",
+                "Associative Memory"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "‘Aging registers’ are",
+            "options": [
+                "Counters which indicate how long ago their associated pages have been referenced.",
+                "Registers which keep track of when the program was last accessed.",
+                "Counters to keep track of last accessed instruction.",
+                "Counters to keep track of the latest data structures referred."
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "The instruction ‘ORG O’ is a",
+            "options": [
+                "Machine Instruction.",
+                "Pseudo instruction.",
+                "High level instruction.",
+                "Memory instruction."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Translation from symbolic program into Binary is done in",
+            "options": [
+                "Two passes.",
+                "Directly",
+                "Three passes.",
+                "Four passes."
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "A floating point number that has a O in the MSB of mantissa is said to have",
+            "options": [
+                "Overflow",
+                "Underflow",
+                "Important number",
+                "Undefined"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "The BSA instruction is",
+            "options": [
+                "Branch and store accumulator",
+                "Branch and save return address",
+                "Branch and shift address",
+                "Branch and show accumulator"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "MIMD stands for",
+            "options": [
+                "Multiple instruction multiple data",
+                "Multiple instruction memory data",
+                "Memory instruction multiple data",
+                "Multiple information memory data"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "A k-bit field can specify any one of",
+            "options": [
+                "3k registers",
+                "2^k registers",
+                "K2 registers",
+                "K3 registers"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "The time interval between adjacent bits is called the",
+            "options": [
+                "Word-time",
+                "Bit-time",
+                "Turn around time",
+                "Slice time"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "A group of bits that tell the computer to perform a specific operation is known as",
+            "options": [
+                "Instruction code",
+                "Micro-operation",
+                "Accumulator",
+                "Register"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        }
+    ]
+}

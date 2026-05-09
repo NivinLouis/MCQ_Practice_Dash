@@ -1,0 +1,605 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University Sixth Semester B.Tech Degree Comprehensive Exam (CS352) - December 2019",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "The sum of the series Σ (1/3)^k from k=0 to ∞ is",
+            "options": [
+                "1/3",
+                "2/3",
+                "1/2",
+                "1"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "The provided answer key states 'Marks can be given to those who attended the question', indicating an error in the question or options (the actual sum is 1.5)."
+        },
+        {
+            "id": 2,
+            "questionText": "The solution of the differential equation y'' - 4y' + 4y = 0 is",
+            "options": [
+                "y = (A + Bx)e^{2x}",
+                "y = (A + Bx)e^{-2x}",
+                "y = (A + Bx)e^x",
+                "y = (A + Bx)e^{-x}"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "The resultant of two equal forces has the same magnitude as either of the forces, then the angle between the two forces is",
+            "options": [
+                "120°",
+                "30°",
+                "90°",
+                "60°"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Two bodies of masses m1 and m2 are dropped from the top of a tower of same height. When these bodies reach the ground, their kinetic energies will be in the ratio",
+            "options": [
+                "1 : 2",
+                "1: √2",
+                "1: 4",
+                "1 : 1"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": "The provided answer key states 'Marks can be given to those who attended the question'."
+        },
+        {
+            "id": 5,
+            "questionText": "The top view of a pentagonal prism with axis perpendicular to the vertical plane and parallel to horizontal plane will be a",
+            "options": [
+                "Pentagon",
+                "Rectangle",
+                "Trapezoid",
+                "Straight line"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "In perspective projection the object is assumed to be kept on which of these planes.",
+            "options": [
+                "Picture plane",
+                "Horizon plane",
+                "Ground plane",
+                "Central plane"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "Which is the most abundant element available in the atmosphere?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Argon",
+                "Carbon di oxide"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "The total amount of greenhouse gases produced to directly and indirectly support human activities, usually expressed in equivalent tons of carbon dioxide",
+            "options": [
+                "Carbon Dating",
+                "Carbon Trading",
+                "Carbon Footprint",
+                "Carbon Factor"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "One of the pins in a 3 pin plug top is bigger than the rest. This is most closely related to design for ‘X’, where ‘X’ is",
+            "options": [
+                "Assembly",
+                "Manufacturing",
+                "Life cycle Cost",
+                "Environment"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which of the following can be most appropriately associated with the design space of a ball?",
+            "options": [
+                "Speed",
+                "Velocity",
+                "Diameter",
+                "Height"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "A six side die is rolled twice. What is the probability that the sum is 9.",
+            "options": [
+                "1/6",
+                "1/9",
+                "2/9",
+                "1/8"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which of the propositions are equivalent to p ⇒ q: (1) ~q ⇒ ~p (2) ~p ∨ q (3) ~(p∧ ~q)",
+            "options": [
+                "All",
+                "Only (1), and (2)",
+                "Only (2), and (3)",
+                "Only (1), and (3)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Let X={1,2...7} and R={<x, y>|x-y is divisible by 3}. Then R is an",
+            "options": [
+                "Equivalence relation",
+                "Reflexive relation",
+                "Symmetric relation",
+                "Transitive relation"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "If 25 teams play in a round robin league, totally how many matches are to be played?",
+            "options": [
+                "250",
+                "150",
+                "350",
+                "300"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "The symbolic form of the statement: “If either Santhosh takes calculus or Poonam takes physics then Meenakshi will take English “is",
+            "options": [
+                "(S ˄ P) → M",
+                "(S ˅ P) → M",
+                "(S ˅ P) ˄ M",
+                "(S ˄ P) ˅ M"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "Contrapositive of P→ Q is",
+            "options": [
+                "~P → ~Q",
+                "Q → P",
+                "~Q → ~P",
+                "P → Q"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?",
+            "options": [
+                "24400",
+                "21300",
+                "210",
+                "25200"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "A text editor generally allows searching in both directions, with wrap around if necessary. If the sequence of lines of code is stored as a linked list, which type is most suitable?",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Singly linked circular list",
+                "Doubly linked circular list"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "A circular queue of characters is implemented using a linear array whose first index is 1. The array currently contains the elements d,-,-,a,b,c starting from index 1. Here ‘-’ denotes empty slot. If two elements are deleted and three are added, what are the new positions of rear and front?",
+            "options": [
+                "6, 1",
+                "4, 6",
+                "5, 3",
+                "3, 5"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "Consider the following loop: for i = 1 to n: for j = 1 to i: print 'HELLO'. The asymptotic time complexity of above loop is",
+            "options": [
+                "O(n^2)",
+                "O(nlogn)",
+                "O(n^3)",
+                "O(n)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "The postfix expression for the infix expression x ^ y / (5 * z) + 10 is",
+            "options": [
+                "x y ^ 5 z * / 10 +",
+                "x y 5 * z ^ / 10 +",
+                "x y ^ 5 z * 10 / +",
+                "x y 5 z ^ * / 10 +"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Which of the following traversal gives nodes in non-decreasing order in a Binary Search Tree",
+            "options": [
+                "Inorder",
+                "Preorder",
+                "Postorder",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "The maximum degree of any vertex in a simple graph with n vertices is",
+            "options": [
+                "n+1",
+                "n-1",
+                "2n-1",
+                "n"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Given, the hash function h(k)= k mod 3, what is the number of collisions to store the following sequence of keys? 15, 11, 34, 10, 98, 51, 37, 14, 16, 47",
+            "options": [
+                "2",
+                "3",
+                "9",
+                "7"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Regular expression for all strings starts with ‘ab’ and ends with ‘aa’ is",
+            "options": [
+                "ab(a+b)*aa*",
+                "ab(a+b)*aa",
+                "ab*aa",
+                "a*b*aa"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "What is the language accepted by the following regular expression, 0*(1(01*0)*1)0*0* ?",
+            "options": [
+                "Binary representation of multiples of 6",
+                "Binary representation of multiples of 4",
+                "Binary representation of multiples of 3",
+                "Binary representation of multiples of 2"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "What is the minimum number of states in a DFA that recognizes the set of all binary strings that contains four consecutive 1’s?",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "3"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "The language accepted by Push down Automaton:",
+            "options": [
+                "Recursive Language",
+                "Context free language",
+                "Linearly Bounded language",
+                "All of the mentioned"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "For a give Moore Machine, Given Input=’101010’, thus the output would be of length:",
+            "options": [
+                "|Input|+1",
+                "|Input|",
+                "|Input|-1",
+                "Cannot be predicted"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "How many states will be there for the minimum state DFA accepting the language a*bba.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Pigeonhole principle is the underlying principle of",
+            "options": [
+                "Pumping lemma",
+                "Turing machine",
+                "Context free grammar",
+                "Push down automata"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Which one of the following can not be scheduled by the kernel?",
+            "options": [
+                "kernel level thread",
+                "user level thread",
+                "process",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "A process executes the code: fork (); fork (); fork (); The total number of child processes created is",
+            "options": [
+                "3",
+                "4",
+                "7",
+                "8"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "In a paged memory management algorithm, the hit ratio is 70%. If it takes 30 nanoseconds to search Translation Look-aside Buffer (TLB) and 100 nanoseconds (ns) to access memory, the effective memory access time is",
+            "options": [
+                "69 ns",
+                "91 ns",
+                "160 ns",
+                "190 ns"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with. The system first accesses 100 distinct pages in some order and then accesses the same 100 pages but now in the reverse order. How many page faults will occur?",
+            "options": [
+                "196",
+                "192",
+                "197",
+                "195"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "Which of the following scheduler selects the process that are ready to execute and allocates CPU",
+            "options": [
+                "Long-term scheduler",
+                "Job scheduler",
+                "Short term scheduler",
+                "Medium term scheduler"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "In the non-blocking send :",
+            "options": [
+                "The sending process keeps sending until the message is received",
+                "the sending process sends the message and resumes operation",
+                "the sending process keeps sending until it receives a message",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "Which disk scheduling algorithm is known as ‘elevator’ algorithm",
+            "options": [
+                "LOOK",
+                "SCAN",
+                "CSCAN",
+                "CLOOK"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "The basic principle underlying behind the concept of cache memory is",
+            "options": [
+                "Stored program concept",
+                "Locality of reference",
+                "Divide and conquer",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "The Booth recoded form of -6 is",
+            "options": [
+                "-1 +1 0 -1 0",
+                "+1 -1 +1 -1 0",
+                "0 -1 +1 -1 0",
+                "0 +1 -1 +1 0"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "The interrupt servicing mechanism in which the requesting device identifies itself to the processor to be serviced is",
+            "options": [
+                "Polling",
+                "Vectored interrupts",
+                "Interrupt nesting",
+                "Simultaneous requesting"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "The cache memory of 1K words uses direct mapping with a block size of 4 words. How many blocks can the cache accommodate?",
+            "options": [
+                "256 words",
+                "512 words",
+                "1024 words",
+                "128 words"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "Which among the following methods does not have 2 representations for 0?",
+            "options": [
+                "1’s complement method",
+                "2’s complement method",
+                "Sign and magnitude method",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Consider a computer system with a cache with access time is C, hit rate h, miss penalty M. The average access time experienced by the processor is",
+            "options": [
+                "hMC",
+                "h(C-1)+MC",
+                "hC+(1-h)M",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relation r1 contains 2000 tuples and r2 contains 2500 tuples. The maximum size of the join r1 ⋈ r2 is :",
+            "options": [
+                "2000",
+                "2500",
+                "4500",
+                "5000"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Which of the following is NOT a superkey in a relational schema with attributes V, W, X, Y, Z and primary key VY?",
+            "options": [
+                "VXYZ",
+                "VWXZ",
+                "VWXY",
+                "VWXYZ"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Dependency preservation is not guaranteed in",
+            "options": [
+                "3NF",
+                "BCNF",
+                "1NF",
+                "2NF"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Suppose that we have an ordered file with r = 30,000 records stored on a disk with block size B = 1024 bytes. The ordering key field of the file is V = 9 bytes long, a block pointer is P = 6 bytes long, and we have constructed a primary index for the file. The blocking factor for the index is",
+            "options": [
+                "68",
+                "64",
+                "10",
+                "3000"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "What is the result of the following query? DELETE FROM student WHERE marks < (SELECT avg(marks) FROM student);",
+            "options": [
+                "The query deletes all the tuples whose marks are greater than the average marks",
+                "The query deletes all the tuples whose marks are less than the average marks",
+                "The query deletes all the values under the marks attribute which are less than the average",
+                "The query is syntactically wrong and does not execute"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Ensuring isolation property is the responsibility of the",
+            "options": [
+                "Recovery management component of the DBMS",
+                "Concurrency control component of the DBMS",
+                "Transaction management component of the DBMS",
+                "Buffer management component in DBMS"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        }
+    ]
+}

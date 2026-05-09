@@ -1,0 +1,1205 @@
+{
+    "quizTitle": "Mahaguru Institute of Technology - AI and Machine Learning Question Bank",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "What is Artificial Intelligence (AI)?",
+            "options": [
+                "Study of human behavior",
+                "Simulation of human intelligence in machines",
+                "Making computers slower",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Which of the following is NOT a foundation of AI?",
+            "options": [
+                "Philosophy",
+                "Psychology",
+                "Sociology",
+                "Computer Science"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Who is considered the father of AI?",
+            "options": [
+                "Alan Turing",
+                "John McCarthy",
+                "Marvin Minsky",
+                "Arthur Samuel"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which of the following is an application of AI?",
+            "options": [
+                "Natural Language Processing",
+                "Robotics",
+                "Machine Learning",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "An intelligent agent interacts with which of the following?",
+            "options": [
+                "Environment",
+                "Humans",
+                "Databases",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "What is rationality in AI?",
+            "options": [
+                "Making decisions based on logic",
+                "Always choosing the best option",
+                "Acting in a way that maximizes performance",
+                "Ignoring the environment"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "What defines the nature of environments?",
+            "options": [
+                "Static vs. Dynamic",
+                "Deterministic vs. Stochastic",
+                "Episodic vs. Sequential",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "Which of the following is NOT a property of a task environment?",
+            "options": [
+                "Fully observable vs. Partially observable",
+                "Static vs. Dynamic",
+                "Symbolic vs. Numeric",
+                "Continuous vs. Discrete"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "Which of the following is NOT a type of agent?",
+            "options": [
+                "Simple Reflex Agent",
+                "Model-Based Agent",
+                "Genetic Agent",
+                "Learning Agent"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "What is an agent program responsible for?",
+            "options": [
+                "Interacting with the user",
+                "Controlling the agent's actions",
+                "Modifying hardware",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Which of the following best defines an agent?",
+            "options": [
+                "A software that takes actions based on perception",
+                "A human-like robot",
+                "A system that cannot learn",
+                "A database system"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "What is the key characteristic of a rational agent?",
+            "options": [
+                "It always makes correct decisions",
+                "It acts to achieve the best expected outcome",
+                "It never fails",
+                "It does not interact with its environment"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Which of the following is an example of a partially observable environment?",
+            "options": [
+                "Chess game",
+                "Poker game",
+                "Tic-Tac-Toe",
+                "Sudoku"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "A dynamic environment means:",
+            "options": [
+                "The environment changes while the agent is deliberating",
+                "The environment remains static at all times",
+                "The agent changes its own state randomly",
+                "The environment is completely observable"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "What is the key advantage of a model-based agent?",
+            "options": [
+                "It does not require memory",
+                "It can make informed decisions based on past states",
+                "It does not need to perceive the environment",
+                "It ignores uncertainty"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "What is the primary function of a learning agent?",
+            "options": [
+                "To perform predefined actions",
+                "To improve its performance over time",
+                "To execute random tasks",
+                "To avoid interacting with the environment"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "A reflex agent operates based on:",
+            "options": [
+                "Predefined rules and immediate perception",
+                "Complex learning algorithms",
+                "Future predictions",
+                "Stored historical data"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "What type of agent considers future actions and their outcomes?",
+            "options": [
+                "Simple reflex agent",
+                "Goal-based agent",
+                "Reactive agent",
+                "Random agent"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Which environment property is associated with real-time video games?",
+            "options": [
+                "Deterministic",
+                "Episodic",
+                "Stochastic",
+                "Static"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "In AI, an agent perceives the environment using:",
+            "options": [
+                "Sensors",
+                "Actuators",
+                "Memory",
+                "Programs"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "What is the primary objective of problem-solving in AI?",
+            "options": [
+                "To store large amounts of data",
+                "To find a sequence of actions leading to a goal",
+                "To create random decisions",
+                "To make computers slow"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Which search strategy explores all possible paths uniformly?",
+            "options": [
+                "Depth-first search",
+                "Breadth-first search",
+                "Greedy search",
+                "Hill climbing"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "What is an example of an uninformed search strategy?",
+            "options": [
+                "A* search",
+                "Breadth-first search",
+                "Hill climbing",
+                "Best-first search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Which of the following is an informed search strategy?",
+            "options": [
+                "Depth-first search",
+                "Breadth-first search",
+                "A search*",
+                "Uniform cost search"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "A heuristic function is used to:",
+            "options": [
+                "Reduce the search space in an informed search",
+                "Increase the complexity of the search",
+                "Guarantee an optimal solution",
+                "Avoid searching altogether"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Which search strategy always expands the shallowest node first?",
+            "options": [
+                "Depth-first search",
+                "Breadth-first search",
+                "Greedy best-first search",
+                "Iterative deepening search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "What is the main disadvantage of depth-first search?",
+            "options": [
+                "It may not guarantee the shortest path",
+                "It requires a lot of memory",
+                "It is always optimal",
+                "It never terminates"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "What is the primary goal of iterative deepening search?",
+            "options": [
+                "To combine the benefits of depth-first and breadth-first search",
+                "To improve memory usage",
+                "To avoid using heuristics",
+                "To randomly explore the search space"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "In A search, the evaluation function f(n) is given by:*",
+            "options": [
+                "g(n) + h(n)",
+                "g(n) - h(n)",
+                "g(n) * h(n)",
+                "g(n) / h(n)"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "What is the purpose of a heuristic function in informed search strategies?",
+            "options": [
+                "To estimate the cost from the current node to the goal",
+                "To reduce computational complexity",
+                "To guarantee an optimal solution",
+                "To avoid searching"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "What is the Minimax algorithm used for?",
+            "options": [
+                "Image processing",
+                "Game playing",
+                "Neural networks",
+                "Data mining"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "What does Alpha-Beta pruning improve in Minimax?",
+            "options": [
+                "Memory storage",
+                "Computational efficiency",
+                "Image processing speed",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "In adversarial search, what does a game tree represent?",
+            "options": [
+                "The structure of a neural network",
+                "All possible moves in a game",
+                "A clustering technique",
+                "A type of decision tree"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "What is the primary objective of the Minimax algorithm?",
+            "options": [
+                "To maximize the number of moves in a game",
+                "To minimize computation time",
+                "To find the best possible move assuming an optimal opponent",
+                "To randomly select moves"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Which search strategy is commonly used in two-player games?",
+            "options": [
+                "Breadth-first search",
+                "A* search",
+                "Minimax search",
+                "Best-first search"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "What does Alpha-Beta pruning do in the Minimax algorithm?",
+            "options": [
+                "Eliminates branches that do not influence the final decision",
+                "Ensures an optimal solution",
+                "Reduces the branching factor",
+                "Increases the depth"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "What is a Constraint Satisfaction Problem (CSP)?",
+            "options": [
+                "A problem defined by constraints on variables",
+                "A problem that has no solution",
+                "A problem solved by brute force",
+                "A problem allowing only one solution"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "Which of the following is an example of a CSP?",
+            "options": [
+                "Chess",
+                "Sudoku",
+                "Pathfinding",
+                "Sorting"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "What is constraint propagation in CSPs?",
+            "options": [
+                "A technique to deduce new constraints from existing ones",
+                "A method for increasing computation speed",
+                "A way to randomly generate solutions",
+                "A technique to eliminate search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "What is the main advantage of backtracking in CSPs?",
+            "options": [
+                "It guarantees an optimal solution",
+                "It explores all possible solutions efficiently",
+                "It systematically eliminates invalid solutions",
+                "It reduces memory usage"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "What is the Minimax algorithm used for?",
+            "options": [
+                "Image processing",
+                "Game playing",
+                "Neural networks",
+                "Data mining"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "What does Alpha-Beta pruning improve in Minimax?",
+            "options": [
+                "Memory storage",
+                "Computational efficiency",
+                "Image processing speed",
+                "None of the above"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "In adversarial search, what does a game tree represent?",
+            "options": [
+                "The structure of a neural network",
+                "All possible moves in a game",
+                "A clustering technique",
+                "A type of decision tree"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "What is the primary objective of the Minimax algorithm?",
+            "options": [
+                "To maximize the number of moves in a game",
+                "To minimize computation time",
+                "To find the best possible move assuming an optimal opponent",
+                "To randomly select moves"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Which search strategy is commonly used in two-player games?",
+            "options": [
+                "Breadth-first search",
+                "A* search",
+                "Minimax search",
+                "Best-first search"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "What does Alpha-Beta pruning do in the Minimax algorithm?",
+            "options": [
+                "Eliminates branches that do not influence the final decision",
+                "Ensures an optimal solution",
+                "Reduces the branching factor",
+                "Increases the depth"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "What is a Constraint Satisfaction Problem (CSP)?",
+            "options": [
+                "A problem defined by constraints on variables",
+                "A problem that has no solution",
+                "A problem solved by brute force",
+                "A problem allowing only one solution"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which of the following is an example of a CSP?",
+            "options": [
+                "Chess",
+                "Sudoku",
+                "Pathfinding",
+                "Sorting"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "What is constraint propagation in CSPs?",
+            "options": [
+                "A technique to deduce new constraints from existing ones",
+                "A method for increasing computation speed",
+                "A way to randomly generate solutions",
+                "A technique to eliminate search"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "What is the main advantage of backtracking in CSPs?",
+            "options": [
+                "It guarantees an optimal solution",
+                "It explores all possible solutions efficiently",
+                "It systematically eliminates invalid solutions",
+                "It reduces memory usage"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 51,
+            "questionText": "What type of environment does real-time strategy games belong to?",
+            "options": [
+                "Deterministic",
+                "Stochastic",
+                "Episodic",
+                "Static"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 52,
+            "questionText": "What is hill climbing used for in search?",
+            "options": [
+                "Exploring all possible states",
+                "Finding solutions by evaluating local states",
+                "Reducing branching factors",
+                "Minimizing memory usage"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 53,
+            "questionText": "What is local search commonly applied to?",
+            "options": [
+                "Exact solutions",
+                "Optimization problems",
+                "Tree structures",
+                "Pathfinding"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 54,
+            "questionText": "What is simulated annealing inspired by?",
+            "options": [
+                "The process of cooling metals",
+                "Biological evolution",
+                "Neural connections",
+                "Graph theory"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 55,
+            "questionText": "What is a plateau problem in local search?",
+            "options": [
+                "When the solution is not unique",
+                "When multiple neighboring states have equal evaluation",
+                "When the heuristic is unavailable",
+                "When the system crashes"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 56,
+            "questionText": "What is a fitness function used for in evolutionary algorithms?",
+            "options": [
+                "Selecting random solutions",
+                "Generating initial populations",
+                "Evaluating the quality of solutions",
+                "Defining data types"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 57,
+            "questionText": "Which of the following represents crossover in genetic algorithms?",
+            "options": [
+                "Combining two parent solutions to produce offspring",
+                "Selecting the best solution",
+                "Mutating data randomly",
+                "Terminating iterations"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 58,
+            "questionText": "What is mutation in genetic algorithms?",
+            "options": [
+                "Randomly altering parts of a solution to increase diversity",
+                "Reproducing solutions",
+                "Terminating search",
+                "Evaluating solutions"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 59,
+            "questionText": "What is a goal test in search algorithms?",
+            "options": [
+                "A condition to check whether the goal state has been reached",
+                "A method to find alternative paths",
+                "A technique to estimate solution quality",
+                "A brute-force technique"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 60,
+            "questionText": "What does \"elitism\" refer to in genetic algorithms?",
+            "options": [
+                "Preserving the best individuals in the next generation",
+                "Discarding poor solutions",
+                "Using no mutation",
+                "Reducing the size of the population"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 61,
+            "questionText": "Which of the following is a knowledge representation technique?",
+            "options": [
+                "Decision Trees",
+                "First Order Logic",
+                "Neural Networks",
+                "Genetic Algorithms"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 62,
+            "questionText": "What does propositional logic deal with?",
+            "options": [
+                "Statements that are true or false",
+                "Objects and relations",
+                "Probability distributions",
+                "Fuzzy reasoning"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 63,
+            "questionText": "What is First Order Logic (FOL) also called?",
+            "options": [
+                "Predicate logic",
+                "Propositional calculus",
+                "Decision logic",
+                "Machine logic"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 64,
+            "questionText": "What does a knowledge base contain in AI?",
+            "options": [
+                "Random facts",
+                "Facts and rules for reasoning",
+                "Only solutions",
+                "Non-verifiable data"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 65,
+            "questionText": "Which of the following is an inference technique?",
+            "options": [
+                "Modus Ponens",
+                "Forward chaining",
+                "Backpropagation",
+                "Both a and b"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 66,
+            "questionText": "What does the term \"semantic network\" refer to?",
+            "options": [
+                "A type of neural network",
+                "A graph-based structure for representing concepts",
+                "A search algorithm",
+                "An AI model for learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 67,
+            "questionText": "What is the frame problem in AI?",
+            "options": [
+                "Representing images",
+                "Overfitting models",
+                "Updating facts when an agent performs actions",
+                "Avoiding recursive rules"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 68,
+            "questionText": "Which reasoning method handles uncertain information?",
+            "options": [
+                "Deductive reasoning",
+                "Probabilistic reasoning",
+                "Model-based reasoning",
+                "Constraint-based reasoning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 69,
+            "questionText": "What is the difference between declarative and procedural knowledge?",
+            "options": [
+                "Declarative is about actions; procedural is about facts",
+                "Declarative is about facts; procedural is about actions",
+                "Both are about rules",
+                "Both involve deduction"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 70,
+            "questionText": "Which AI system simulates human reasoning using rules?",
+            "options": [
+                "Decision trees",
+                "Expert systems",
+                "Genetic algorithms",
+                "Neural networks"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 71,
+            "questionText": "What is a knowledge graph?",
+            "options": [
+                "A decision-making system",
+                "A visual representation of neural pathways",
+                "A structured representation of real-world entities and relationships",
+                "A fuzzy reasoning model"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 72,
+            "questionText": "What does ontology represent in AI?",
+            "options": [
+                "Theoretical frameworks for ML",
+                "Relationships between data and concepts",
+                "Heuristic evaluation strategies",
+                "Output predictions"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 73,
+            "questionText": "Which reasoning method is based on fuzzy sets?",
+            "options": [
+                "Symbolic reasoning",
+                "Fuzzy logic",
+                "Inductive reasoning",
+                "Deductive reasoning"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 74,
+            "questionText": "What is backward chaining used for?",
+            "options": [
+                "Proving the most general rules",
+                "Starting with goals and finding supporting facts",
+                "Exploring all facts sequentially",
+                "Avoiding loops"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 75,
+            "questionText": "Which AI approach relies on if-then rules for decision-making?",
+            "options": [
+                "Genetic algorithms",
+                "Production systems",
+                "Clustering models",
+                "Deep learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 76,
+            "questionText": "What is semantic reasoning?",
+            "options": [
+                "Solving puzzles in symbolic logic",
+                "Reasoning based on language semantics",
+                "Performing reinforcement learning",
+                "Evaluating complex search nodes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 77,
+            "questionText": "Which representation method uses axioms to define relationships?",
+            "options": [
+                "Frames",
+                "Logic-based representation",
+                "Artificial neural networks",
+                "Genetic programming"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 78,
+            "questionText": "What is a major problem with rule-based systems?",
+            "options": [
+                "They always produce wrong results",
+                "They require constant training",
+                "They cannot handle incomplete knowledge",
+                "They cannot be automated"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 79,
+            "questionText": "What is a frame in AI?",
+            "options": [
+                "A method for backward chaining",
+                "A template for representing stereotypical situations",
+                "A logic gate",
+                "A constraint in decision trees"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 80,
+            "questionText": "What does default reasoning handle?",
+            "options": [
+                "Real-time data",
+                "Exceptions to general rules",
+                "Probabilistic outcomes",
+                "Image processing tasks"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 81,
+            "questionText": "What is the main goal of supervised learning?",
+            "options": [
+                "To learn patterns from labeled data",
+                "To learn without any supervision",
+                "To generate random outputs",
+                "To slow down computation"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 82,
+            "questionText": "Which algorithm is commonly used for classification?",
+            "options": [
+                "K-Nearest Neighbors",
+                "A* Algorithm",
+                "Dijkstra's Algorithm",
+                "Quick Sort"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 83,
+            "questionText": "Which of the following is an example of unsupervised learning?",
+            "options": [
+                "Regression",
+                "Clustering",
+                "Classification",
+                "Reinforcement"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 84,
+            "questionText": "What does reinforcement learning involve?",
+            "options": [
+                "Learning by interacting with an environment and receiving feedback",
+                "Pre-labeled data",
+                "Grouping similar items",
+                "Static rules"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 85,
+            "questionText": "What is overfitting?",
+            "options": [
+                "When the model performs poorly",
+                "When the model performs well on training data but poorly on unseen data",
+                "When the data size is insufficient",
+                "When the model uses too few features"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 86,
+            "questionText": "What is a decision tree?",
+            "options": [
+                "A model that makes decisions based on a tree-like structure",
+                "A neural network",
+                "A clustering algorithm",
+                "A search method"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 87,
+            "questionText": "Which algorithm is commonly used for regression?",
+            "options": [
+                "Linear regression",
+                "K-means clustering",
+                "Decision trees",
+                "Naive Bayes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 88,
+            "questionText": "What is cross-validation used for?",
+            "options": [
+                "Evaluating model performance on unseen data",
+                "Selecting hyperparameters",
+                "Improving performance",
+                "Making predictions"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 89,
+            "questionText": "What is a neural network inspired by?",
+            "options": [
+                "The human brain",
+                "Evolution",
+                "Genetic mutation",
+                "Fuzzy logic"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 90,
+            "questionText": "What does backpropagation do in neural networks?",
+            "options": [
+                "Adjusts weights based on errors",
+                "Optimizes feature selection",
+                "Prunes decision trees",
+                "Combines clustering outputs"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 91,
+            "questionText": "What is a support vector machine used for?",
+            "options": [
+                "Regression tasks",
+                "Data sorting",
+                "Classification and regression tasks",
+                "Clustering"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 92,
+            "questionText": "Which learning method uses labeled and unlabeled data?",
+            "options": [
+                "Unsupervised learning",
+                "Reinforcement learning",
+                "Semi-supervised learning",
+                "Supervised learning"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 93,
+            "questionText": "What is a confusion matrix used for?",
+            "options": [
+                "Measuring memory usage",
+                "Evaluating classification models",
+                "Visualizing datasets",
+                "Optimizing hyperparameters"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 94,
+            "questionText": "Which machine learning model uses ensemble learning?",
+            "options": [
+                "Random Forest",
+                "K-means",
+                "Linear Regression",
+                "Gradient Descent"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 95,
+            "questionText": "What is the objective of gradient descent?",
+            "options": [
+                "Minimize loss function",
+                "Maximize data points",
+                "Randomize weights",
+                "Predict probabilities"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 96,
+            "questionText": "Which metric is suitable for imbalanced classification problems?",
+            "options": [
+                "Accuracy",
+                "ROC-AUC",
+                "Mean squared error",
+                "Entropy"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 97,
+            "questionText": "What is feature scaling used for?",
+            "options": [
+                "Balancing features on different scales",
+                "Data aggregation",
+                "Eliminating redundant features",
+                "Data compression"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 98,
+            "questionText": "What is hyperparameter tuning?",
+            "options": [
+                "Optimizing model parameters during training",
+                "Adjusting predefined parameters to improve performance",
+                "Automating feature selection",
+                "Simplifying neural networks"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 99,
+            "questionText": "What does \"Bagging\" in machine learning refer to?",
+            "options": [
+                "Combining predictions of multiple models",
+                "Stopping overfitting",
+                "Reducing computation",
+                "Data compression"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 100,
+            "questionText": "Which optimization method is often faster than batch gradient descent?",
+            "options": [
+                "Mini-batch gradient descent",
+                "Genetic algorithms",
+                "Reinforcement learning",
+                "Naive Bayes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        }
+    ]
+}
