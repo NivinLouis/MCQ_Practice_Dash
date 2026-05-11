@@ -1,0 +1,509 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University - Sixth Semester B.Tech Comprehensive Course Work (ADT308) - May 2024",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Which of the following is NOT a valid deadlock prevention scheme?",
+            "options": [
+                "Release all resources before requesting a new resource",
+                "Number the resources uniquely and never request a lower numbered resource than the last one requested.",
+                "Never request a resource after releasing any resource",
+                "Request and all required resources be allocated before execution."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Consider a virtual memory system with FIFO page replacement policy. For an arbitrary page access pattern, increasing the number of page frames in main memory will",
+            "options": [
+                "Always decrease the number of page faults",
+                "Always increase the number of page faults",
+                "Some times increase the number of page faults",
+                "Never affect the number of page faults"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Suppose the time to service a page fault is on the average 10 milliseconds, while a memory access takes 1 microsecond. Then a 99.99% hit ratio results in average memory access time of",
+            "options": [
+                "1.9999 milliseconds",
+                "1 millisecond",
+                "9.999 microseconds",
+                "1.9999 microseconds"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which of the following scheduling algorithms is non-preemptive?",
+            "options": [
+                "Round Robin",
+                "First-In First-Out",
+                "Multilevel Queue Scheduling",
+                "Multilevel Queue Scheduling with Feedback"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "A standard circular Queue 'q' implemented whose size is 11 from 0 to 10. The front & rear pointers start to point at q[2]. The ninth element be added at which position?",
+            "options": [
+                "q[0]",
+                "q[1]",
+                "q[9]",
+                "q[10]"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "The preorder traversal of a binary search tree is 15, 10, 12, 11, 20, 18, 16, 19. Which one of the following is the postorder traversal of the tree?",
+            "options": [
+                "11,12,10,16,19,18,20,15",
+                "20,19,18,16,15,12,11,10",
+                "10,11,12,15,16,18,19,20",
+                "19,16,18,20,11,12,10,15"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "A hash table contains 10 buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is key % 10. If the values 43, 165, 62, 123, 142 are inserted in the table, in what location would the key value 142 be inserted?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "6"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "Let P be a singly linked list, Let Q be the pointer to an intermediate node x in the list. What is the worst-case time complexity of the best known algorithm to delete the node x from the list?",
+            "options": [
+                "O(n)",
+                "O(n log n)",
+                "O(1)",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "The result evaluating the postfix expression is: 10 5 + 60 6 / * 8 -",
+            "options": [
+                "284",
+                "213",
+                "142",
+                "71"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "The best data structure to check whether an arithmetic expression has balanced parentheses is a",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "List"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "In a depth-first traversal of a graph G with n vertices, k edges are marked as tree edges. The number of connected components in G is",
+            "options": [
+                "K",
+                "k+1",
+                "n-k",
+                "n-k-1"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "What is the maximum number of swaps that can be performed in the Selection Sort algorithm?",
+            "options": [
+                "n-1",
+                "n",
+                "1",
+                "n-2"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Which one of the options given below refers to the degree of a relation in relational database systems?",
+            "options": [
+                "Number of attributes of its relation schema.",
+                "Number of tuples stored in the relation.",
+                "Number of entries in the relation.",
+                "Number of distinct domains of its relation schema."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Which of the following statements is/are TRUE with respect to deadlocks?",
+            "options": [
+                "Circular wait is a necessary condition for the formation of deadlock",
+                "In a system where each resource has more than one instance, a cycle in its wait-for graph indicates the presence of a deadlock",
+                "If the current allocation of resources to processes leads the system to unsafe state, then deadlock will necessarily occur",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "In SQL, which of the following is an aggregate function?",
+            "options": [
+                "Avg",
+                "Select",
+                "Ordered by",
+                "Distinct"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
+            "options": [
+                "DML",
+                "Query",
+                "Relational Schema",
+                "DDL"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Which one of the following given statements possibly contains the error?",
+            "options": [
+                "select * from emp where empid = 10003;",
+                "select empid from emp where empid = 10006;",
+                "select empid from emp;",
+                "select empid where empid = 1009 and Lastname = 'GELLER';"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "A Database Management System is a type of _______ software.",
+            "options": [
+                "It is a type of system software",
+                "It is a kind of application software",
+                "It is a kind of general software",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "Which of the following is a top-down approach in which the entity's higher level can be divided into two lower sub-entities?",
+            "options": [
+                "Aggregation",
+                "Generalization",
+                "Specialization",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Which one of the following refers to the total view of the database content?",
+            "options": [
+                "Conceptual view",
+                "Physical view",
+                "Internal view",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "Which of the following statements is correct?\n1. A self-join may be implemented in SQL using table aliases.\n2. The outer-join operation is a fundamental relational algebra procedure.\n3. The procedures of natural join and outside join are the same.",
+            "options": [
+                "1 is correct",
+                "1 and 2 is correct",
+                "2 and 3 is correct",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "Location transparency in distributed databases allows database users, programmers, and administrators to handle data as if it were stored in a single location. A SQL query with location transparency must provide the following information:",
+            "options": [
+                "Fragments",
+                "Locations",
+                "Local formats",
+                "Inheritances"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Which algorithm is used for finding frequent itemsets in transactional databases?",
+            "options": [
+                "Decision Trees",
+                "K-Means clustering",
+                "Apriori algorithm",
+                "Support Vector Machines (SVM)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "In the context of machine learning, what is the term \"bias-variance trade-off\" referring to?",
+            "options": [
+                "The trade-off between the quality of training data and testing data",
+                "The trade-off between the complexity of a model and its ability to generalize",
+                "The trade-off between the number of features and the size of the dataset",
+                "The trade-off between precision and recall in classification"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Which algorithm is used for hierarchical clustering?",
+            "options": [
+                "K-Means clustering",
+                "Agglomerative clustering",
+                "DBSCAN",
+                "PCA"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Which method can be used to handle missing data in a dataset?",
+            "options": [
+                "Removing the entire column with missing data",
+                "Replacing missing data with the median value of the column",
+                "Ignoring the rows with missing data during analysis",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Which technique is used to combat the vanishing gradient problem in deep neural networks?",
+            "options": [
+                "ReLU activation function",
+                "Sigmoid activation function",
+                "Tanh activation function",
+                "Batch normalization"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "In the context of Support Vector Machines (SVM), what is the \"kernel trick\"?",
+            "options": [
+                "A technique to add more features to the dataset",
+                "A method to increase the regularization term",
+                "A way to perform dimensionality reduction",
+                "A way to implicitly map data to higher-dimensional spaces"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "What is the purpose of regularization in linear regression?",
+            "options": [
+                "To make the model more complex",
+                "To avoid underfitting",
+                "To encourage overfitting",
+                "To reduce the complexity of the model"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "K-Nearest Neighbors (KNN) is classified as what type of machine learning algorithm?",
+            "options": [
+                "Instance-based learning",
+                "Parametric learning",
+                "Non parametric learning",
+                "Model-based learning"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Which of the following is not a supervised machine learning algorithm?",
+            "options": [
+                "K-means",
+                "Naive Bayes",
+                "SVM",
+                "Decision Tree"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "Which of the following statements is not true about boosting?",
+            "options": [
+                "It mainly increases the bias and the variance",
+                "It mainly decreases the bias and variance",
+                "It is a technique for solving two class classification problems",
+                "None of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Ensemble learning is a machine learning technique that involves:",
+            "options": [
+                "Training multiple models and combining their predictions",
+                "Training a single model on a large dataset",
+                "Training a model using a deep neural network",
+                "Training a model using reinforcement learning"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Which ensemble learning algorithm assigns weights to base models based on their performance?",
+            "options": [
+                "AdaBoost",
+                "Random Forest",
+                "Gradient Boosting",
+                "Stacking"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "Which of the following statement is not true about Naïve Bayes classifier algorithm?",
+            "options": [
+                "It cannot be used for Binary as well as multi-class classifications",
+                "It is the most popular choice for text classification problems",
+                "It performs well in Multi-class prediction as compared to other algorithms",
+                "It is one of the fast and easy machine learning algorithms to predict a class of test datasets"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Which one of the following models is a generative model used in machine learning?",
+            "options": [
+                "Linear Regression",
+                "Logistic Regression",
+                "Naïve Bayes",
+                "Support vector machines"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Which of the following can be considered as the classification or mapping of a set or class with some predefined group or classes?",
+            "options": [
+                "Data set",
+                "Data Characterization",
+                "Data Sub Structure",
+                "Data Discrimination"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "In order to integrate heterogeneous databases, how many types of approaches are there in the data warehousing?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Which of the following is generally used by the E-R model to represent the weak entities?",
+            "options": [
+                "Diamond",
+                "Doubly outlined rectangle",
+                "Dotted rectangle",
+                "Both B & C"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which of the following is finally produced by Hierarchical Clustering?",
+            "options": [
+                "Final estimate of cluster centroids",
+                "Tree showing how close things are to each other",
+                "Assignment of each point to clusters",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "Which clustering algorithm is suitable for high-dimensional data?",
+            "options": [
+                "K-Means",
+                "DBSCAN",
+                "Agglomerative",
+                "Mean-Shift"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Which of the following statements is not true about Random forests?",
+            "options": [
+                "It has high complexity",
+                "Construction of Random forests are much easier than decision trees",
+                "Construction of Random forests are time-consuming than decision trees",
+                "More computational resources are required to implement Random Forest algorithm"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        }
+    ]
+}

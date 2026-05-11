@@ -1,0 +1,605 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University - AMT 308 Comprehensive Course Work - December 2025",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "What is the value of the postfix expression 6 3 2 4 + – *?",
+            "options": [
+                "",
+                "-18",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "The prefix form of A-B/ (C * D ^ E) is?",
+            "options": [
+                "-A/B*C^DE",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Which of the following applications makes use of a circular linked list?",
+            "options": [
+                "",
+                "",
+                "",
+                "Allocating CPU to resources"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which of the following tree data structures is not a balanced binary tree?",
+            "options": [
+                "",
+                "B-tree",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "Which algorithm is used in the top tree data structure?",
+            "options": [
+                "",
+                "Divide and conquer",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Which is the most appropriate data structure for reversing a word?",
+            "options": [
+                "stack",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+            "options": [
+                "",
+                "Dequeue",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "If several elements are competing for the same bucket in the hash table, what is it called?",
+            "options": [
+                "",
+                "",
+                "Collision",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "Consider an implementation of an unsorted singly linked list. Suppose it has its representation with a head pointer only. Given the representation, which of the following operations can be implemented in O (1) time?\ni) Insertion at the front of the linked list\nii) Insertion at the end of the linked list\niii) Deletion of the front node of the linked list\niv) Deletion of the last node of the linked list",
+            "options": [
+                "",
+                "I and III",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "What is the maximum number of edges in a bipartite graph having 10 vertices?",
+            "options": [
+                "",
+                "",
+                "25",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "To access the services of the operating system, the interface is provided by the",
+            "options": [
+                "",
+                "System calls",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Which one of the following errors will be handled by the operating system?",
+            "options": [
+                "",
+                "",
+                "",
+                "all the mentioned"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the",
+            "options": [
+                "",
+                "",
+                "",
+                "Ready state"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.",
+            "options": [
+                "",
+                "",
+                "",
+                "resource allocation state"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "Which process can be affected by other processes executing in the system?",
+            "options": [
+                "cooperating process",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+            "options": [
+                "dispatcher",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Memory management technique in which a system stores and retrieves data from secondary storage for use in main memory is called?",
+            "options": [
+                "",
+                "paging",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "From the following, which is not a common file permission?",
+            "options": [
+                "",
+                "",
+                "stop",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "A process is thrashing if",
+            "options": [
+                "it is spending more time paging than executing",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "If we pre-empt a resource from a process, the process cannot continue with its normal execution, and it must be",
+            "options": [
+                "",
+                "rolled back",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "K-Nearest Neighbors (KNN) is classified as what type of machine learning algorithm?",
+            "options": [
+                "Instance-based learning",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Which algorithm is best suited for a binary classification problem?",
+            "options": [
+                "",
+                "Decision Trees",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "Which one of the following models is a generative model used in machine learning?",
+            "options": [
+                "",
+                "Naïve Bayes",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "An artificially intelligent car decreases its speed based on its distance from the car in front of it. Which algorithm is used?",
+            "options": [
+                "",
+                "",
+                "Linear Regression",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "The learner is trying to predict housing prices based on the size of each house. The variable “size” is",
+            "options": [
+                "",
+                "",
+                "independent variable",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "Which of the following statements is false about Ensemble learning?",
+            "options": [
+                "",
+                "It is an unsupervised learning algorithm",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "What is the application of machine learning methods to a large database called?",
+            "options": [
+                "",
+                "",
+                "Data Mining",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Which of the following machine learning techniques helps in detecting the outliers in data?",
+            "options": [
+                "",
+                "",
+                "Anomaly Detection",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "The most significant phase in genetic algorithm is",
+            "options": [
+                "",
+                "",
+                "",
+                "Crossover"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "What does K stand for in K mean algorithm?",
+            "options": [
+                "",
+                "",
+                "",
+                "Number of iterations"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "Which type of data can be stored in the database?",
+            "options": [
+                "",
+                "",
+                "",
+                "All of the above"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Which of the following is not an example of DBMS?",
+            "options": [
+                "",
+                "",
+                "",
+                "Google"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "The ability to query data, as well as insert, delete, and alter tuples, is offered by",
+            "options": [
+                "",
+                "",
+                "",
+                "DML"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "The traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of ______________ type of ‘database’ management system.",
+            "options": [
+                "",
+                "",
+                "",
+                "Hierarchical database management system"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Which of the following is a single valued attribute",
+            "options": [
+                "Register Number",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "A table on the many sides of a one to many or many to many relationship must:",
+            "options": [
+                "",
+                "",
+                "",
+                "Have a composite key"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Functional Dependencies are the types of constraints that are based on",
+            "options": [
+                "Key",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "A method of modelling and describing user tasks for an interactive application is referred to as:",
+            "options": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "Who created the first DBMS?",
+            "options": [
+                "",
+                "Charles Bachman",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "In which of the following formats data is stored in the database management system?",
+            "options": [
+                "",
+                "",
+                "Table",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Which term is used for describing the judgmental or commonsense part of problem solving",
+            "options": [
+                "Heuristic",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Decision support programs are designed to help managers make",
+            "options": [
+                "",
+                "",
+                "business decisions",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "____ is the common language for AI.",
+            "options": [
+                "",
+                "Python",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Natural language processing has two subfields, namely:",
+            "options": [
+                "",
+                "",
+                "understanding and generation",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "The technique of computer vision that relies on the image templates is known as:",
+            "options": [
+                "model-based vision",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "A blind search will be acceptable when this situation occurs:",
+            "options": [
+                "small search space",
+                "",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "The maximum depth to which the alpha-beta pruning can be applied.",
+            "options": [
+                "",
+                "",
+                "",
+                "Any depth"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Automatic Reasoning tool is used in",
+            "options": [
+                "",
+                "",
+                "LISP Machines",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as",
+            "options": [
+                "",
+                "False Positive Hypothesis",
+                "",
+                ""
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "In the TSP problem of n cities, the time taken for traversing all cities, without having prior knowledge of the length of the minimum tour will be",
+            "options": [
+                "",
+                "",
+                "O(n!)",
+                ""
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+        }
+    ]
+}

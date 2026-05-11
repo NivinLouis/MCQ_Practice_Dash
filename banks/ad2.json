@@ -1,0 +1,605 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University - Comprehensive Course Work (ADT308) - June 2023",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "The problem of finding hidden structure in unlabelled data is called",
+            "options": [
+                "Supervised learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "The ratio of correctly predicted labels and the total number of predicted labels is termed as",
+            "options": [
+                "Accuracy",
+                "Precision",
+                "F1 score",
+                "Confusion matrix"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Principal Components Analysis (PCA) is used for",
+            "options": [
+                "Cross Validation",
+                "Loss estimation",
+                "Dimension Reduction",
+                "Performance metric"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Support vector machine (SVM) algorithm solves",
+            "options": [
+                "Entropy Maximization",
+                "Global minima",
+                "Local minima",
+                "Convex optimization problem"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "Which of the following is a heuristic for k-means clustering algorithm?",
+            "options": [
+                "Ward's algorithm",
+                "Lloyd's algorithm",
+                "Both a and b",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "You are given seismic data and you want to predict next earthquake, this is an example of",
+            "options": [
+                "Supervised learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Dimension reduction"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "A feature F1 can take certain value: A, B, C, D, E, & F and represents grade of students from a college. Here feature type is.",
+            "options": [
+                "Nominal",
+                "Categorical",
+                "Boolean",
+                "Ordinal"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "ML is a field of AI consisting of learning algorithms that",
+            "options": [
+                "Improve their performance",
+                "At executing some task",
+                "Over time with experience",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "The model will be trained with data in one single batch is known as",
+            "options": [
+                "Batch learning",
+                "Offline learning",
+                "Both a and b",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "Which of the following is a widely used and effective machine learning algorithm based on the idea of bagging?",
+            "options": [
+                "Decision Tree",
+                "Regression",
+                "Classification",
+                "Random Forest"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Which sorting algorithm is best when list is already sorted",
+            "options": [
+                "Quick sort",
+                "Merge sort",
+                "Insertion sort",
+                "Selection sort"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "What would be the output after performing the following operations in a Deque: 1. Insertfront(10); 2. Insertfront(20); 3. Insertrear(30); 4. Insertrear(40); 5. Deletefront(); 6. Insertfront(50); 7. Deleterear(); 8. Display();",
+            "options": [
+                "10,20,30",
+                "50,10,30",
+                "40,20,30",
+                "20,30,40"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Which of the following is a Divide and Conquer algorithm",
+            "options": [
+                "Bubble",
+                "Heap",
+                "Selection",
+                "Merge"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Select the postfix expression for the infix expression a+b-c+d*(e/f)",
+            "options": [
+                "ab+c-d+e*f/",
+                "ab+c-def/*+",
+                "abc-+def/*+",
+                "ab+c-def/*+"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "What is the time complexity of the binary search algorithm",
+            "options": [
+                "O(n)",
+                "O(1)",
+                "O(log2n)",
+                "O(n^2)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "Which of the following algorithms are used to find the shortest path from a source node to all other nodes in a weighted graph",
+            "options": [
+                "Dijkstra's algorithm",
+                "BFS",
+                "Prims algorithm",
+                "Kruskal's algorithm"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "Consider the following sequence of operations on an empty stack: push(22); push(43); pop(); push(55); push(12); s=pop(); Consider the following sequence of operations on an empty queue: enqueue(32); enqueue(27); dequeue(); enqueue(38); enqueue(12); q=dequeue(); The value of s+q is",
+            "options": [
+                "44",
+                "54",
+                "39",
+                "70"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "What is the outcome of the prefix expression *, -, *, 3, 2, /, 8, 4, 1",
+            "options": [
+                "4",
+                "5",
+                "11",
+                "12"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Which of the following options is not true about the Binary Search tree",
+            "options": [
+                "The value of the left child should be less than the root node",
+                "The value of the right child should be greater than the root node.",
+                "The left and right sub trees should also be a binary search tree",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "Which of these adjacency matrices represents a simple graph",
+            "options": [
+                "[[1, 0, 0], [0, 1, 0], [0, 1, 1]]",
+                "[[1, 1, 1], [1, 1, 1], [1, 1, 1]]",
+                "[[0, 0, 1], [0, 0, 0], [0, 0, 1]]",
+                "[[0, 0, 1], [1, 0, 1], [1, 0, 0]]"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Calculate the internal fragmentation if page size is 4KB and process size is 103KB",
+            "options": [
+                "1KB",
+                "2KB",
+                "3KB",
+                "4KB"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "A process which is copied from main memory to secondary memory on the basis of requirement is known as",
+            "options": [
+                "Paging",
+                "Demand paging",
+                "Thread",
+                "Segmentation"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "If frame size is 4KB then a paging system with page table entry of 2 bytes can address ______ bytes of physical memory.",
+            "options": [
+                "2^12",
+                "2^16",
+                "2^18",
+                "2^28"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "Which of the following is true with regard to Round Robin scheduling technique",
+            "options": [
+                "Responds poorly to short process with small time quantum",
+                "Works like SJF for larger time quantum",
+                "Does not use a prior knowledge of burst times of processes",
+                "Ensure that the ready queue is always of the same size."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "FIFO scheduling is a type of",
+            "options": [
+                "Non-pre-emptive scheduling",
+                "Pre-emptive scheduling",
+                "Deadline scheduling",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "For which of the following purposes in Banker’s algorithm is used",
+            "options": [
+                "Preventing deadlock",
+                "Solving deadlock",
+                "Recovery from deadlock",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+            "options": [
+                "Suspended state",
+                "Terminated state",
+                "Blocked state",
+                "Ready state"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "The operating system keeps a small table containing information about all open files called",
+            "options": [
+                "File-open table",
+                "Open directory table",
+                "open-file table",
+                "system table"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "The _______ program initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system.",
+            "options": [
+                "bootstrap",
+                "main",
+                "bootloader",
+                "rom"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "The operating system and the other processes are protected from being modified by an already running process because",
+            "options": [
+                "They have a protection algorithm",
+                "They are in different memory spaces",
+                "Every address generated by the CPU is being checked against the relocation and limit registers",
+                "They are in different logical addresses"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "In E-R diagram an attribute is represented by",
+            "options": [
+                "Circle",
+                "Rectangle",
+                "Square",
+                "Ellipse"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "Which of the following SQL command is used for removing (or deleting) a relation form the database?",
+            "options": [
+                "Drop",
+                "Delete",
+                "Roll back",
+                "Remove"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Which of the following can replace the below query? SELECT name, course_id FROM instructor, teaches WHERE instructor_ID= teaches_ID;",
+            "options": [
+                "Select name, course_id from instructor natural join teaches;",
+                "Select name, course_id from teaches, instructor where instructor_id=course_id;",
+                "Select name, course_id from instructor;",
+                "Select course_id from instructor join teaches;"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "Let E1, E2 and E3 be three entities in an E/R diagram with simple single-valued attributes. R1 and R2 are two relationships between E1 and E2, where R1 is one-to-many, R2 is many- to-many. R3 is another relationship between E2 and E3 which is many-to-many. R1, R2 and R3 do not have any attributes of their own. What is the minimum number of tables required to represent this situation in the relational model",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Find the highest normal form of a relation R(A,B,C,D,E) with Functional Dependency {B->A, A->C, BC->D, AC->BE}",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "To select some particular columns, which of the following command is used?",
+            "options": [
+                "SELECTION",
+                "JOIN",
+                "UNION",
+                "PROJECTION"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Select the definition of the correct key which is used to represent relation between two tables?",
+            "options": [
+                "Primary key",
+                "Foreign key",
+                "Super key",
+                "Candidate key"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "Which of the following SQL statement can be used to select the name of customers who have no address.",
+            "options": [
+                "Select Name from CUSTOMER where address IS EMPTY;",
+                "Select Name from CUSTOMER where address IS NULL;",
+                "Select Name from CUSTOMER where address=NULL;",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "What do you mean by one to many relationships?",
+            "options": [
+                "One class may have many teachers",
+                "One teacher can have many classes",
+                "Many classes may have many teachers",
+                "Many teachers may have many classes"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "In SQL which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction.",
+            "options": [
+                "Create package",
+                "Create schema",
+                "Create cluster",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "_______ are used when we want to visually examine the relationship between two quantitative variable",
+            "options": [
+                "Scatterplot",
+                "Bar graph",
+                "Pie chart",
+                "Line graph"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Which of the following language is used in Data science",
+            "options": [
+                "R",
+                "C",
+                "C++",
+                "Ruby"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "A _______ is a structured representation of data",
+            "options": [
+                "database table",
+                "functions",
+                "data preparation",
+                "data frame"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "Choose a disadvantage of decision trees among the following.",
+            "options": [
+                "Decision trees are prone to over fitting",
+                "Decision trees are robust to outliers",
+                "Factor analysis",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Amongst which of the following is / are the true about regression analysis",
+            "options": [
+                "Describes associations within the data",
+                "Modelling relationships within the data",
+                "Answering yes/no questions about the data",
+                "All of the mentioned above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Inference engines work on the principle of?",
+            "options": [
+                "Forward chaining",
+                "Simple chaining",
+                "Backward chaining",
+                "Both a and c"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "How do we perform Bayesian classification when some features are missing",
+            "options": [
+                "We integrate the posteriors probabilities over the missing features",
+                "We ignore the missing features",
+                "We assuming the missing values as the mean of all values",
+                "Drop the features completely"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "The modern conception of data science as an independent discipline is sometimes attributed to?",
+            "options": [
+                "John McCarthy",
+                "Arthur Samuel",
+                "William S",
+                "Dennis Ritchie"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "The process of quantifying data is referred to as",
+            "options": [
+                "Structure",
+                "Decoding",
+                "Coding",
+                "Enumeration"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Linear Regression is the supervised machine learning model in which the model finds the best fit _______ between the independent and dependent variable.",
+            "options": [
+                "Linear line",
+                "Non linear line",
+                "Curved line",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        }
+    ]
+}

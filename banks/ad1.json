@@ -1,0 +1,605 @@
+{
+    "quizTitle": "APJ Abdul Kalam Technological University B.Tech Degree S6 Examination April 2025 - Comprehensive Course Work (ADT308)",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "Machine learning is a subset of",
+            "options": [
+                "Data Learning",
+                "Deep Learning",
+                "Artificial Intelligence",
+                "None of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "Which supervised learning technique can process both numeric and categorical input attributes?",
+            "options": [
+                "Linear regression",
+                "Bayes classifier",
+                "logistic regression",
+                "None of the Above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "What kind of table compares classifications predicted by the model with the actual class labels?",
+            "options": [
+                "Residual plot",
+                "Prediction plot",
+                "Chaos table",
+                "Confusion Matrix"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "If machine learning model output involves target variable, then that model is called as",
+            "options": [
+                "Descriptive Model",
+                "Predictive Model",
+                "Reinforcement Learning",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "In what type of learning labelled training data is used",
+            "options": [
+                "Unsupervised Learning",
+                "Supervised Learning",
+                "Reinforcement Learning",
+                "Active Learning"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Data used to build a data mining model.",
+            "options": [
+                "Training data",
+                "Validation data",
+                "Test data",
+                "Hidden data"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "Which of the following is the main goal of principal component analysis (PCA)?",
+            "options": [
+                "To reduce the dimensionality of the data",
+                "To increase the variance of the dataset",
+                "To optimize the performance of the algorithm",
+                "To improve model accuracy"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "In the context of a decision tree, what does the \"Gini index\" measure?",
+            "options": [
+                "The complexity of the tree",
+                "The degree of purity of the nodes",
+                "The depth of the tree",
+                "The accuracy of the model"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "Which one of the following models is a generative model used in machine learning?",
+            "options": [
+                "Linear Regression",
+                "Logistic Regression",
+                "Naïve Bayes",
+                "Support vector machines"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "______ are used when we want to visually examine the relationship between two quantitative variables.",
+            "options": [
+                "Bar graph",
+                "Scatterplot",
+                "Line graph",
+                "Pie chart"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Consider the following sequence of operations on an empty stack. push(22); push(43); pop(); push(55); push(12); s=pop(); Consider the following sequence of operations on an empty queue. enqueue(32); enqueue(27); dequeue(); enqueue(38); enqueue(12); q=dequeue(); The value of s+q is",
+            "options": [
+                "44",
+                "54",
+                "39",
+                "70"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "Select the postfix expression for the infix expression a+b-c+d*(e/f)",
+            "options": [
+                "ab+c-d+e*f/",
+                "abc-+d+ef/*",
+                "abc-+def/*+",
+                "ab+c-def/*+"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "Consider a hash table of size seven, with starting index zero, and a hash function (2x + 5)mod7. Assuming the hash table is initially empty, which of the following is the contents of the table when the sequence 1, 4, 9, 6 is inserted into the table using closed hashing? Note that '_' denotes an empty location in the table.",
+            "options": [
+                "9, _, 1, 6, _, _, 4",
+                "1, _, 6, 9, _, _, 4",
+                "4, _, 9, 6, _, _, 1",
+                "1, _, 9, 6, _, _, 4"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "Which tree traversal performed on a binary search tree, results in ascending order listing of the keys?",
+            "options": [
+                "Pre-order",
+                "In-order",
+                "Post-order",
+                "Level-order"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "The postorder traversal of a binary tree is 8, 9, 6, 7, 4, 5, 2, 3, 1. The inorder traversal of the same tree is 8, 6, 9, 4, 7, 2, 5, 1, 3. The height of a tree is the length of the longest path from the root to any leaf. The height of the binary tree above is",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "The time complexity of heap sort in worst case is",
+            "options": [
+                "O(logn)",
+                "O(n)",
+                "O(nlogn)",
+                "O(n2)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "What is the number of edges present in a complete graph having n vertices?",
+            "options": [
+                "(n*(n+1))/2",
+                "(n*(n-1))/2",
+                "n",
+                "Information given is insufficient"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "To implement a stack using queue (with only enqueue and dequeue operations), how many queues will you need?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "What is the output of following function for start pointing to first node of following linked list? 1 -->2 -->3 -->4 -->5 -->6. Code: void fun(struct node* start) { if(start == NULL) return; printf(\"%d \", start -->data); if(start -->next!= NULL ) fun(start -->next -->next); printf(\"%d \", start -->data); }",
+            "options": [
+                "1 4 6 6 4 1",
+                "1 3 5 1 3 5",
+                "1 2 3 5",
+                "1 3 5 5 3 1"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "Which of the following is a Divide and Conquer algorithm",
+            "options": [
+                "Bubble",
+                "Heap",
+                "Selection",
+                "Merge"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "Let E1, E2 and E3 be three entities in an E/R diagram with simple single-valued attributes. R1 and R2 are two relationships between E1 and E2, where R1 is one-to-many, R2 is many-to-many. R3 is another relationship between E2 and E3 which is many-to-many. R1, R2 and R3 do not have any attributes of their own. What is the minimum number of tables required to represent this situation in the relational model?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "Consider join of a relation R with a relation S. If R has m tuples and S has n tuples, then maximum and minimum sizes of the Join respectively are",
+            "options": [
+                "m+n and 0",
+                "mn and 0",
+                "m+n and |m-n|",
+                "mn and m+n"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "Relations produced from an E-R model will always be in",
+            "options": [
+                "1 NF",
+                "2 NF",
+                "3 NF",
+                "BCNF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "A database administrator's function is",
+            "options": [
+                "Data base design",
+                "Backing up the database",
+                "Performance monitoring",
+                "All of these"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "Let R=(A,B,C,D,E,F) be a relation scheme with the following dependencies: C --> F, E --> A, EC --> D, A --> B. Which of the following is a key for R",
+            "options": [
+                "CD",
+                "EC",
+                "AE",
+                "AC"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "The ability to query data, as well as insert, delete, and alter tuples, is offered by",
+            "options": [
+                "TCL (Transaction Control Language)",
+                "DCL (Data Control Language)",
+                "DDL (Data Definition Language)",
+                "DML (Data Manipulation Language)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "The given Query can also be replaced with SELECT name, course_id FROM instructor, teaches WHERE instructor_id= teaches_ID;",
+            "options": [
+                "Select name,course_id from teaches,instructor where instructor_id=course_id;",
+                "Select name, course_id from instructor natural join teaches;",
+                "Select name, course_id from instructor;",
+                "Select course_id from instructor join teaches;"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "Which of the following is known as minimal super key?",
+            "options": [
+                "Primary key",
+                "Candidate key",
+                "Foreign key",
+                "None"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "Which of the following is TRUE?",
+            "options": [
+                "Every relation in 3NF is also in BCNF",
+                "A relation R is in 3NF if every non prime attribute of R is fully functionally dependent on every key of R",
+                "Every relation in BCNF is also in 3NF",
+                "No relation can be in both BCNF and 3NF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "To select some particular columns, which of the following command is used?",
+            "options": [
+                "SELECTION",
+                "JOIN",
+                "UNION",
+                "PROJECTION"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "The first fit, best fit and worst fit are strategies to select a",
+            "options": [
+                "process from a queue to put in memory",
+                "free hole from a set of available holes",
+                "processor to run the next process",
+                "all of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "The process A, B, C, D and E references in the following order. A, B, C, D, A, B, E, A, B, C, D, E for the LRU page replacement algorithms with 4 frames. The number of page faults with pure demand paging is",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "Which of the following algorithms is used to avoid deadlock?",
+            "options": [
+                "Dynamic Programming algorithm",
+                "Primality algorithms",
+                "Banker's algorithm",
+                "Deadlock algorithm"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "In a timesharing operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+            "options": [
+                "Suspended state",
+                "Terminated state",
+                "Ready state",
+                "Blocked state"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "Dirty bit is used to indicate which of the following?",
+            "options": [
+                "A page fault has occurred",
+                "A page has corrupted data",
+                "A page has been modified after being loaded into cache",
+                "An illegal access of page"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "If a process fails, most operating system write the error information to a",
+            "options": [
+                "new file",
+                "another running process",
+                "log file",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Which of the following scheduling algorithms is non-pre-emptive?",
+            "options": [
+                "Round Robin",
+                "First-In First-Out",
+                "Multilevel Queue Scheduling",
+                "Multilevel Queue Scheduling with Feedback"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "What is ‘Aging’?",
+            "options": [
+                "keeping track of cache contents",
+                "keeping track of what pages are currently residing in memory",
+                "keeping track of how many times a given page is referenced",
+                "increasing the priority of jobs to ensure termination in a finite time"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "In the ..... algorithm, the disk head moves from one end to the other, servicing requests along the way. When the head reaches the other end, it immediately returns to the beginning of the disk without servicing any requests on the return trip.",
+            "options": [
+                "LOOK",
+                "SCAN",
+                "C-SCAN",
+                "C-LOOK"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "Consider the following set of processes with the arrival time and length of CPU burst time given in milli seconds(ms). Process Id: P1, P2, P3, P4, P5; Burst Time: 0, 2, 2, 5, 6; Arrival Time: 5, 3, 2, 3, 1. What is the average waiting time for these processes with non-pre-emptive Shortest Job First (SJF) scheduling algorithm?",
+            "options": [
+                "3ms",
+                "2.1ms",
+                "4.6ms",
+                "3.6ms"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "Which of the following algorithms is considered a lazy learner?",
+            "options": [
+                "Decision Tree",
+                "Support Vector Machine",
+                "K-Nearest-Neighbor",
+                "Neural Network"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Which distance measure is commonly used in K-Means clustering?",
+            "options": [
+                "Manhattan Distance",
+                "Cosine Similarity",
+                "Euclidean Distance",
+                "Jaccard Index"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "A Receiver Operating Characteristic (ROC) curve plots",
+            "options": [
+                "Precision vs. recall",
+                "True positive rate vs. false positive rate",
+                "Sensitivity vs. specificity",
+                "Accuracy vs. threshold"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "The primary purpose of cross-validation in model evaluation is to:",
+            "options": [
+                "Increase the size of the training dataset",
+                "Assess how the model generalizes to an independent dataset",
+                "Reduce the dimensionality of the data",
+                "Improve the model's precision"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "In simple linear regression, the relationship between the independent variable X and the dependent variable Y is modelled as:",
+            "options": [
+                "Y = b0 + b1X + ε",
+                "Y = b0 + b1X + b2X^2 + ε",
+                "Y = b0 + b1X + b2X^2 + b3X^3 + ε",
+                "Y = b0 + b1X"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Which dimensionality reduction technique is suitable for feature selection based on the statistical dependence between features and the target variable?",
+            "options": [
+                "Principal Component Analysis (PCA)",
+                "Linear Discriminant Analysis (LDA)",
+                "Subset Selection",
+                "t-Distributed Stochastic Neighbor Embedding (t-SNE)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "Which of the following is a classification algorithm?",
+            "options": [
+                "K-means",
+                "Decision tree",
+                "Apriori",
+                "DBSCAN"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which metric represents the ratio of correctly predicted positive observations to the total predicted positives?",
+            "options": [
+                "Accuracy",
+                "Precision",
+                "Recall",
+                "F1 Score"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "How does a soft margin SVM differ from a hard margin SVM?",
+            "options": [
+                "Soft margin SVM allows some misclassifications; hard margin SVM does not",
+                "Soft margin SVM requires data to be linearly separable; hard margin SVM does not",
+                "Soft margin SVM uses a linear kernel; hard margin SVM uses a nonlinear kernel",
+                "There is no difference between soft and hard margin SVMs"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Data Analysis is a process of,",
+            "options": [
+                "Inspecting data",
+                "Data Cleaning",
+                "Transforming of data",
+                "All of the mentioned above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        }
+    ]
+}

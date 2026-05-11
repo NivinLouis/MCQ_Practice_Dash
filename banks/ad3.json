@@ -1,0 +1,605 @@
+{
+    "quizTitle": "Comprehensive Course Work - ADT308 (December 2024)",
+    "questions": [
+        {
+            "id": 1,
+            "questionText": "In classification, what does the term \"class label\" refer to?",
+            "options": [
+                "Name of the model",
+                "Output of a regression model",
+                "Predicted category of an input",
+                "Input features of a model"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 2,
+            "questionText": "What is the role of a confusion matrix in classification?",
+            "options": [
+                "Visualizing decision boundaries",
+                "Evaluating model performance",
+                "Selecting hyperparameters",
+                "Handling missing data"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 3,
+            "questionText": "Among the following option identify the one which is not a type of learning",
+            "options": [
+                "Semi Unsupervised Learning",
+                "Supervised Learning",
+                "Reinforcement Learning",
+                "Unsupervised Learning"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 4,
+            "questionText": "Which of the following machine learning algorithm is based upon the idea of bagging?",
+            "options": [
+                "Decision- tree",
+                "Random Forest",
+                "Classification",
+                "Regression"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 5,
+            "questionText": "What happens when the learning rate is high?",
+            "options": [
+                "It always reaches the minima quickly",
+                "It reaches the minima very slowly",
+                "It overshoots the minima",
+                "Nothing happens"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 6,
+            "questionText": "Gradient descent tries to",
+            "options": [
+                "maximize the cost function",
+                "minimize the cost function",
+                "minimize the learning rate",
+                "maximize the learning rate"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 7,
+            "questionText": "Identify the type of learning in which labeled training data is used.",
+            "options": [
+                "Semi Unsupervised Learning",
+                "Supervised Learning",
+                "Reinforcement Learning",
+                "Unsupervised Learning"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 8,
+            "questionText": "How does the Support Vector Machine (SVM) algorithm work in classification?",
+            "options": [
+                "It finds the nearest neighbors for each data point",
+                "It fits a linear hyperplane to separate classes",
+                "It uses decision trees to make predictions",
+                "It performs clustering based on data density"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 9,
+            "questionText": "What is the purpose of the epochs parameter in neural network training?",
+            "options": [
+                "The number of layers in the neural network",
+                "The number of training examples processed in one iteration",
+                "The learning rate for weight updates",
+                "The number of complete passes through the entire training dataset"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 10,
+            "questionText": "What is the concept of entropy in the context of decision trees?",
+            "options": [
+                "The measure of impurity or disorder in a set of data",
+                "The depth of the decision tree",
+                "The ratio of training to testing data",
+                "The number of leaf nodes in the tree"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 11,
+            "questionText": "Which sorting algorithm is best suited for sorting a nearly sorted list?",
+            "options": [
+                "Quick Sort",
+                "Merge Sort",
+                "Insertion Sort",
+                "Selection Sort"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 12,
+            "questionText": "In linked lists there are no NULL links in",
+            "options": [
+                "Singly linked list",
+                "Linear doubly linked list",
+                "Header linked list",
+                "circular linked list"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 13,
+            "questionText": "A graph is a tree if and only if graph",
+            "options": [
+                "is Directed graph",
+                "Contains no cycles",
+                "is Planar",
+                "is completely connected"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 14,
+            "questionText": "The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 15,
+            "questionText": "A linear list in which each node has pointers to point to the predecessor and successor nodes is called as",
+            "options": [
+                "Singly Linked List",
+                "Circular Linked List",
+                "Doubly Linked List",
+                "Linear Linked List"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 16,
+            "questionText": "The matrix contains m rows and n columns. The matrix is called Sparse Matrix if",
+            "options": [
+                "Total number of Zero elements > (m*n)/2",
+                "Total number of Zero elements = m+n",
+                "Total number of Zero elements = m/n",
+                "Total number of Zero elements = m-n"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 17,
+            "questionText": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+            "options": [
+                "Queue",
+                "Circular Queue",
+                "Double ended queue",
+                "Priority queue"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 18,
+            "questionText": "The postfix form of the expression (A+ B)*(C*D- E)*F / G is?",
+            "options": [
+                "AB+CD*E-*F*G/",
+                "AB+CD-E**F*G/",
+                "AB+CD*E-*F/G*",
+                "AB+CD*E/*F*G"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 19,
+            "questionText": "Consider a queue implemented using a linear array of size MAX_SIZE. If front = 0 and rear = MAX_SIZE - 1, what does this indicate?",
+            "options": [
+                "The queue is full.",
+                "The queue is empty.",
+                "The queue is full, but there is space at the beginning.",
+                "The queue is empty, but there is space at the end."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 20,
+            "questionText": "The number of edges in a complete graph of n vertices is",
+            "options": [
+                "n(n+1)/2",
+                "n(n-1)/2",
+                "n^2 /2",
+                "n"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 21,
+            "questionText": "A solution to the problem of external fragmentation is",
+            "options": [
+                "compaction",
+                "larger memory space",
+                "smaller memory space",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 22,
+            "questionText": "What are the two kinds of semaphores?",
+            "options": [
+                "mutex & counting",
+                "binary & counting",
+                "counting & decimal",
+                "decimal & binary"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 23,
+            "questionText": "In the ______ algorithm, the disk arm starts at one end of the disk and moves toward the other end, servicing requests till the other end of the disk. At the other end, the direction is reversed and servicing continues.",
+            "options": [
+                "SCAN",
+                "FCFS",
+                "C-SCAN",
+                "None of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 24,
+            "questionText": "What is Response time?",
+            "options": [
+                "the total time taken from the submission time till the completion time",
+                "the total time taken from the submission time till the first response is produced",
+                "the total time taken from submission time till the response is output",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 25,
+            "questionText": "The real difficulty with Shortest Job First(SJF) in short term scheduling is",
+            "options": [
+                "it is cyclic",
+                "knowing the length of the next CPU request",
+                "It's not flexible",
+                "it is too complex to understand"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 26,
+            "questionText": "What is 'Aging'?",
+            "options": [
+                "keeping track of cache contents",
+                "keeping track of what pages are currently residing in memory",
+                "keeping track of how many times a given page is referenced",
+                "increasing the priority of jobs to ensure termination in a finite time"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 27,
+            "questionText": "With round robin scheduling algorithm in a time shared system ______",
+            "options": [
+                "using very large time slices converts it into First come First served scheduling algorithm",
+                "using very small time slices converts it into First come First served scheduling algorithm",
+                "using extremely small time slices increases performance",
+                "using very small time slices converts it into Shortest Job First algorithm"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 28,
+            "questionText": "The interval from the time of submission of a process to the time of completion is termed as",
+            "options": [
+                "waiting time",
+                "turnaround time",
+                "response time",
+                "throughput"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 29,
+            "questionText": "In internal fragmentation, memory is internal to a partition and ______",
+            "options": [
+                "is being used",
+                "is not being used",
+                "is always used",
+                "none of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 30,
+            "questionText": "In fixed size partition, the degree of multiprogramming is bounded by ______",
+            "options": [
+                "the number of partitions",
+                "the CPU utilization",
+                "the memory size",
+                "all of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 31,
+            "questionText": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to ______ integrity constraint.",
+            "options": [
+                "Referential",
+                "Primary",
+                "Referencing",
+                "Specific"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 32,
+            "questionText": "The ability to query data, as well as insert, delete, and alter tuples, is offered by ______",
+            "options": [
+                "TCL (Transaction Control Language)",
+                "DCL (Data Control Language)",
+                "DDL (Data Definition Language)",
+                "DML (Data Manipulation Language)"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 33,
+            "questionText": "After groups have been established, SQL applies predicates in the ______ clause, allowing aggregate functions to be used.",
+            "options": [
+                "Where",
+                "Having",
+                "Group by",
+                "With"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 34,
+            "questionText": "For designing a normal RDBMS which of the following normal form is considered adequate?",
+            "options": [
+                "4NF",
+                "3NF",
+                "2NF",
+                "1NF"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 35,
+            "questionText": "The logical design, and the snapshot of the data at a given instant in time is known as?",
+            "options": [
+                "Instance & Relation",
+                "Relation & Schema",
+                "Domain & Schema",
+                "Schema & Instance"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 36,
+            "questionText": "What does the FROM clause in an SQL query represent?",
+            "options": [
+                "Attributes to be retrieved",
+                "Conditions for selection",
+                "Relations to be scanned",
+                "Grouping criteria"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 37,
+            "questionText": "Based on the given example, what is the purpose of the condition Dnumber = Dno in the WHERE clause?",
+            "options": [
+                "Selection condition",
+                "Join condition",
+                "Grouping condition",
+                "Sorting condition"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 38,
+            "questionText": "In the context of normalization, what does the term \"functional dependency\" mean?",
+            "options": [
+                "A relationship between primary and foreign keys.",
+                "A relationship between two or more attributes in a table.",
+                "The unique identifier for a table.",
+                "The process of removing duplicates from a table."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 39,
+            "questionText": "What is the key difference between Second Normal Form (2NF) and Third Normal Form (3NF)?",
+            "options": [
+                "2NF allows partial dependencies, while 3NF does not.",
+                "2NF requires a composite primary key, while 3NF does not.",
+                "3NF requires a composite primary key, while 2NF does not.",
+                "3NF allows transitive dependencies, while 2NF does not."
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 40,
+            "questionText": "Consider the following action: TRANSACTION..... Commit; ROLLBACK; What does Rollback do?",
+            "options": [
+                "Undoes the transactions before commit",
+                "Clears all transactions",
+                "Redoes the transactions before commit",
+                "No action"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 41,
+            "questionText": "In supervised learning, which of the following is required?",
+            "options": [
+                "Labeled data",
+                "Only numerical data",
+                "Unlabeled data",
+                "Only categorical data"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 42,
+            "questionText": "Which of the following is a common method for data preprocessing?",
+            "options": [
+                "Data normalization",
+                "Data storage",
+                "Data aggregation",
+                "Data visualization"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 43,
+            "questionText": "What technique is commonly used in data science for making predictions?",
+            "options": [
+                "Data cleaning",
+                "Data Storage",
+                "Machine Learning",
+                "Data Encoding"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 44,
+            "questionText": "What type of data is considered unstructured?",
+            "options": [
+                "Data in relational databases",
+                "Data in spreadsheets",
+                "Data in CSV files",
+                "Text documents and images"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 45,
+            "questionText": "Which of the following input can be accepted by DataFrame?",
+            "options": [
+                "DataFrame",
+                "Series",
+                "Structured ndarray",
+                "All of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 46,
+            "questionText": "Which of the following is used to extract data from HTML code of websites?",
+            "options": [
+                "Webscraping",
+                "Webcleaning",
+                "Webdredging",
+                "All of the mentioned"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 47,
+            "questionText": "What does K stand for in K means algorithm?",
+            "options": [
+                "number of clusters",
+                "number of data",
+                "number of attributes",
+                "number of iterations"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 48,
+            "questionText": "Which of the following is not a supervised learning",
+            "options": [
+                "PCA",
+                "Naïve Bayesian",
+                "Linear regression",
+                "Decision Tree"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 49,
+            "questionText": "Choose a disadvantage of decision trees among the following.",
+            "options": [
+                "Decision trees are robust to outliers",
+                "Factor analysis",
+                "Decision trees are prone to overfit",
+                "All of the above"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        },
+        {
+            "id": 50,
+            "questionText": "Choose the Python data structure responsible for the storage and manipulation of tabular data in Data Science",
+            "options": [
+                "Array",
+                "List",
+                "Dictionary",
+                "DataFrame"
+            ],
+            "correctAnswerIndex": null,
+            "explanation": ""
+        }
+    ]
+}
