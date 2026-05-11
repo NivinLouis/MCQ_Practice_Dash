@@ -371,7 +371,7 @@
                 "Terminated state"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "When a blocked process finishes its I/O service, it moves to the Ready state."
         },
         {
             "id": 32,
@@ -383,7 +383,7 @@
                 "context switch time"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Context of a process includes CPU registers, state, memory info, etc. 'Context switch time' is a performance metric, not stored in the PCB."
         },
         {
             "id": 33,
@@ -395,7 +395,7 @@
                 "All of the mentioned"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "During a context switch, the Translation Lookaside Buffer (TLB) might not need to be saved if the OS handles it separately (e.g., by flushing)."
         },
         {
             "id": 34,
@@ -407,7 +407,7 @@
                 "Power failure"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "A running process can be interrupted by hardware devices, timers, or power failure. 'Scheduler process' is a software component that runs when the current process is interrupted."
         },
         {
             "id": 35,
@@ -419,7 +419,7 @@
                 "init process"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Cooperating processes can affect or be affected by other processes executing in the system."
         },
         {
             "id": 36,
@@ -431,7 +431,7 @@
                 "critical condition"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "A race condition occurs when the outcome depends on the specific order of execution of concurrent processes."
         },
         {
             "id": 37,
@@ -443,7 +443,7 @@
                 "asynchronous exclusion"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Mutual exclusion ensures that if one process is in its critical section, no other process can be in theirs."
         },
         {
             "id": 38,
@@ -455,7 +455,7 @@
                 "socket"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "A semaphore is a classic synchronization tool used to control access to common resources."
         },
         {
             "id": 39,
@@ -467,7 +467,7 @@
                 "that can not be more than one"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "A counting semaphore is a shared integer variable that cannot drop below zero."
         },
         {
             "id": 40,
@@ -479,7 +479,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Both mutex locks and binary semaphores can be used to provide mutual exclusion."
         },
         {
             "id": 41,
@@ -491,7 +491,7 @@
                 "priority modification"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Priority inversion occurs when a high-priority task is blocked by a lower-priority task holding a resource."
         },
         {
             "id": 42,
@@ -503,7 +503,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Process synchronization can be implemented at both hardware (e.g., test-and-set) and software levels (e.g., semaphores)."
         },
         {
             "id": 43,
@@ -515,7 +515,7 @@
                 "all of the mentioned"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "A monitor is a high-level synchronization construct that encapsulates shared data, procedures, and synchronization logic."
         },
         {
             "id": 44,
@@ -527,7 +527,7 @@
                 "all of the mentioned"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Condition variables (declared as 'condition') are used within monitors to allow processes to wait for specific events."
         },
         {
             "id": 45,
@@ -539,7 +539,7 @@
                 "crashing the system by utilizing multiple resources"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Restricting child resources prevents a process from overloading the system by creating too many sub-processes."
         },
         {
             "id": 46,
@@ -551,7 +551,7 @@
                 "exec"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "The wait system call suspends the parent until a child terminates."
         },
         {
             "id": 47,
@@ -563,7 +563,7 @@
                 "None of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Cascading termination is the OS-enforced termination of child processes when the parent terminates (normally or abnormally)."
         },
         {
             "id": 48,
@@ -575,7 +575,7 @@
                 "Uniprocessing, Multiprocessing"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Uniprocessing allows only one process to run at a time; multiprocessing allows multiple processes to run simultaneously on different processors."
         },
         {
             "id": 49,
@@ -587,7 +587,7 @@
                 "None of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "In UNIX, each process is uniquely identified by its Process Identifier (PID)."
         },
         {
             "id": 50,
@@ -599,7 +599,7 @@
                 "A nonzero integer, Zero"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "In UNIX, fork returns 0 to the child and the child's PID (a non-zero integer) to the parent."
         },
         {
             "id": 51,
@@ -611,7 +611,7 @@
                 "never have another program loaded into it"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "A child process can be a duplicate of the parent (initially) or have a new program loaded into it."
         },
         {
             "id": 52,
@@ -623,7 +623,7 @@
                 "Dead"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "A Zombie process is one that has finished execution but whose entry still exists in the process table because the parent hasn't collected its status."
         },
         {
             "id": 53,
@@ -635,7 +635,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Interprocess communication (IPC) allows processes to communicate and synchronize their actions."
         },
         {
             "id": 54,
@@ -647,7 +647,7 @@
                 "name the recipient or sender of the message"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Message passing allows communication without sharing the same address space."
         },
         {
             "id": 55,
@@ -659,7 +659,7 @@
                 "receive & send message"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "IPC facilities provide send and receive message operations for communication."
         },
         {
             "id": 56,
@@ -671,7 +671,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Messages can be of fixed or variable size depending on the system design."
         },
         {
             "id": 57,
@@ -683,7 +683,7 @@
                 "all of the mentioned"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "A communication link is the path between two processes for exchanging messages."
         },
         {
             "id": 58,
@@ -695,7 +695,7 @@
                 "Exactly two link exists between each pair of processes"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Direct communication requires each process to explicitly name the recipient or sender, creating a link associated with exactly two processes."
         },
         {
             "id": 59,
@@ -707,7 +707,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Indirect communication uses mailboxes or ports to help processes communicate."
         },
         {
             "id": 60,
@@ -719,7 +719,7 @@
                 "none of the mentioned"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "In non-blocking send, the sender sends the message and continues with its execution without waiting."
         },
         {
             "id": 61,

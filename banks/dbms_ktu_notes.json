@@ -106,8 +106,8 @@
                 "Single-user Access only",
                 "Support ACID Property"
             ],
-            "correctAnswerIndex": 2,
-            "explanation": "The important features of a database management system are: 1) Minimum Duplication and Redundancy of Data 2) High Level of Security 3) Mulitple-user Access 4) Support ACID Property"
+            "correctAnswerIndex": 3,
+            "explanation": "Key features of a DBMS include support for ACID properties, multi-user access control, high security, and minimizing data redundancy and duplication."
         },
         {
             "id": 10,
@@ -394,8 +394,8 @@
                 "Group by",
                 "With"
             ],
-            "correctAnswerIndex": 3,
-            "explanation": "The “with” clause was introduced to reduce the complexity of the queries which are lengthy. The “with” clause allows you to define a temporary relation whose definition is only visible to the query in which it appears."
+            "correctAnswerIndex": 1,
+            "explanation": "The HAVING clause is used to specify search conditions for a group or an aggregate, as it is applied after the GROUP BY clause has established the groups."
         },
         {
             "id": 34,
@@ -418,8 +418,8 @@
                 "One to many relationship between the tables that connects them",
                 "All of the mentioned"
             ],
-            "correctAnswerIndex": 0,
-            "explanation": "Using the two relationships mother and father gives us a record of a child’s mother, even if we don’t know who the father is; if the ternary connection parent is used, a null value is necessary. In this scenario, binary relationship sets are preferred."
+            "correctAnswerIndex": 1,
+            "explanation": "A primary key-foreign key relationship creates a parent-child relationship between tables, where the table with the primary key is the parent and the table with the foreign key is the child."
         },
         {
             "id": 36,
@@ -442,8 +442,8 @@
                 "all of the mentioned",
                 "none of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": "For updating the value in ASCII text format, a regular text file is used."
+            "correctAnswerIndex": 1,
+            "explanation": "Spreadsheet data is frequently exported to CSV files, which are stored on disk in a standard ASCII or UTF-8 text format, making them easy to import into a DBMS."
         },
         {
             "id": 38,
@@ -491,7 +491,7 @@
                 "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "A view can be thought of as a virtual table that gets its data from one or more table columns."
+            "explanation": "The ROLLUP operator generates a result set that shows aggregates for a hierarchy of values in the selected columns, effectively computing subtotals from right to left."
         },
         {
             "id": 42,
@@ -502,8 +502,8 @@
                 "Relational-and",
                 "All of the mentioned"
             ],
-            "correctAnswerIndex": 1,
-            "explanation": "Concatenation in DBMS is used to join two or more table fields of the same table or different tables. Example inst sec and student sec."
+            "correctAnswerIndex": 0,
+            "explanation": "In complex or large databases, dot notation (e.g., TableName.AttributeName) is the standard way to uniquely identify and represent attributes from specific tables."
         },
         {
             "id": 43,
@@ -610,8 +610,8 @@
                 "Hierarchical",
                 "Relational"
             ],
-            "correctAnswerIndex": 0,
-            "explanation": "Network model has data stored in a hierarchical network flow. In a relational DBMS, the data is stored in the form of tables. Hierarchy is obtained by Parent-Child Relationship"
+            "correctAnswerIndex": 2,
+            "explanation": "The Hierarchical model is one of the oldest database models (e.g., IMS), where data is organized into a tree-like structure with parent-child relationships."
         },
         {
             "id": 52,
