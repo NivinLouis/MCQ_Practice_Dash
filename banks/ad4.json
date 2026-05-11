@@ -10,8 +10,8 @@
                 "Never request a resource after releasing any resource",
                 "Request and all required resources be allocated before execution."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Never requesting a resource after releasing one is not a standard deadlock prevention scheme. The standard schemes involve breaking one of the four necessary conditions: mutual exclusion, hold and wait (option 0 and 3), no preemption, and circular wait (option 1)."
         },
         {
             "id": 2,
@@ -22,8 +22,8 @@
                 "Some times increase the number of page faults",
                 "Never affect the number of page faults"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "This phenomenon is known as Belady's Anomaly, where increasing the number of page frames can result in an increase in the number of page faults for certain access patterns in FIFO page replacement."
         },
         {
             "id": 3,
@@ -34,8 +34,8 @@
                 "9.999 microseconds",
                 "1.9999 microseconds"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Effective Access Time (EAT) = (Hit Ratio * Memory Access Time) + (Miss Ratio * Page Fault Service Time). EAT = (0.9999 * 1us) + (0.0001 * 10,000us) = 0.9999us + 1us = 1.9999us."
         },
         {
             "id": 4,
@@ -46,8 +46,8 @@
                 "Multilevel Queue Scheduling",
                 "Multilevel Queue Scheduling with Feedback"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "First-In First-Out (FIFO) is a non-preemptive scheduling algorithm where the process that requests the CPU first is allocated the CPU first."
         },
         {
             "id": 13,
@@ -58,8 +58,8 @@
                 "q[9]",
                 "q[10]"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Assuming the standard implementation where rear increments before insertion: 1st at 3, 2nd at 4, 3rd at 5, 4th at 6, 5th at 7, 6th at 8, 7th at 9, 8th at 10, and 9th at (10+1)%11 = 0."
         },
         {
             "id": 14,
@@ -70,8 +70,8 @@
                 "10,11,12,15,16,18,19,20",
                 "19,16,18,20,11,12,10,15"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "For a BST, the inorder traversal is the sorted version of the preorder traversal. Using Preorder (15, 10, 12, 11, 20, 18, 16, 19) and Inorder (10, 11, 12, 15, 16, 18, 19, 20), the postorder traversal is found to be 11, 12, 10, 16, 19, 18, 20, 15."
         },
         {
             "id": 15,
@@ -82,8 +82,8 @@
                 "4",
                 "6"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "43 at 3, 165 at 5, 62 at 2. 123 wants 3 (taken), takes 4. 142 wants 2 (taken), tries 3 (taken), tries 4 (taken), tries 5 (taken), takes 6."
         },
         {
             "id": 16,
@@ -94,8 +94,8 @@
                 "O(1)",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "If a pointer to an intermediate node is given, we can copy the data of the next node into the current node and delete the next node in O(1) time."
         },
         {
             "id": 17,
@@ -106,8 +106,8 @@
                 "142",
                 "71"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "10 5 + = 15; 60 6 / = 10; 15 10 * = 150; 150 8 - = 142."
         },
         {
             "id": 18,
@@ -118,8 +118,8 @@
                 "Tree",
                 "List"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "A stack is the standard data structure for balancing symbols/parentheses: push opening symbols and pop on matching closing symbols."
         },
         {
             "id": 19,
@@ -130,8 +130,8 @@
                 "n-k",
                 "n-k-1"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "In a spanning forest, the number of edges k = n - c, where c is the number of connected components. Thus, c = n - k."
         },
         {
             "id": 20,
@@ -142,8 +142,8 @@
                 "1",
                 "n-2"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Selection sort performs exactly one swap per pass (except for the last element if it's already in place), resulting in at most n-1 swaps."
         },
         {
             "id": 21,
@@ -154,8 +154,8 @@
                 "Number of entries in the relation.",
                 "Number of distinct domains of its relation schema."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The degree of a relation is defined as the number of attributes (columns) in the relation schema."
         },
         {
             "id": 22,
@@ -166,8 +166,8 @@
                 "If the current allocation of resources to processes leads the system to unsafe state, then deadlock will necessarily occur",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Circular wait is one of the four necessary conditions for deadlock. A cycle in a resource allocation graph is only sufficient if each resource has exactly one instance. An unsafe state only means deadlock *might* occur."
         },
         {
             "id": 23,
@@ -178,8 +178,8 @@
                 "Ordered by",
                 "Distinct"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "AVG() is an aggregate function that returns the average value of a numeric column. SELECT, ORDER BY, and DISTINCT are keywords/clauses."
         },
         {
             "id": 24,
@@ -190,8 +190,8 @@
                 "Relational Schema",
                 "DDL"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Data Definition Language (DDL) is used to define and modify the database structure, such as CREATE, ALTER, and DROP."
         },
         {
             "id": 25,
@@ -202,8 +202,8 @@
                 "select empid from emp;",
                 "select empid where empid = 1009 and Lastname = 'GELLER';"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "The statement in option 3 is missing the FROM clause, which is required in a standard SQL SELECT statement."
         },
         {
             "id": 26,
@@ -214,8 +214,8 @@
                 "It is a kind of general software",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "DBMS is categorized as system software as it provides a platform for managing data and serves as an interface between the database and application programs."
         },
         {
             "id": 27,
@@ -226,8 +226,8 @@
                 "Specialization",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Specialization is a top-down process where a higher-level entity is divided into lower-level entities. Generalization is the opposite (bottom-up)."
         },
         {
             "id": 28,
@@ -238,8 +238,8 @@
                 "Internal view",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The conceptual level or view provides a global, total view of the database structure and relationships, hiding physical storage details."
         },
         {
             "id": 29,
@@ -250,8 +250,8 @@
                 "2 and 3 is correct",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Statement 1 is correct. Statement 2 is incorrect as outer join is an extended operation, not fundamental. Statement 3 is incorrect as they are different operations."
         },
         {
             "id": 30,
@@ -262,8 +262,8 @@
                 "Local formats",
                 "Inheritances"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "With location transparency, the user doesn't need to know where the data is stored, but if there is no fragmentation transparency, they must still specify the fragment name."
         },
         {
             "id": 31,
@@ -274,8 +274,8 @@
                 "Apriori algorithm",
                 "Support Vector Machines (SVM)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "The Apriori algorithm is a classic algorithm used for association rule mining and finding frequent itemsets in transactional databases."
         },
         {
             "id": 32,
@@ -286,8 +286,8 @@
                 "The trade-off between the number of features and the size of the dataset",
                 "The trade-off between precision and recall in classification"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The bias-variance trade-off describes the conflict between a model's complexity (which can lead to overfitting/high variance) and its simplicity (which can lead to underfitting/high bias)."
         },
         {
             "id": 33,
@@ -298,8 +298,8 @@
                 "DBSCAN",
                 "PCA"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Agglomerative clustering is a common 'bottom-up' approach to hierarchical clustering."
         },
         {
             "id": 34,
@@ -310,8 +310,8 @@
                 "Ignoring the rows with missing data during analysis",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "All these techniques (deletion and imputation) are standard methods for handling missing data."
         },
         {
             "id": 35,
@@ -322,8 +322,8 @@
                 "Tanh activation function",
                 "Batch normalization"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The Rectified Linear Unit (ReLU) activation function helps combat vanishing gradients by providing a constant gradient for positive inputs, unlike sigmoid or tanh which saturate."
         },
         {
             "id": 36,
@@ -334,8 +334,8 @@
                 "A way to perform dimensionality reduction",
                 "A way to implicitly map data to higher-dimensional spaces"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "The kernel trick allows SVMs to operate in a high-dimensional feature space without explicitly computing the coordinates of the data in that space."
         },
         {
             "id": 37,
@@ -346,8 +346,8 @@
                 "To encourage overfitting",
                 "To reduce the complexity of the model"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Regularization adds a penalty term for large coefficients to the cost function, thereby discouraging overly complex models and helping to prevent overfitting."
         },
         {
             "id": 38,
@@ -358,8 +358,8 @@
                 "Non parametric learning",
                 "Model-based learning"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "KNN is a classic instance-based (or lazy) learning algorithm because it stores all training instances and performs computation only at the time of prediction."
         },
         {
             "id": 39,
@@ -370,8 +370,8 @@
                 "SVM",
                 "Decision Tree"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "K-means is an unsupervised learning algorithm used for clustering. Naive Bayes, SVM, and Decision Trees are supervised learning algorithms used for classification/regression."
         },
         {
             "id": 40,
@@ -382,8 +382,8 @@
                 "It is a technique for solving two class classification problems",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Boosting is an ensemble technique that primarily aims to reduce bias (and can also reduce variance), creating a strong learner from weak ones. It does NOT increase bias and variance."
         },
         {
             "id": 41,
@@ -394,8 +394,8 @@
                 "Training a model using a deep neural network",
                 "Training a model using reinforcement learning"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Ensemble learning involves combining multiple base models to produce a single, more robust prediction."
         },
         {
             "id": 42,
@@ -406,8 +406,8 @@
                 "Gradient Boosting",
                 "Stacking"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "AdaBoost (Adaptive Boosting) assigns higher weights to models that perform better and focuses more on instances that were misclassified by previous models."
         },
         {
             "id": 43,
@@ -418,8 +418,8 @@
                 "It performs well in Multi-class prediction as compared to other algorithms",
                 "It is one of the fast and easy machine learning algorithms to predict a class of test datasets"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Naive Bayes *can* be used for both binary and multi-class classification problems, making the first statement false."
         },
         {
             "id": 44,
@@ -430,8 +430,8 @@
                 "Naïve Bayes",
                 "Support vector machines"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Naive Bayes is a generative model because it models the joint probability distribution P(X, Y). Logistic Regression and SVM are discriminative models."
         },
         {
             "id": 45,
@@ -442,8 +442,8 @@
                 "Data Sub Structure",
                 "Data Discrimination"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In data mining (Han & Kamber context), data discrimination is defined as the comparison of the target class with one or more contrasting classes."
         },
         {
             "id": 46,
@@ -454,8 +454,8 @@
                 "3",
                 "4"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "There are two main approaches: the query-driven approach (lazy) and the update-driven approach (eager/data warehouse)."
         },
         {
             "id": 47,
@@ -466,8 +466,8 @@
                 "Dotted rectangle",
                 "Both B & C"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "In an Entity-Relationship (E-R) diagram, weak entities are represented by a double-lined rectangle."
         },
         {
             "id": 48,
@@ -478,8 +478,8 @@
                 "Assignment of each point to clusters",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Hierarchical clustering produces a dendrogram, which is a tree-like structure showing the hierarchical relationships between clusters."
         },
         {
             "id": 49,
@@ -490,8 +490,8 @@
                 "Agglomerative",
                 "Mean-Shift"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "DBSCAN is generally more robust for discovering clusters of arbitrary shapes and handling noise in higher dimensions compared to K-means, although specialized subspace clustering is often preferred for very high dimensions."
         },
         {
             "id": 50,
@@ -502,8 +502,8 @@
                 "Construction of Random forests are time-consuming than decision trees",
                 "More computational resources are required to implement Random Forest algorithm"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Random Forests are ensembles of many decision trees; thus, they are more complex and harder/slower to construct than a single decision tree."
         }
     ]
 }

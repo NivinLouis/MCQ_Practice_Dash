@@ -10,7 +10,7 @@
                 "Event model",
                 "Customer model"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -22,7 +22,7 @@
                 "Constraints",
                 "Semantic information"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -34,7 +34,7 @@
                 "a and b",
                 "b and c"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -46,7 +46,7 @@
                 "Referential Integrity rules",
                 "Entity Integrity rules"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -58,7 +58,7 @@
                 "DBA",
                 "Schema"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -70,7 +70,7 @@
                 "Exam (ExamID, NID, ExamName)",
                 "Exam (ExamID, ExamName)"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -82,7 +82,7 @@
                 "Doubly outlined rectangle",
                 "None of these"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -94,7 +94,7 @@
                 "DCL",
                 "OQL"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -106,7 +106,7 @@
                 "Object based model",
                 "Semi structured model"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -118,7 +118,7 @@
                 "Squared ellipse",
                 "An ellipse with attribute name underlined"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -130,7 +130,7 @@
                 "I, II & IV",
                 "I & III"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -142,7 +142,7 @@
                 "Which does not have any key attribute its own",
                 "A weak entity is one"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -154,7 +154,7 @@
                 "Minimum cardinality should be zero",
                 "none of the options"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -166,7 +166,7 @@
                 "left-right approach",
                 "none of these"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -178,7 +178,7 @@
                 "{x,y,z} and {a,b,c}",
                 "{z} and {c}"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -190,7 +190,7 @@
                 "Weak entity set",
                 "Simple entity set"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -202,7 +202,7 @@
                 "Concurrent access by multiple users",
                 "Support for programming languages"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -214,7 +214,7 @@
                 "Unstructured data",
                 "Normalized data."
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -226,7 +226,7 @@
                 "External schema",
                 "Logical schema"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -238,7 +238,7 @@
                 "Ternary relationship",
                 "Weak relationship"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -250,7 +250,7 @@
                 "Composite key",
                 "Check"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -262,7 +262,7 @@
                 "Referential integrity",
                 "Not Null constraint"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -274,7 +274,7 @@
                 "Sets child rows to NULL when parent is deleted",
                 "Throws an error when a parent row is deleted"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -286,7 +286,7 @@
                 "M:N",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -298,7 +298,7 @@
                 "Only primary key attributes participate",
                 "Relationship does not require attributes"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -310,7 +310,7 @@
                 "Cartesian Product (×)",
                 "Group By"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -322,7 +322,7 @@
                 "Joins the Employee table with age",
                 "Deletes employees with age ≤ 30"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -334,7 +334,7 @@
                 "A Cartesian product of Employee and Department",
                 "A join operation on Employee and Department"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -346,7 +346,7 @@
                 "Outer join",
                 "Self-join"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -358,7 +358,7 @@
                 "Equi-join",
                 "Natural join"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -370,7 +370,7 @@
                 "UPDATE",
                 "ALTER"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -382,7 +382,7 @@
                 "Adds a new column named salary",
                 "Creates a new table"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -394,7 +394,7 @@
                 "Drops only constraints",
                 "Deletes table temporarily"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -406,7 +406,7 @@
                 "TRUNCATE",
                 "ALTER"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -418,7 +418,7 @@
                 "Throws an error",
                 "Deletes table structure"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -430,7 +430,7 @@
                 "SELECT salary FROM Employees WHERE ROWNUM <= 3 ORDER BY salary DESC;",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -442,7 +442,7 @@
                 "SELECT Name FROM Students WHERE ID IN (SELECT ID FROM Courses);",
                 "Both B and C"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -454,7 +454,7 @@
                 "20",
                 "Cannot be determined"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -466,7 +466,7 @@
                 "15",
                 "50"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -478,7 +478,7 @@
                 "Highest salary",
                 "Number of salary updates."
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -490,7 +490,7 @@
                 "HAVING",
                 "ORDER BY"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -502,7 +502,7 @@
                 "They do not use joins",
                 "They always return a single value"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -514,7 +514,7 @@
                 "Improve query performance",
                 "Store temporary table data"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -526,7 +526,7 @@
                 "SELECT emp_name FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees GROUP BY dept_id);",
                 "SELECT emp_name FROM Employees E WHERE salary > (SELECT AVG(salary) FROM Employees WHERE dept_id = E.dept_id);"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -538,7 +538,7 @@
                 "Creates a virtual table",
                 "Deletes employees earning above 50,000"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -550,7 +550,7 @@
                 "Only NULL values will be deleted",
                 "The query will fail if no WHERE condition is provided"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -562,7 +562,7 @@
                 "Total number of departments including duplicates",
                 "The query will result in an error"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -574,7 +574,7 @@
                 "Returns matching rows plus unmatched rows from the left table",
                 "Returns all unmatched rows from the right table"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -586,7 +586,7 @@
                 "SELECT customer_id, order_date FROM Orders WHERE order_date = (SELECT MAX(order_date) FROM Orders WHERE Orders.customer_id = O.customer_id);",
                 "SELECT customer_id, MAX(order_date) FROM Orders GROUP BY customer_id;"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -598,7 +598,7 @@
                 "Insert new records",
                 "Grant user permissions"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -610,7 +610,7 @@
                 "Bitmap index",
                 "Full-text index"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -622,7 +622,7 @@
                 "B+-Trees store all values in leaf nodes",
                 "B-Trees support range queries"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -634,7 +634,7 @@
                 "Number of disk accesses",
                 "Number of index levels"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -646,7 +646,7 @@
                 "When searching for a key",
                 "When all keys are in one bucket"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -658,7 +658,7 @@
                 "AVL trees",
                 "Sequential access"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -670,7 +670,7 @@
                 "Slows down updates but improves lookups",
                 "No impact on performance"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -682,7 +682,7 @@
                 "[20, 25, 40]",
                 "None of the above"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -694,7 +694,7 @@
                 "14",
                 "25"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -706,7 +706,7 @@
                 "5",
                 "6"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -718,7 +718,7 @@
                 "50",
                 "200"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -730,7 +730,7 @@
                 "Update anomaly",
                 "Redundancy anomaly"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -742,7 +742,7 @@
                 "3NF",
                 "BCNF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -754,7 +754,7 @@
                 "{A, B, C}",
                 "{A, B, D}"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -766,7 +766,7 @@
                 "Symmetry",
                 "Transitivity"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -778,7 +778,7 @@
                 "{A → C, A → B}",
                 "{A → B, A → C}"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -790,7 +790,7 @@
                 "3NF",
                 "BCNF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -802,7 +802,7 @@
                 "It is in 3NF and has no multi-valued dependencies.",
                 "It has no transitive dependencies."
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -814,7 +814,7 @@
                 "A → B",
                 "A, B → C"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -826,7 +826,7 @@
                 "A → D holds in R.",
                 "A, B → D holds in R."
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -838,7 +838,7 @@
                 "R1(A, C), R2(A, B, D)",
                 "R1(A, D), R2(A, B, C)"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -850,7 +850,7 @@
                 "1NF",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -862,7 +862,7 @@
                 "Functional Dependency Expansion Algorithm",
                 "Closure Computation Algorithm"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -874,7 +874,7 @@
                 "{A, B, C, E}",
                 "{A, B, C}"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -886,7 +886,7 @@
                 "BCNF",
                 "4NF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -898,7 +898,7 @@
                 "It increases redundancy.",
                 "It violates functional dependencies."
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -910,7 +910,7 @@
                 "A → C",
                 "No functional dependency violates BCNF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -922,7 +922,7 @@
                 "{A → B, A → C}",
                 "{A → BC}"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -934,7 +934,7 @@
                 "Transitive dependency",
                 "Functional dependency"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -946,7 +946,7 @@
                 "BCNF",
                 "4NF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -958,7 +958,7 @@
                 "3NF",
                 "BCNF"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -970,7 +970,7 @@
                 "Durability",
                 "Deadlock-free execution"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -982,7 +982,7 @@
                 "Committed",
                 "Aborted"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -994,7 +994,7 @@
                 "Deferred Database Modification",
                 "Checkpointing"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1006,7 +1006,7 @@
                 "Non-recoverable schedule",
                 "Deadlock-free schedule"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1018,7 +1018,7 @@
                 "Number of transactions",
                 "Execution time"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -1030,7 +1030,7 @@
                 "Strict Schedule",
                 "Conflict Serializable Schedule"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -1042,7 +1042,7 @@
                 "Lock phase and Unlock phase",
                 "Shared phase and Exclusive phase"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -1054,7 +1054,7 @@
                 "Conservative Two-Phase Locking",
                 "Optimistic Concurrency Control"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1066,7 +1066,7 @@
                 "Only rollback operations",
                 "Both committed and uncommitted transactions"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -1078,7 +1078,7 @@
                 "To prevent deadlocks",
                 "To enforce serializability"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1090,7 +1090,7 @@
                 "Uses key-value pairs for fast lookups",
                 "Organizes data in columns instead of rows"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -1102,7 +1102,7 @@
                 "Cassandra",
                 "ArangoDB"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1114,7 +1114,7 @@
                 "Uses relational algebra for data retrieval",
                 "Cannot handle unstructured data"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 0,
             "explanation": ""
         },
         {
@@ -1126,7 +1126,7 @@
                 "MongoDB",
                 "Cassandra"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -1138,7 +1138,7 @@
                 "Data is stored in rows and grouped into column families",
                 "Data is stored as interconnected nodes and edges"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -1150,7 +1150,7 @@
                 "Cassandra",
                 "ArangoDB"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -1162,7 +1162,7 @@
                 "Represents data as nodes and edges to model relationships",
                 "Uses primary and foreign keys for connections"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 2,
             "explanation": ""
         },
         {
@@ -1174,7 +1174,7 @@
                 "Cassandra",
                 "Neo4j"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 3,
             "explanation": ""
         },
         {
@@ -1186,7 +1186,7 @@
                 "Strict Two-phase locking",
                 "Rigorous Two-phase locking"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         },
         {
@@ -1198,7 +1198,7 @@
                 "During the active state",
                 "Only after check-pointing"
             ],
-            "correctAnswerIndex": null,
+            "correctAnswerIndex": 1,
             "explanation": ""
         }
     ]

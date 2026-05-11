@@ -10,8 +10,8 @@
                 "Predicted category of an input",
                 "Input features of a model"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "In classification, the class label is the discrete category or class assigned to an input data point by the model."
         },
         {
             "id": 2,
@@ -22,8 +22,8 @@
                 "Selecting hyperparameters",
                 "Handling missing data"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A confusion matrix is a table used to describe the performance of a classification model by showing the counts of true positives, true negatives, false positives, and false negatives."
         },
         {
             "id": 3,
@@ -34,8 +34,8 @@
                 "Reinforcement Learning",
                 "Unsupervised Learning"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "While Supervised, Unsupervised, and Reinforcement learning are standard types, 'Semi Unsupervised' is not a standard term; 'Semi-Supervised' is the correct term."
         },
         {
             "id": 4,
@@ -46,8 +46,8 @@
                 "Classification",
                 "Regression"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Random Forest is an ensemble learning method that uses bagging (bootstrap aggregating) to build multiple decision trees and combine their results."
         },
         {
             "id": 5,
@@ -58,8 +58,8 @@
                 "It overshoots the minima",
                 "Nothing happens"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "A high learning rate can cause the model to take steps that are too large, potentially jumping over the optimal minimum and failing to converge."
         },
         {
             "id": 6,
@@ -70,8 +70,8 @@
                 "minimize the learning rate",
                 "maximize the learning rate"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Gradient descent is an optimization algorithm used to find the minimum of a cost function by iteratively moving in the direction of steepest descent."
         },
         {
             "id": 7,
@@ -82,8 +82,8 @@
                 "Reinforcement Learning",
                 "Unsupervised Learning"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Supervised learning involves training a model on a dataset where each input is paired with its corresponding correct output label."
         },
         {
             "id": 8,
@@ -94,8 +94,8 @@
                 "It uses decision trees to make predictions",
                 "It performs clustering based on data density"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "SVM works by finding the optimal hyperplane that maximizes the margin between different classes in the feature space."
         },
         {
             "id": 9,
@@ -106,8 +106,8 @@
                 "The learning rate for weight updates",
                 "The number of complete passes through the entire training dataset"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "One epoch signifies that every training example has been passed through the neural network exactly once."
         },
         {
             "id": 10,
@@ -118,8 +118,8 @@
                 "The ratio of training to testing data",
                 "The number of leaf nodes in the tree"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Entropy is a mathematical measure of the randomness or impurity in a dataset, used by decision trees to determine the best split."
         },
         {
             "id": 11,
@@ -130,8 +130,8 @@
                 "Insertion Sort",
                 "Selection Sort"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Insertion sort is highly efficient for nearly sorted lists as it only requires a few swaps and comparisons to place elements in their correct positions."
         },
         {
             "id": 12,
@@ -142,8 +142,8 @@
                 "Header linked list",
                 "circular linked list"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In a circular linked list, the last node points back to the first node instead of NULL, creating a continuous loop."
         },
         {
             "id": 13,
@@ -154,8 +154,8 @@
                 "is Planar",
                 "is completely connected"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "By definition, a tree is a connected graph that contains no cycles (is acyclic)."
         },
         {
             "id": 14,
@@ -166,8 +166,8 @@
                 "4",
                 "5"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The longest path from root (10) to leaf (5) involves 3 edges: 10 -> 1 -> 3 -> 5."
         },
         {
             "id": 15,
@@ -178,8 +178,8 @@
                 "Doubly Linked List",
                 "Linear Linked List"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "A doubly linked list node contains two pointers: one to the previous node (predecessor) and one to the next node (successor)."
         },
         {
             "id": 16,
@@ -190,8 +190,8 @@
                 "Total number of Zero elements = m/n",
                 "Total number of Zero elements = m-n"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "A sparse matrix is one where the majority of elements are zero; typically if more than half the elements are zero."
         },
         {
             "id": 17,
@@ -202,8 +202,8 @@
                 "Double ended queue",
                 "Priority queue"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "A deque (double-ended queue) allows insertion and deletion of elements from both the front and the back."
         },
         {
             "id": 18,
@@ -214,8 +214,8 @@
                 "AB+CD*E-*F/G*",
                 "AB+CD*E/*F*G"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Converting (A+B)*(C*D-E)*F/G follows operator precedence resulting in the postfix form AB+CD*E-*F*G/."
         },
         {
             "id": 19,
@@ -226,8 +226,8 @@
                 "The queue is full, but there is space at the beginning.",
                 "The queue is empty, but there is space at the end."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "In a simple linear array implementation, if front is at 0 and rear is at the last index, the queue has reached its maximum capacity."
         },
         {
             "id": 20,
@@ -238,8 +238,8 @@
                 "n^2 /2",
                 "n"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "In a complete graph, every pair of distinct vertices is connected by a unique edge, resulting in n(n-1)/2 edges."
         },
         {
             "id": 21,
@@ -250,8 +250,8 @@
                 "smaller memory space",
                 "none of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Compaction is a memory management technique that moves all occupied memory blocks to one end to eliminate external fragmentation."
         },
         {
             "id": 22,
@@ -262,8 +262,8 @@
                 "counting & decimal",
                 "decimal & binary"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Semaphores are generally categorized into binary semaphores (0 or 1) and counting semaphores (any non-negative integer)."
         },
         {
             "id": 23,
@@ -274,8 +274,8 @@
                 "C-SCAN",
                 "None of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The SCAN algorithm (elevator algorithm) moves the disk head from one end to the other, servicing requests, and then reverses direction."
         },
         {
             "id": 24,
@@ -286,8 +286,8 @@
                 "the total time taken from submission time till the response is output",
                 "none of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Response time measures the duration between the submission of a request and the generation of the very first response by the system."
         },
         {
             "id": 25,
@@ -298,8 +298,8 @@
                 "It's not flexible",
                 "it is too complex to understand"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "SJF is difficult to implement because it requires predicting the exact burst time of the next CPU request, which is often unknown."
         },
         {
             "id": 26,
@@ -310,8 +310,8 @@
                 "keeping track of how many times a given page is referenced",
                 "increasing the priority of jobs to ensure termination in a finite time"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Aging is a technique used to prevent starvation by gradually increasing the priority of processes that wait in the system for a long time."
         },
         {
             "id": 27,
@@ -322,8 +322,8 @@
                 "using extremely small time slices increases performance",
                 "using very small time slices converts it into Shortest Job First algorithm"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "If the time slice is larger than the longest process burst, each process runs to completion, effectively becoming FCFS."
         },
         {
             "id": 28,
@@ -334,8 +334,8 @@
                 "response time",
                 "throughput"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Turnaround time is the total time spent by a process in the system, from submission until completion."
         },
         {
             "id": 29,
@@ -346,8 +346,8 @@
                 "is always used",
                 "none of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Internal fragmentation occurs when allocated memory is larger than requested, leaving unused space within the partition."
         },
         {
             "id": 30,
@@ -358,8 +358,8 @@
                 "the memory size",
                 "all of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "In fixed partitioning, the degree of multiprogramming is directly limited by the number of available partitions."
         },
         {
             "id": 31,
@@ -370,8 +370,8 @@
                 "Referencing",
                 "Specific"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Referential integrity ensures that values in a foreign key attribute match values in the primary key of the referenced table."
         },
         {
             "id": 32,
@@ -382,8 +382,8 @@
                 "DDL (Data Definition Language)",
                 "DML (Data Manipulation Language)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "DML includes commands like SELECT, INSERT, UPDATE, and DELETE used for retrieving and modifying data."
         },
         {
             "id": 33,
@@ -394,8 +394,8 @@
                 "Group by",
                 "With"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The HAVING clause is used to filter groups based on a condition, often involving aggregate functions, after grouping."
         },
         {
             "id": 34,
@@ -406,8 +406,8 @@
                 "2NF",
                 "1NF"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Third Normal Form (3NF) is generally considered sufficient for most practical RDBMS designs to minimize redundancy."
         },
         {
             "id": 35,
@@ -418,8 +418,8 @@
                 "Domain & Schema",
                 "Schema & Instance"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "The schema is the logical design of the database, while an instance is the data stored at a specific moment."
         },
         {
             "id": 36,
@@ -430,8 +430,8 @@
                 "Relations to be scanned",
                 "Grouping criteria"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "The FROM clause specifies the tables (relations) from which the query will retrieve data."
         },
         {
             "id": 37,
@@ -442,8 +442,8 @@
                 "Grouping condition",
                 "Sorting condition"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Equating attributes from different tables (like Dnumber = Dno) is used to join them based on related data."
         },
         {
             "id": 38,
@@ -454,8 +454,8 @@
                 "The unique identifier for a table.",
                 "The process of removing duplicates from a table."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Functional dependency describes a relationship where the value of one attribute uniquely determines the value of another."
         },
         {
             "id": 39,
@@ -466,8 +466,8 @@
                 "3NF requires a composite primary key, while 2NF does not.",
                 "3NF allows transitive dependencies, while 2NF does not."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "3NF is a stricter form of normalization that removes transitive dependencies, which 2NF might still allow."
         },
         {
             "id": 40,
@@ -478,8 +478,8 @@
                 "Redoes the transactions before commit",
                 "No action"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "A ROLLBACK after a COMMIT has no effect because COMMIT permanently saves the changes to the database."
         },
         {
             "id": 41,
@@ -490,8 +490,8 @@
                 "Unlabeled data",
                 "Only categorical data"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Supervised learning requires labeled data to learn the mapping between input features and target outputs."
         },
         {
             "id": 42,
@@ -502,8 +502,8 @@
                 "Data aggregation",
                 "Data visualization"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Data normalization is a preprocessing technique that scales numerical data to a common range for better model performance."
         },
         {
             "id": 43,
@@ -514,8 +514,8 @@
                 "Machine Learning",
                 "Data Encoding"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Machine Learning is the primary field in data science focused on building models that make predictions from data."
         },
         {
             "id": 44,
@@ -526,8 +526,8 @@
                 "Data in CSV files",
                 "Text documents and images"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Unstructured data, such as text and images, does not follow a rigid, predefined data model or schema."
         },
         {
             "id": 45,
@@ -538,8 +538,8 @@
                 "Structured ndarray",
                 "All of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Pandas DataFrames are versatile and can be created from other DataFrames, Series, or structured NumPy arrays."
         },
         {
             "id": 46,
@@ -550,8 +550,8 @@
                 "Webdredging",
                 "All of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Web scraping is the process of automatically extracting data from the HTML code of websites."
         },
         {
             "id": 47,
@@ -562,8 +562,8 @@
                 "number of attributes",
                 "number of iterations"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "In K-Means, 'K' specifies the number of distinct clusters the algorithm should identify in the dataset."
         },
         {
             "id": 48,
@@ -574,8 +574,8 @@
                 "Linear regression",
                 "Decision Tree"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "PCA is an unsupervised learning technique for dimensionality reduction, unlike Naive Bayes or Decision Trees."
         },
         {
             "id": 49,
@@ -586,8 +586,8 @@
                 "Decision trees are prone to overfit",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Decision trees can easily become over-complex and capture noise, leading to overfitting on the training data."
         },
         {
             "id": 50,
@@ -598,8 +598,8 @@
                 "Dictionary",
                 "DataFrame"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "The DataFrame is the core Pandas data structure for storing and manipulating tabular data in Python."
         }
     ]
 }

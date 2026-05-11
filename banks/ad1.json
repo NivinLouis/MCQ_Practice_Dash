@@ -10,8 +10,8 @@
                 "Artificial Intelligence",
                 "None of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Machine learning is a subfield of Artificial Intelligence (AI) that enables systems to learn from data and improve without explicit programming."
         },
         {
             "id": 2,
@@ -22,8 +22,8 @@
                 "logistic regression",
                 "None of the Above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Bayes classifiers, particularly Naive Bayes, are versatile and can handle both categorical and numerical input attributes effectively using probability distributions."
         },
         {
             "id": 3,
@@ -34,8 +34,8 @@
                 "Chaos table",
                 "Confusion Matrix"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "A Confusion Matrix is a performance measurement for machine learning classification, representing actual vs. predicted values in a tabular format."
         },
         {
             "id": 4,
@@ -46,8 +46,8 @@
                 "Reinforcement Learning",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Predictive models aim to predict a specific target variable or future outcome based on input data, distinguishing them from descriptive models."
         },
         {
             "id": 5,
@@ -58,8 +58,8 @@
                 "Reinforcement Learning",
                 "Active Learning"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Supervised learning uses a labeled dataset to train algorithms to classify data or predict outcomes accurately."
         },
         {
             "id": 6,
@@ -70,8 +70,8 @@
                 "Test data",
                 "Hidden data"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Training data is the initial dataset used to 'teach' a machine learning model, allowing it to learn patterns and features."
         },
         {
             "id": 7,
@@ -82,8 +82,8 @@
                 "To optimize the performance of the algorithm",
                 "To improve model accuracy"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The main goal of Principal Component Analysis (PCA) is dimensionality reduction while retaining as much variance (information) as possible."
         },
         {
             "id": 8,
@@ -94,8 +94,8 @@
                 "The depth of the tree",
                 "The accuracy of the model"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The Gini Index measures the 'impurity' or probability of incorrect classification of a randomly chosen element if it were labeled according to the distribution in a node."
         },
         {
             "id": 9,
@@ -106,8 +106,8 @@
                 "Naïve Bayes",
                 "Support vector machines"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Naive Bayes is a generative model because it models the joint probability distribution P(X, Y) to predict the most likely class Y for an input X."
         },
         {
             "id": 10,
@@ -118,8 +118,8 @@
                 "Line graph",
                 "Pie chart"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A scatterplot is the standard visual tool for examining the relationship and correlation between two quantitative (numeric) variables."
         },
         {
             "id": 11,
@@ -130,8 +130,8 @@
                 "39",
                 "70"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Stack: push(22), push(43), pop() -> 43 out, push(55), push(12), pop() -> s=12. Queue: enq(32), enq(27), deq() -> 32 out, enq(38), enq(12), deq() -> q=27. s+q = 12+27 = 39."
         },
         {
             "id": 12,
@@ -142,8 +142,8 @@
                 "abc-+def/*+",
                 "ab+c-def/*+"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Converting a+b-c+d*(e/f) to postfix yields ab+c-def/*+ following operator precedence (Parentheses > Multi/Div > Add/Sub)."
         },
         {
             "id": 13,
@@ -154,8 +154,8 @@
                 "4, _, 9, 6, _, _, 1",
                 "1, _, 9, 6, _, _, 4"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Using h(x)=(2x+5)mod 7: h(1)=0, h(4)=6, h(9)=2, h(6)=3. The table contents are [1, _, 9, 6, _, _, 4]."
         },
         {
             "id": 14,
@@ -166,8 +166,8 @@
                 "Post-order",
                 "Level-order"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "In-order traversal (Left, Root, Right) of a Binary Search Tree (BST) always visits nodes in ascending order of their keys."
         },
         {
             "id": 15,
@@ -178,8 +178,8 @@
                 "3",
                 "4"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Reconstructing the tree reveals the root is 1, and the longest path (e.g., 1-2-4-6-8) consists of 4 edges, so the height is 4."
         },
         {
             "id": 16,
@@ -190,8 +190,8 @@
                 "O(nlogn)",
                 "O(n2)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Heap sort has a worst-case time complexity of O(n log n) because it builds a heap in O(n) and performs n deletions each taking O(log n)."
         },
         {
             "id": 17,
@@ -202,8 +202,8 @@
                 "n",
                 "Information given is insufficient"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "In a complete graph (Kn), every pair of distinct vertices is connected by a unique edge. The number of edges is given by the combination formula nC2 = n(n-1)/2."
         },
         {
             "id": 18,
@@ -214,8 +214,8 @@
                 "3",
                 "4"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "To implement a LIFO stack using FIFO queues, at least two queues are required to manipulate the order of elements during push or pop operations."
         },
         {
             "id": 19,
@@ -226,8 +226,8 @@
                 "1 2 3 5",
                 "1 3 5 5 3 1"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "The function recursively calls itself skipping one node (1, 3, 5) and prints data before the call and during backtracking, resulting in 1 3 5 5 3 1."
         },
         {
             "id": 20,
@@ -238,8 +238,8 @@
                 "Selection",
                 "Merge"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Merge sort is a classic divide-and-conquer algorithm that recursively splits the array into halves, sorts them, and merges the results."
         },
         {
             "id": 21,
@@ -250,8 +250,8 @@
                 "5",
                 "6"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "3 tables for entities (E1, E2, E3) plus 2 tables for M:M relationships (R2, R3). R1 (1:M) is handled by a foreign key, total = 5."
         },
         {
             "id": 22,
@@ -262,8 +262,8 @@
                 "m+n and |m-n|",
                 "mn and m+n"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The maximum size of a join is the Cartesian product (m*n) if every tuple matches. The minimum is 0 if no tuples satisfy the join condition."
         },
         {
             "id": 23,
@@ -274,8 +274,8 @@
                 "3 NF",
                 "BCNF"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Relations derived from E-R models are always in at least First Normal Form (1NF) as they consist of tables with atomic values."
         },
         {
             "id": 24,
@@ -286,8 +286,8 @@
                 "Performance monitoring",
                 "All of these"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "A Database Administrator (DBA) is responsible for design, security, backup, recovery, and performance tuning of the database."
         },
         {
             "id": 25,
@@ -298,8 +298,8 @@
                 "AE",
                 "AC"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The closure of {E, C} is {E, C, A, B, D, F}, which includes all attributes in the relation R, making EC a candidate key."
         },
         {
             "id": 26,
@@ -310,8 +310,8 @@
                 "DDL (Data Definition Language)",
                 "DML (Data Manipulation Language)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Data Manipulation Language (DML) includes commands like SELECT, INSERT, UPDATE, and DELETE for managing data within tables."
         },
         {
             "id": 27,
@@ -322,8 +322,8 @@
                 "Select name, course_id from instructor;",
                 "Select course_id from instructor join teaches;"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A NATURAL JOIN automatically joins tables on columns with identical names, which is equivalent to the explicit equality condition provided."
         },
         {
             "id": 28,
@@ -334,8 +334,8 @@
                 "Foreign key",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A candidate key is defined as a minimal super key; it uniquely identifies tuples and no proper subset of it can do the same."
         },
         {
             "id": 29,
@@ -346,8 +346,8 @@
                 "Every relation in BCNF is also in 3NF",
                 "No relation can be in both BCNF and 3NF"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF. Thus, every relation that is in BCNF is also in 3NF."
         },
         {
             "id": 30,
@@ -358,8 +358,8 @@
                 "UNION",
                 "PROJECTION"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In relational algebra, the Projection (π) operation is used to select specific attributes (columns) from a relation."
         },
         {
             "id": 31,
@@ -370,8 +370,8 @@
                 "processor to run the next process",
                 "all of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "First-fit, best-fit, and worst-fit are dynamic memory allocation strategies used to select a free 'hole' from memory to satisfy a process request."
         },
         {
             "id": 32,
@@ -382,8 +382,8 @@
                 "8",
                 "9"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Tracing LRU with 4 frames for the sequence results in 8 page faults: 4 for initial loads and 4 more for replacements of C, D, E, etc."
         },
         {
             "id": 33,
@@ -394,8 +394,8 @@
                 "Banker's algorithm",
                 "Deadlock algorithm"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "The Banker's Algorithm is a resource allocation and deadlock avoidance algorithm that checks for a 'safe state' before granting requests."
         },
         {
             "id": 34,
@@ -406,8 +406,8 @@
                 "Ready state",
                 "Blocked state"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "When a process's time slice expires in a timesharing system, it is moved from Running to Ready state to wait for its next turn."
         },
         {
             "id": 35,
@@ -418,8 +418,8 @@
                 "A page has been modified after being loaded into cache",
                 "An illegal access of page"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "A dirty bit (or modified bit) is a flag that indicates a page in memory has been modified and must be written back to disk before being replaced."
         },
         {
             "id": 36,
@@ -430,8 +430,8 @@
                 "log file",
                 "none of the mentioned"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Most operating systems record error and diagnostic information regarding process or system failures in a dedicated log file."
         },
         {
             "id": 37,
@@ -442,8 +442,8 @@
                 "Multilevel Queue Scheduling",
                 "Multilevel Queue Scheduling with Feedback"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "FIFO (First-In-First-Out) is a non-preemptive algorithm where a process holds the CPU until it completes or voluntarily yields."
         },
         {
             "id": 38,
@@ -454,8 +454,8 @@
                 "keeping track of how many times a given page is referenced",
                 "increasing the priority of jobs to ensure termination in a finite time"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Aging is a technique to prevent starvation by gradually increasing the priority of processes that have been waiting in the queue for a long time."
         },
         {
             "id": 39,
@@ -466,8 +466,8 @@
                 "C-SCAN",
                 "C-LOOK"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "C-SCAN (Circular SCAN) services requests in one direction and then jumps back to the start without servicing requests on the return trip."
         },
         {
             "id": 40,
@@ -478,8 +478,8 @@
                 "4.6ms",
                 "3.6ms"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In non-preemptive SJF, the average waiting time is calculated by averaging the time each process spent in the ready queue before starting."
         },
         {
             "id": 41,
@@ -490,8 +490,8 @@
                 "K-Nearest-Neighbor",
                 "Neural Network"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "K-Nearest-Neighbor (KNN) is a lazy learner because it doesn't build a model during training; it just stores the data and performs calculations at prediction time."
         },
         {
             "id": 42,
@@ -502,8 +502,8 @@
                 "Euclidean Distance",
                 "Jaccard Index"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Euclidean Distance is the most common metric used in K-Means clustering to measure the straight-line distance between data points and centroids."
         },
         {
             "id": 43,
@@ -514,8 +514,8 @@
                 "Sensitivity vs. specificity",
                 "Accuracy vs. threshold"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A Receiver Operating Characteristic (ROC) curve plots the True Positive Rate (Sensitivity) against the False Positive Rate (1-Specificity)."
         },
         {
             "id": 44,
@@ -526,8 +526,8 @@
                 "Reduce the dimensionality of the data",
                 "Improve the model's precision"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Cross-validation is used to estimate how well a model will generalize to new, unseen data by testing it on different subsets of the available dataset."
         },
         {
             "id": 45,
@@ -538,8 +538,8 @@
                 "Y = b0 + b1X + b2X^2 + b3X^3 + ε",
                 "Y = b0 + b1X"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Simple linear regression models the relationship between X and Y as a straight line: Y = b0 + b1X + ε, where b0 is intercept and b1 is slope."
         },
         {
             "id": 46,
@@ -550,8 +550,8 @@
                 "Subset Selection",
                 "t-Distributed Stochastic Neighbor Embedding (t-SNE)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Subset Selection identifies a subset of original features based on their statistical relationship with the target, effectively performing dimensionality reduction."
         },
         {
             "id": 47,
@@ -562,8 +562,8 @@
                 "Apriori",
                 "DBSCAN"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A Decision Tree is a supervised learning algorithm used specifically for classification and regression tasks, unlike clustering algorithms like K-means."
         },
         {
             "id": 48,
@@ -574,8 +574,8 @@
                 "Recall",
                 "F1 Score"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Precision measures the accuracy of positive predictions, defined as the ratio of true positives to all instances predicted as positive."
         },
         {
             "id": 49,
@@ -586,8 +586,8 @@
                 "Soft margin SVM uses a linear kernel; hard margin SVM uses a nonlinear kernel",
                 "There is no difference between soft and hard margin SVMs"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Soft margin SVM allows for some misclassifications to handle non-linearly separable data, whereas hard margin SVM requires perfect separation."
         },
         {
             "id": 50,
@@ -598,8 +598,8 @@
                 "Transforming of data",
                 "All of the mentioned above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Data Analysis encompasses inspecting, cleaning, transforming, and modeling data to discover useful information and support decision-making."
         }
     ]
 }

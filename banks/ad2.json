@@ -10,8 +10,8 @@
                 "Reinforcement Learning",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Unsupervised learning finds patterns or hidden structures in data that hasn't been labeled or categorized."
         },
         {
             "id": 2,
@@ -22,8 +22,8 @@
                 "F1 score",
                 "Confusion matrix"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Accuracy is the fraction of predictions our model got right (Correct Predictions / Total Predictions)."
         },
         {
             "id": 3,
@@ -34,8 +34,8 @@
                 "Dimension Reduction",
                 "Performance metric"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Principal Component Analysis (PCA) is a dimensionality-reduction method used to reduce the dimensionality of large data sets."
         },
         {
             "id": 4,
@@ -46,8 +46,8 @@
                 "Local minima",
                 "Convex optimization problem"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "SVM finds the optimal hyperplane by solving a quadratic programming problem, which is a type of convex optimization."
         },
         {
             "id": 5,
@@ -58,8 +58,8 @@
                 "Both a and b",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Lloyd's algorithm is the most common heuristic used to solve the k-means clustering problem."
         },
         {
             "id": 6,
@@ -70,8 +70,8 @@
                 "Reinforcement Learning",
                 "Dimension reduction"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "When we want to predict a specific outcome (like an earthquake) based on historical data, it is a supervised learning task."
         },
         {
             "id": 7,
@@ -82,8 +82,8 @@
                 "Boolean",
                 "Ordinal"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Ordinal data represents categories with a meaningful order or rank (e.g., A > B > C)."
         },
         {
             "id": 8,
@@ -94,8 +94,8 @@
                 "Over time with experience",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Machine Learning algorithms are designed to improve their performance at a task over time based on experience."
         },
         {
             "id": 9,
@@ -106,8 +106,8 @@
                 "Both a and b",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Batch learning (or offline learning) involves training the model on the entire dataset at once rather than incrementally."
         },
         {
             "id": 10,
@@ -118,8 +118,8 @@
                 "Classification",
                 "Random Forest"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Random Forest is an ensemble learning method that uses bagging (Bootstrap Aggregating) to build multiple decision trees."
         },
         {
             "id": 11,
@@ -130,8 +130,8 @@
                 "Insertion sort",
                 "Selection sort"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Insertion sort has a time complexity of O(n) for nearly sorted or already sorted lists, making it very efficient in such cases."
         },
         {
             "id": 12,
@@ -142,8 +142,8 @@
                 "40,20,30",
                 "20,30,40"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Sequence: 1.Front(10), 2.Front(20,10), 3.Rear(20,10,30), 4.Rear(20,10,30,40), 5.DelFront(10,30,40), 6.Front(50,10,30,40), 7.DelRear(50,10,30)."
         },
         {
             "id": 13,
@@ -154,8 +154,8 @@
                 "Selection",
                 "Merge"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Merge sort is a classic divide-and-conquer algorithm that recursively splits the list and then merges the sorted halves."
         },
         {
             "id": 14,
@@ -166,8 +166,8 @@
                 "abc-+def/*+",
                 "ab+c-def/*+"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Following precedence: (a+b) -> ab+, (ab+)-c -> ab+c-, (e/f) -> ef/, d*(ef/) -> def/*, (ab+c-)+(def/*) -> ab+c-def/*+."
         },
         {
             "id": 15,
@@ -178,8 +178,8 @@
                 "O(log2n)",
                 "O(n^2)"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Binary search halves the search space in each step, resulting in logarithmic time complexity O(log n)."
         },
         {
             "id": 16,
@@ -190,8 +190,8 @@
                 "Prims algorithm",
                 "Kruskal's algorithm"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Dijkstra's algorithm finds the shortest path from a single source node to all other nodes in a weighted graph."
         },
         {
             "id": 17,
@@ -202,8 +202,8 @@
                 "39",
                 "70"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Stack: Push(22), Push(43), Pop(), Push(55), Push(12), Pop()=12 (s). Queue: Enq(32), Enq(27), Deq(), Enq(38), Enq(12), Deq()=27 (q). s+q=39."
         },
         {
             "id": 18,
@@ -214,8 +214,8 @@
                 "11",
                 "12"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Evaluate right to left: (8/4)=2, (3*2)=6, (6-2)=4, (4*1)=4."
         },
         {
             "id": 19,
@@ -226,8 +226,8 @@
                 "The left and right sub trees should also be a binary search tree",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "All listed properties (Left < Root, Right > Root, Subtrees are BST) are fundamental definitions of a Binary Search Tree."
         },
         {
             "id": 20,
@@ -238,8 +238,8 @@
                 "[[0, 0, 1], [0, 0, 0], [0, 0, 1]]",
                 "[[0, 0, 1], [1, 0, 1], [1, 0, 0]]"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "A simple graph has no self-loops (diagonal elements are 0). Matrix D represents such a graph."
         },
         {
             "id": 21,
@@ -250,8 +250,8 @@
                 "3KB",
                 "4KB"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Page size 4KB. Process 103KB needs 26 pages (104KB). Internal fragmentation = 104KB - 103KB = 1KB."
         },
         {
             "id": 22,
@@ -262,8 +262,8 @@
                 "Thread",
                 "Segmentation"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "Demand paging loads pages into main memory only when they are requested or 'demanded' by the CPU."
         },
         {
             "id": 23,
@@ -274,8 +274,8 @@
                 "2^18",
                 "2^28"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Frame size 4KB (2^12). 16-bit entry allows 2^16 frames. Total memory = 2^16 * 2^12 = 2^28 bytes."
         },
         {
             "id": 24,
@@ -286,8 +286,8 @@
                 "Does not use a prior knowledge of burst times of processes",
                 "Ensure that the ready queue is always of the same size."
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Round Robin uses a fixed time quantum for each process and does not require knowing burst times in advance."
         },
         {
             "id": 25,
@@ -298,8 +298,8 @@
                 "Deadline scheduling",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "FIFO is a non-preemptive scheduling algorithm where the CPU is held by a process until it finishes or blocks."
         },
         {
             "id": 26,
@@ -310,8 +310,8 @@
                 "Recovery from deadlock",
                 "None"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Banker's algorithm is a deadlock avoidance algorithm that checks if resource allocation will keep the system in a safe state."
         },
         {
             "id": 27,
@@ -322,8 +322,8 @@
                 "Blocked state",
                 "Ready state"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "When a process's time slice expires in a timesharing system, it is moved from the running state back to the ready state."
         },
         {
             "id": 28,
@@ -334,8 +334,8 @@
                 "open-file table",
                 "system table"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "The operating system maintains an 'open-file table' to track information about all files currently being accessed."
         },
         {
             "id": 29,
@@ -346,8 +346,8 @@
                 "bootloader",
                 "rom"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The bootstrap program is the initial code that runs when a computer is powered on; it initializes the system and loads the OS kernel."
         },
         {
             "id": 30,
@@ -358,8 +358,8 @@
                 "Every address generated by the CPU is being checked against the relocation and limit registers",
                 "They are in different logical addresses"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Memory protection is enforced by checking every CPU-generated address against relocation and limit registers."
         },
         {
             "id": 31,
@@ -370,8 +370,8 @@
                 "Square",
                 "Ellipse"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In Entity-Relationship diagrams, attributes are traditionally represented by ellipses."
         },
         {
             "id": 32,
@@ -382,8 +382,8 @@
                 "Roll back",
                 "Remove"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "The DROP TABLE command is used to delete an entire table (relation) and its structure from the database."
         },
         {
             "id": 33,
@@ -394,8 +394,8 @@
                 "Select name, course_id from instructor;",
                 "Select course_id from instructor join teaches;"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "A natural join automatically joins tables based on columns with the same name, providing a cleaner syntax for equating common IDs."
         },
         {
             "id": 34,
@@ -406,8 +406,8 @@
                 "5",
                 "6"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "Entities E1, E2, E3 (3 tables). R1 (1-M) is merged into E2. R2 and R3 (M-M) each need their own table. Total = 3 + 2 = 5."
         },
         {
             "id": 35,
@@ -418,8 +418,8 @@
                 "3NF",
                 "BCNF"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "B is the candidate key. Since every determinant in the given functional dependencies is a superkey (B), the relation is in BCNF."
         },
         {
             "id": 36,
@@ -430,8 +430,8 @@
                 "UNION",
                 "PROJECTION"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In relational algebra, the projection operation selects specific columns (attributes) from a relation."
         },
         {
             "id": 37,
@@ -442,8 +442,8 @@
                 "Super key",
                 "Candidate key"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A foreign key is a column or group of columns used to provide a link between data in two different tables."
         },
         {
             "id": 38,
@@ -454,8 +454,8 @@
                 "Select Name from CUSTOMER where address=NULL;",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "In SQL, to check for a missing or unknown value, you must use the 'IS NULL' operator."
         },
         {
             "id": 39,
@@ -466,8 +466,8 @@
                 "Many classes may have many teachers",
                 "Many teachers may have many classes"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "A one-to-many relationship means one instance of an entity (e.g., a teacher) can be associated with multiple instances of another (e.g., classes)."
         },
         {
             "id": 40,
@@ -478,8 +478,8 @@
                 "Create cluster",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 1,
+            "explanation": "The CREATE SCHEMA statement can be used to group multiple CREATE and GRANT statements into a single transaction."
         },
         {
             "id": 41,
@@ -490,8 +490,8 @@
                 "Pie chart",
                 "Line graph"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "A scatterplot uses dots to represent values for two different numeric variables, making it ideal for examining their relationship."
         },
         {
             "id": 42,
@@ -502,8 +502,8 @@
                 "C++",
                 "Ruby"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "R is a popular programming language specifically designed for statistical computing and data analysis in data science."
         },
         {
             "id": 43,
@@ -514,8 +514,8 @@
                 "data preparation",
                 "data frame"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "In data science, a data frame is a two-dimensional, tabular data structure used for efficient data manipulation and representation."
         },
         {
             "id": 44,
@@ -526,8 +526,8 @@
                 "Factor analysis",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Decision trees can easily become overly complex and capture noise in the training data, leading to poor generalization (overfitting)."
         },
         {
             "id": 45,
@@ -538,8 +538,8 @@
                 "Answering yes/no questions about the data",
                 "All of the mentioned above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Regression analysis is used to model relationships, describe associations, and predict outcomes based on data patterns."
         },
         {
             "id": 46,
@@ -550,8 +550,8 @@
                 "Backward chaining",
                 "Both a and c"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Inference engines in expert systems use two main strategies: forward chaining (data-driven) and backward chaining (goal-driven)."
         },
         {
             "id": 47,
@@ -562,8 +562,8 @@
                 "We assuming the missing values as the mean of all values",
                 "Drop the features completely"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "In Bayesian classification, missing features are handled by marginalizing (integrating) over all possible values of those features."
         },
         {
             "id": 48,
@@ -574,8 +574,8 @@
                 "William S",
                 "Dennis Ritchie"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 2,
+            "explanation": "William S. Cleveland is credited with proposing data science as an independent discipline that extends statistics to include computing."
         },
         {
             "id": 49,
@@ -586,8 +586,8 @@
                 "Coding",
                 "Enumeration"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "Enumeration refers to the act of counting or assigning numbers to items, which is the fundamental process of quantifying data."
         },
         {
             "id": 50,
@@ -598,8 +598,8 @@
                 "Curved line",
                 "All of the above"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 0,
+            "explanation": "Linear regression models the relationship between variables by fitting a straight (linear) line to the observed data points."
         }
     ]
 }

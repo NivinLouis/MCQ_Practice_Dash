@@ -5,601 +5,601 @@
             "id": 1,
             "questionText": "What is the value of the postfix expression 6 3 2 4 + – *?",
             "options": [
-                "",
+                "18",
                 "-18",
-                "",
-                ""
+                "24",
+                "-24"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "The expression is evaluated using a stack. 2+4=6, then 3-6=-3, and finally 6*(-3)=-18."
         },
         {
             "id": 2,
             "questionText": "The prefix form of A-B/ (C * D ^ E) is?",
             "options": [
                 "-A/B*C^DE",
-                "",
-                "",
-                ""
+                "-A/B*CDE^",
+                "-A/BC*D^E",
+                "-A/B*CD^E"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Prefix notation (Polish notation) places operators before operands. Following precedence (Exponentiation, Multiplication/Division, Subtraction), the expression converts step-by-step to -A/B*C^DE."
         },
         {
             "id": 3,
             "questionText": "Which of the following applications makes use of a circular linked list?",
             "options": [
-                "",
-                "",
-                "",
+                "Undo/Redo in editors",
+                "Browser History",
+                "Recursive function calls",
                 "Allocating CPU to resources"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Circular linked lists are commonly used in operating systems for scheduling tasks (like Round Robin) where the CPU cycles through available resources continuously."
         },
         {
             "id": 4,
             "questionText": "Which of the following tree data structures is not a balanced binary tree?",
             "options": [
-                "",
+                "AVL Tree",
                 "B-tree",
-                "",
-                ""
+                "Red-Black Tree",
+                "Splay Tree"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "A B-tree is a self-balancing tree, but it is not a 'binary' tree because its nodes can have more than two children. AVL and Red-Black trees are examples of balanced binary trees."
         },
         {
             "id": 5,
             "questionText": "Which algorithm is used in the top tree data structure?",
             "options": [
-                "",
+                "Greedy algorithm",
                 "Divide and conquer",
-                "",
-                ""
+                "Backtracking",
+                "Dynamic programming"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Top trees are dynamic data structures that use a divide and conquer approach to maintain and query properties of trees under edge insertions and deletions."
         },
         {
             "id": 6,
             "questionText": "Which is the most appropriate data structure for reversing a word?",
             "options": [
                 "stack",
-                "",
-                "",
-                ""
+                "queue",
+                "graph",
+                "tree"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "A stack is the most suitable data structure for reversing a word because its Last-In-First-Out (LIFO) property naturally reverses the order of characters when they are pushed and then popped."
         },
         {
             "id": 7,
             "questionText": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
             "options": [
-                "",
+                "Queue",
                 "Dequeue",
-                "",
-                ""
+                "Stack",
+                "Priority Queue"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "A Deque (Double-Ended Queue) allows insertion and deletion from both the front and the rear, but restricted access to the middle elements."
         },
         {
             "id": 8,
             "questionText": "If several elements are competing for the same bucket in the hash table, what is it called?",
             "options": [
-                "",
-                "",
+                "Diffusion",
+                "Rehashing",
                 "Collision",
-                ""
+                "Probing"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "A collision occurs when a hash function maps two different keys to the same index or bucket in a hash table."
         },
         {
             "id": 9,
             "questionText": "Consider an implementation of an unsorted singly linked list. Suppose it has its representation with a head pointer only. Given the representation, which of the following operations can be implemented in O (1) time?\ni) Insertion at the front of the linked list\nii) Insertion at the end of the linked list\niii) Deletion of the front node of the linked list\niv) Deletion of the last node of the linked list",
             "options": [
-                "",
+                "I and II",
                 "I and III",
-                "",
-                ""
+                "II and IV",
+                "I and IV"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "In a singly linked list with only a head pointer, you can immediately access the first node (O(1)) but must traverse the entire list to reach the last node (O(n))."
         },
         {
             "id": 10,
             "questionText": "What is the maximum number of edges in a bipartite graph having 10 vertices?",
             "options": [
-                "",
-                "",
+                "10",
+                "20",
                 "25",
-                ""
+                "45"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "A bipartite graph with n vertices has the maximum number of edges when its vertices are partitioned into two sets of size n/2. For 10 vertices, this is 5 * 5 = 25 edges."
         },
         {
             "id": 11,
             "questionText": "To access the services of the operating system, the interface is provided by the",
             "options": [
-                "",
+                "API",
                 "System calls",
-                "",
-                ""
+                "Library functions",
+                "Kernel"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "System calls serve as the essential interface between a user program and the operating system kernel, allowing programs to request hardware-level services."
         },
         {
             "id": 12,
             "questionText": "Which one of the following errors will be handled by the operating system?",
             "options": [
-                "",
-                "",
-                "",
+                "Power failure",
+                "Printer out of paper",
+                "Network connection failure",
                 "all the mentioned"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "The operating system is designed to detect and manage various system-level errors, including hardware failures, peripheral issues, and communication errors."
         },
         {
             "id": 13,
             "questionText": "When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the",
             "options": [
-                "",
-                "",
-                "",
+                "Running state",
+                "Terminated state",
+                "Waiting state",
                 "Ready state"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Once an I/O operation is complete, the process is no longer blocked and moves to the 'Ready' state to wait for its next turn on the CPU."
         },
         {
             "id": 14,
             "questionText": "A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.",
             "options": [
-                "",
-                "",
-                "",
+                "process scheduling queue",
+                "CPU utilization",
+                "memory usage",
                 "resource allocation state"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Deadlock avoidance algorithms like the Banker's algorithm monitor the current resource allocation state to ensure the system never enters an 'unsafe' state that could lead to a circular wait."
         },
         {
             "id": 15,
             "questionText": "Which process can be affected by other processes executing in the system?",
             "options": [
                 "cooperating process",
-                "",
-                "",
-                ""
+                "independent process",
+                "zombie process",
+                "orphan process"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Cooperating processes share data or resources, meaning the execution of one process can directly affect the state or behavior of another."
         },
         {
             "id": 16,
             "questionText": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
             "options": [
                 "dispatcher",
-                "",
-                "",
-                ""
+                "interrupt handler",
+                "kernel",
+                "shell"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "The dispatcher is responsible for the actual context switch, moving the CPU from one process to another after the short-term scheduler has made its selection."
         },
         {
             "id": 17,
             "questionText": "Memory management technique in which a system stores and retrieves data from secondary storage for use in main memory is called?",
             "options": [
-                "",
+                "segmentation",
                 "paging",
-                "",
-                ""
+                "fragmentation",
+                "swapping"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Paging is a memory management technique that divides memory into fixed-size blocks (pages and frames), allowing the OS to swap data between main memory and secondary storage efficiently."
         },
         {
             "id": 18,
             "questionText": "From the following, which is not a common file permission?",
             "options": [
-                "",
-                "",
+                "read",
+                "write",
                 "stop",
-                ""
+                "execute"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Standard file permissions include Read (r), Write (w), and Execute (x). 'Stop' is not a valid permission type in standard file systems."
         },
         {
             "id": 19,
             "questionText": "A process is thrashing if",
             "options": [
                 "it is spending more time paging than executing",
-                "",
-                "",
-                ""
+                "it is executing faster than other processes",
+                "it is blocked for a long time",
+                "it is in the ready queue"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Thrashing is a state where the system is so busy swapping pages in and out of memory that it has very little time left to execute actual program instructions."
         },
         {
             "id": 20,
             "questionText": "If we pre-empt a resource from a process, the process cannot continue with its normal execution, and it must be",
             "options": [
-                "",
+                "terminated",
                 "rolled back",
-                "",
-                ""
+                "put in ready state",
+                "suspended"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Pre-emption involves taking a resource away from a process. Since the process cannot continue without that resource, it must be rolled back to a previous state and restarted later."
         },
         {
             "id": 21,
             "questionText": "K-Nearest Neighbors (KNN) is classified as what type of machine learning algorithm?",
             "options": [
                 "Instance-based learning",
-                "",
-                "",
-                ""
+                "Model-based learning",
+                "Reinforcement learning",
+                "Unsupervised learning"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "KNN is an instance-based (or lazy) learning algorithm because it doesn't build a generalized model; instead, it compares new data points to stored training instances."
         },
         {
             "id": 22,
             "questionText": "Which algorithm is best suited for a binary classification problem?",
             "options": [
-                "",
+                "K-means",
                 "Decision Trees",
-                "",
-                ""
+                "Linear Regression",
+                "Apriori"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Decision Trees are effective for binary classification as they use a tree-like model of decisions and their consequences to split data into two distinct categories."
         },
         {
             "id": 23,
             "questionText": "Which one of the following models is a generative model used in machine learning?",
             "options": [
-                "",
+                "SVM",
                 "Naïve Bayes",
-                "",
-                ""
+                "Logistic Regression",
+                "Decision Tree"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Naïve Bayes is a generative model that learns the probability distribution of each class to predict the label for a new instance based on Bayes' Theorem."
         },
         {
             "id": 24,
             "questionText": "An artificially intelligent car decreases its speed based on its distance from the car in front of it. Which algorithm is used?",
             "options": [
-                "",
-                "",
+                "Clustering",
+                "Neural Networks",
                 "Linear Regression",
-                ""
+                "Decision Trees"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Linear regression can model the relationship between a continuous input (distance) and a continuous output (speed reduction) by finding the line of best fit."
         },
         {
             "id": 25,
             "questionText": "The learner is trying to predict housing prices based on the size of each house. The variable “size” is",
             "options": [
-                "",
-                "",
+                "dependent variable",
+                "target variable",
                 "independent variable",
-                ""
+                "categorical variable"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "The independent variable (feature) is the one used to make predictions, while the dependent variable (target) is the one being predicted (in this case, house price)."
         },
         {
             "id": 26,
             "questionText": "Which of the following statements is false about Ensemble learning?",
             "options": [
-                "",
+                "It combines multiple models",
                 "It is an unsupervised learning algorithm",
-                "",
-                ""
+                "It can reduce variance",
+                "Random Forest is an example"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Ensemble learning is a supervised technique that combines multiple individual models to create a stronger predictor. It is not an unsupervised learning method."
         },
         {
             "id": 27,
             "questionText": "What is the application of machine learning methods to a large database called?",
             "options": [
-                "",
-                "",
+                "Artificial Intelligence",
+                "Deep Learning",
                 "Data Mining",
-                ""
+                "Big Data Analytics"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Data Mining is the practice of examining large databases to generate new information and find patterns using machine learning and statistical methods."
         },
         {
             "id": 28,
             "questionText": "Which of the following machine learning techniques helps in detecting the outliers in data?",
             "options": [
-                "",
-                "",
+                "Classification",
+                "Regression",
                 "Anomaly Detection",
-                ""
+                "Clustering"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Anomaly detection focuses on identifying data points that deviate significantly from the norm, making it ideal for finding outliers in a dataset."
         },
         {
             "id": 29,
             "questionText": "The most significant phase in genetic algorithm is",
             "options": [
-                "",
-                "",
-                "",
+                "Selection",
+                "Mutation",
+                "Fitness function",
                 "Crossover"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Crossover (or recombination) is a key phase in genetic algorithms where segments of two parent solutions are combined to produce offspring for the next generation."
         },
         {
             "id": 30,
             "questionText": "What does K stand for in K mean algorithm?",
             "options": [
-                "",
-                "",
-                "",
-                "Number of iterations"
+                "Number of features",
+                "Number of mean values",
+                "Number of attributes",
+                "Number of clusters"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "In the K-means algorithm, 'K' specifies the number of clusters into which the data points will be partitioned."
         },
         {
             "id": 31,
             "questionText": "Which type of data can be stored in the database?",
             "options": [
-                "",
-                "",
-                "",
+                "Image oriented data",
+                "Text, numbers, or data",
+                "Variable word length data",
                 "All of the above"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Databases are designed to be versatile and can store various types of information, including text, numbers, images, and binary data."
         },
         {
             "id": 32,
             "questionText": "Which of the following is not an example of DBMS?",
             "options": [
-                "",
-                "",
-                "",
+                "MySQL",
+                "Microsoft Access",
+                "IBM DB2",
                 "Google"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "MySQL, Oracle, and PostgreSQL are database management systems, whereas Google is a search engine and technology company, not a DBMS itself."
         },
         {
             "id": 33,
             "questionText": "The ability to query data, as well as insert, delete, and alter tuples, is offered by",
             "options": [
-                "",
-                "",
-                "",
+                "DDL",
+                "DCL",
+                "TCL",
                 "DML"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Data Manipulation Language (DML) provides commands like SELECT, INSERT, UPDATE, and DELETE to manage and query data within a database."
         },
         {
             "id": 34,
             "questionText": "The traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of ______________ type of ‘database’ management system.",
             "options": [
-                "",
-                "",
-                "",
+                "Object oriented database",
+                "Relational database",
+                "Network database",
                 "Hierarchical database management system"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "A hierarchical database model organizes data into a tree-like structure, similar to a physical filing system where folders are nested within other folders."
         },
         {
             "id": 35,
             "questionText": "Which of the following is a single valued attribute",
             "options": [
                 "Register Number",
-                "",
-                "",
-                ""
+                "Phone Number",
+                "Hobbies",
+                "Address"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "A single-valued attribute is one that can hold only one value for a specific entity. For a student, a Register Number is unique and single-valued."
         },
         {
             "id": 36,
             "questionText": "A table on the many sides of a one to many or many to many relationship must:",
             "options": [
-                "",
-                "",
-                "",
+                "Have a primary key",
+                "Be in 3NF",
+                "Have a foreign key",
                 "Have a composite key"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "In a one-to-many relationship, the 'many' side table often uses a composite key or a foreign key that references the primary key of the 'one' side table."
         },
         {
             "id": 37,
             "questionText": "Functional Dependencies are the types of constraints that are based on",
             "options": [
                 "Key",
-                "",
-                "",
-                ""
+                "Schema",
+                "Domain",
+                "Referential integrity"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Functional dependencies describe the relationship between attributes in a relation, specifically how the value of one attribute (the determinant) uniquely identifies the value of another."
         },
         {
             "id": 38,
             "questionText": "A method of modelling and describing user tasks for an interactive application is referred to as:",
             "options": [
-                "",
-                "",
-                "",
-                ""
+                "Data Flow Diagram",
+                "ER Diagram",
+                "Flowchart",
+                "Use Case"
             ],
-            "correctAnswerIndex": null,
-            "explanation": ""
+            "correctAnswerIndex": 3,
+            "explanation": "A Use Case is a description of how a user interacts with a system to achieve a specific goal, helping to model and describe user tasks for interactive applications."
         },
         {
             "id": 39,
             "questionText": "Who created the first DBMS?",
             "options": [
-                "",
+                "Edgar Frank Codd",
                 "Charles Bachman",
-                "",
-                ""
+                "Sharon B. Codd",
+                "Larry Ellison"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Charles Bachman designed the Integrated Data Store (IDS), which was the first DBMS, earning him the Turing Award for his work on database technology."
         },
         {
             "id": 40,
             "questionText": "In which of the following formats data is stored in the database management system?",
             "options": [
-                "",
-                "",
+                "Text file",
+                "CSV",
                 "Table",
-                ""
+                "Graph"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "In a relational database management system (RDBMS), data is logically organized into rows and columns within structures called tables."
         },
         {
             "id": 41,
             "questionText": "Which term is used for describing the judgmental or commonsense part of problem solving",
             "options": [
                 "Heuristic",
-                "",
-                "",
-                ""
+                "Algorithm",
+                "Process",
+                "Logic"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Heuristics are 'rules of thumb' or common-sense strategies used to solve problems more quickly when classic methods are too slow or fail to find an exact solution."
         },
         {
             "id": 42,
             "questionText": "Decision support programs are designed to help managers make",
             "options": [
-                "",
-                "",
+                "Personal decisions",
+                "Programmatic decisions",
                 "business decisions",
-                ""
+                "Financial decisions"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Decision Support Systems (DSS) are interactive software-based systems intended to help managers compile useful information to make informed business decisions."
         },
         {
             "id": 43,
             "questionText": "____ is the common language for AI.",
             "options": [
-                "",
+                "C++",
                 "Python",
-                "",
-                ""
+                "Java",
+                "LISP"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "Python has become the most widely used language for AI due to its simplicity, readability, and the vast ecosystem of libraries like TensorFlow, PyTorch, and Scikit-learn."
         },
         {
             "id": 44,
             "questionText": "Natural language processing has two subfields, namely:",
             "options": [
-                "",
-                "",
+                "speech and text",
+                "syntax and semantics",
                 "understanding and generation",
-                ""
+                "recognition and synthesis"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "Natural Language Processing (NLP) involves both understanding human language (NLU) and generating human-like language (NLG)."
         },
         {
             "id": 45,
             "questionText": "The technique of computer vision that relies on the image templates is known as:",
             "options": [
                 "model-based vision",
-                "",
-                "",
-                ""
+                "feature-based vision",
+                "context-based vision",
+                "appearance-based vision"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Model-based vision involves using predefined 2D or 3D templates (models) to recognize and locate objects within a digital image."
         },
         {
             "id": 46,
             "questionText": "A blind search will be acceptable when this situation occurs:",
             "options": [
                 "small search space",
-                "",
-                "",
-                ""
+                "large search space",
+                "infinite search space",
+                "real-time system"
             ],
             "correctAnswerIndex": 0,
-            "explanation": ""
+            "explanation": "Blind search (or uninformed search) is only practical when the search space is small enough that the algorithm can explore all possibilities in a reasonable amount of time."
         },
         {
             "id": 47,
             "questionText": "The maximum depth to which the alpha-beta pruning can be applied.",
             "options": [
-                "",
-                "",
-                "",
+                "10 levels",
+                "50 levels",
+                "100 levels",
                 "Any depth"
             ],
             "correctAnswerIndex": 3,
-            "explanation": ""
+            "explanation": "Alpha-beta pruning is an optimization technique for the minimax algorithm that can be applied to any search depth to reduce the number of nodes evaluated."
         },
         {
             "id": 48,
             "questionText": "Automatic Reasoning tool is used in",
             "options": [
-                "",
-                "",
+                "Database servers",
+                "Web browsers",
                 "LISP Machines",
-                ""
+                "Mobile apps"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "LISP (List Processing) was the primary language for early AI research, and LISP Machines were dedicated hardware designed to run LISP-based reasoning tools efficiently."
         },
         {
             "id": 49,
             "questionText": "If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as",
             "options": [
-                "",
+                "True Positive Hypothesis",
                 "False Positive Hypothesis",
-                "",
-                ""
+                "False Negative Hypothesis",
+                "True Negative Hypothesis"
             ],
             "correctAnswerIndex": 1,
-            "explanation": ""
+            "explanation": "A False Positive occurs when a hypothesis or model incorrectly predicts a 'Positive' result for a case that is actually 'Negative'."
         },
         {
             "id": 50,
             "questionText": "In the TSP problem of n cities, the time taken for traversing all cities, without having prior knowledge of the length of the minimum tour will be",
             "options": [
-                "",
-                "",
+                "O(n)",
+                "O(n^2)",
                 "O(n!)",
-                ""
+                "O(2^n)"
             ],
             "correctAnswerIndex": 2,
-            "explanation": ""
+            "explanation": "The Traveling Salesperson Problem (TSP) is NP-hard. Without heuristics or prior knowledge, finding the exact minimum tour involves checking all (n-1)!/2 permutations, which is O(n!)."
         }
     ]
 }
